@@ -8,5 +8,5 @@ number_sections: false
 # Spatial R
 
 ```{r}
-knitr::include_url('spatial-r/presentation/spatial-analysis-in-R.html')
+knitr::include_url('https://slides.robitalec.ca/basic-rmd')
 ```
