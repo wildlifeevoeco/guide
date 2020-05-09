@@ -12,6 +12,12 @@
 * how integrate xaringan slides?
 * which license - no derivatives (see geocompr)
 
+
+#### slides
+* use knitr::include_url 
+* add open full screen 
+* add link to source?
+
 #### navbar
 * pdf/epub download doesnt exist - ci fix?
 * add edit this page link
