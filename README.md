@@ -17,6 +17,8 @@
 * use knitr::include_url 
 * add open full screen 
 * add link to source?
+* https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html
+* include PDF version with pagedown
 
 #### navbar
 * pdf/epub download doesnt exist - ci fix?
