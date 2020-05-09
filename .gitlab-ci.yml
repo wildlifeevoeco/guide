@@ -6,9 +6,9 @@ before_script:
 
 pages:
   script:
-    - R -e "bookdown::render_book()"
+    - R -e "bookdown::render_book('')"
   artifacts:
     paths:
-      - public
+      - _book
   only:
     - master
