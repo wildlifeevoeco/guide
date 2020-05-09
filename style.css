@@ -1,3 +1,24 @@
+/* sidebar = book-summary*/
+
+.book-summary{
+  background-color: #30635a
+  color: #fff;
+}
+
+/* body */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+		color: #cbcbcb;
+}
+
+/* link colors */
+a {
+	color: #f1f1f1;
+}
+
+
+/* other */
 p.caption {
   color: #777;
   margin-top: 10px;
@@ -12,3 +33,6 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+
+
