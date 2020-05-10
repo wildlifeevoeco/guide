@@ -1,8 +1,8 @@
-# (PART) Sharing {-} 
+# (PART) Open research {-} 
 
-# Sharing research
+# Sharing code
 
-This is a brief part of an extended discussion surrounding reproducible research, code sharing and the best practices for doing it. Here, I'll go outline some steps for turning a code repository into a clean, public facing resource accompanying a paper or project.
+This is a small portion of the larger discussion surrounding reproducible research, code sharing and the best practices for doing it. Here, I'll outline some steps for turning a code repository into a clean, public facing resource accompanying a paper or project.
 
 ## Some examples
 
