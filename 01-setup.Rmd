@@ -1,8 +1,14 @@
 # (PART) Setup {-} 
 
 # R
+Download and install the [latest version of R](https://cran.r-project.org/).
 
-## Updating R
+When migrating to a new version of R, this line might help updating packages. 
+
+```{r}
+update.packages(checkBuilt = TRUE, ask = FALSE)
+```
+
 
 # RStudio
 https://csgillespie.github.io/efficientR/set-up.html#rstudio-options
