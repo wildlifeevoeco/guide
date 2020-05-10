@@ -11,7 +11,8 @@
 #### general/misc
 * ~~how integrate xaringan slides?~~
 * which license - no derivatives (see geocompr)
-
+* add packages to ci
+* use a docker with preinstalled?
 
 #### slides
 * ~~use knitr::include_url~~
