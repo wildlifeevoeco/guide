@@ -30,3 +30,7 @@ Use [`tinytex`](https://yihui.org/tinytex/)
 install.packages('tinytex')
 tinytex::install_tinytex()
 ```
+
+# Git
+
+Make an account on GitLab.com and message me!
