@@ -34,7 +34,7 @@
 * ~~add weel twitter, weel github, weel gitlab~~
 
 #### index
-* index -> welcome page
+* ~~index -> welcome page~~
 * add weel logo
 * link to weel website, weel github, weel gitlab
 * link to issue page
