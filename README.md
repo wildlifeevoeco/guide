@@ -15,6 +15,7 @@
 * which license - no derivatives (see geocompr)
 * add packages to ci
 * use a docker with preinstalled?
+* other resources are first class
 
 #### slides
 * ~~use knitr::include_url~~
@@ -28,9 +29,9 @@
 
 #### navbar
 * pdf/epub download doesnt exist - ci fix?
-* add edit this page link
-* rm fb link, twitter link, and dropdown link
-* add weel twitter, weel github, weel gitlab
+* ~~add edit this page link~~
+* ~~rm fb link, twitter link, and dropdown link~~
+* ~~add weel twitter, weel github, weel gitlab~~
 
 #### index
 * index -> welcome page
