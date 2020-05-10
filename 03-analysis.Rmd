@@ -1,6 +1,6 @@
 # (PART) Analysis {-}
 
-# `data.table`
+# data.table
 
 ## .SD
 https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html
@@ -24,6 +24,8 @@ knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 TODO: list spatsoc, hwig
 TODO: add examples from SocCaribou, etc
 
+
+# Earth Engine
 
 
 # Cool Packages

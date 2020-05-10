@@ -1,6 +1,6 @@
 # (PART) Data visualization {-}
 
-# `ggplot2`
+# ggplot2
 
 ```{r, include = FALSE}
 library(ggplot2)
