@@ -5,7 +5,10 @@ output:
 number_sections: false
 ---
 
-# Spatial R
+# Slides
+
+
+[Basic RMarkdown](https://slides.robitalec.ca/basic-rmd)
 
 ```{r}
 knitr::include_url('https://slides.robitalec.ca/basic-rmd')
