@@ -17,3 +17,18 @@ Date: November 16 2017
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
+
+
+# Social network analysis
+
+TODO: list spatsoc, hwig
+TODO: add examples from SocCaribou, etc
+
+
+
+# Cool Packages
+
+**TODO: organize into spatial/ plotting/ helper/ etc**
+
+* [`anytime`](https://github.com/eddelbuettel/anytime) 
+* [`parzer`](https://github.com/ropensci/parzer) parsing geographic coordinates
