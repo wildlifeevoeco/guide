@@ -7,8 +7,6 @@
 
 ## Basic Markdown
 
-# Markdown syntax
-
 Wrap a word with single asterisks for *italics* and double asterisks for **bold**.
 
 ```
@@ -16,7 +14,7 @@ Wrap a word with single asterisks for *italics* and double asterisks for **bold*
 ```
 
 
-## Code
+### Code
 Surround inline code chunks with single `backticks` or full code blocks with triple backticks:
 
 ```r
@@ -25,8 +23,8 @@ yum
 [1] TRUE
 ```
 
-## Tables
-Tables can be made with a [markdown table generator](http://www.tablesgenerator.com/markdown_tables#) (or by hand...) or with functions, for example: `knitr::kable`.
+### Tables
+Tables can be made with a [markdown table generator](http://www.tablesgenerator.com/markdown_tables#) (or by hand...), or with functions, for example: `knitr::kable`.
 
 ```{r, echo = FALSE}
 library(data.table)
