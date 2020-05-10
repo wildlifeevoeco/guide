@@ -1,5 +1,6 @@
-# (PART) Analysis {-} 
+# (PART) Analysis {-}
 
+# data.table
 
 ## .SD
 https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html
