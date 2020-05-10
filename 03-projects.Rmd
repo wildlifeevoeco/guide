@@ -1,0 +1,12 @@
+https://csgillespie.github.io/efficientR/set-up.html#project-management
+
+
+saveRDS and readRDS between intermediate scripts
+https://csgillespie.github.io/efficientR/input-output.html#binary-file-formats
+
+
+always start with raw data
+
+keep raw data raw, never modify it by hand
+
+keep track of where data comes from, how it was generated, when it was generated
