@@ -1,5 +1,24 @@
 # Git
 
-First, be sure to check out 
+First, be sure to check out the setup
 
-##
+
+## Mirroring from GitLab to GitHub
+
+On GitHub.com:
+
+1. Make an empty repo to receive commits from GitLab (https://github.com/new)
+1. Generate a new personal access token at https://github.com/settings/tokens 
+	1. Select `public_repo`
+1. Copy it, to use as password on Gitlab.com below
+
+On GitLab.com:
+1. Navigate to "Settings/Repository"
+1. Select "Mirror a repository"
+1. Mirror direction: Push
+1. Repository URL: https://<your_github_username>@github.com/<your_github_group>/<your_github_project>.git
+1. Password: paste the personal access token generated on Github here
+
+Check results:
+1. Wait for the spinning circle to finish, make sure no errors come up. 
+1. Navigate to your new GitHub repository. It may take a few minutes to update. 
