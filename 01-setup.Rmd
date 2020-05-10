@@ -8,4 +8,19 @@
 https://csgillespie.github.io/efficientR/set-up.html#rstudio-options
 
 
-# Git
+
+
+# System dependencies
+
+## Spatial
+
+
+## R Markdown
+
+Use [`tinytex`](https://yihui.org/tinytex/)
+
+
+```{r}
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
