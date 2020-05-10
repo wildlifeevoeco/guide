@@ -27,7 +27,7 @@ knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
 ### Developing R Packages - October 25 2018 [Slides](https://slides.robitalec.ca/r-packages.html) and   [Resources](https://slides.robitalec.ca/r-packages/r-packages.zip)
 
 ```{r, echo = FALSE}
-knitr::include_url('https://slides.robitalec.ca/r-packags.html')
+knitr::include_url('https://slides.robitalec.ca/r-packages.html')
 ```
 
 
