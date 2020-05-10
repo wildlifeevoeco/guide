@@ -59,6 +59,43 @@ Check results:
 1. Navigate to your new GitHub repository. It may take a few minutes to update. 
 
 
+## Other useful information
+
+Git won't be able to track changes in all data file types (eg. Rds files) and output R Markdown file types. 
+
+For R Markdown use:
+
+```yaml
+output:github_document
+```
+
+or 
+
+```yaml
+output:
+  pdf_document:
+    keep_md:true
+```
+
+```yaml
+output:
+  html_document:
+    keep_md:true
+```
+
+
+If this is a manuscript, and you are noticing everything is on a few really long lines, simply reflow using the shortcut (CTRL+SHIFT+/) or remember to hit enter at the end of a line. 
+
+Using tests is a great way to clarify your expectations about data outputs, that be checked whenever code is updated. Check out the [`testthat`](https://github.com/r-lib/testthat/) package and [`checkr`](https://poissonconsulting.github.io/checkr/) package. 
+
+
+Generate figures as seperate PNGs and include them in the document using `knitr::include_graphics()`. This way, the PNGs can be diffed by Git and easily viewed separate from the R Markdown output.
+
+
+
+
+
+
 ## Resources
 A recent community call with rOpenSci: [summary blog](https://ropensci.org/blog/2018/11/29/codereview/) and [notes](https://docs.google.com/document/d/1LfyhgsbVgLWgWPhS0nbaBIZSFjireEBBSYL4PmhUJis/edit). 
 
