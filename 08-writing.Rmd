@@ -1,0 +1,19 @@
+# (PART) Writing {-} 
+
+# Writing
+
+
+# R Markdown
+
+## Slides
+Workshop: Basic R Markdown 
+
+Date: October 21 2019
+
+[Slides](https://slides.robitalec.ca/basic-rmd.html)
+
+[Resources](https://slides.robitalec.ca/basic-rmd/basic-rmd.zip)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
+```
