@@ -16,7 +16,7 @@
 #### slides
 * ~~use knitr::include_url~~
 * ~~add open full screen~~ 
-* add link to source?
+* ~~add link to source?~~
 * ~~https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html~~
 * include PDF version with pagedown
 * use this zip instead https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=basic-rmd
