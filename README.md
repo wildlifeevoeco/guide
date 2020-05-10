@@ -38,10 +38,9 @@
 
 
 #### setup
-##### new student landing page
 * setup gitlab
 * git gui
-* example project
+* project structure
 * style guide
 
 

@@ -1,7 +1,7 @@
 --- 
 title: "WEEL Guide"
 author: 
-  -  Alec L. Robitaille^[robitalec.ca]
+  -  Alec L. Robitaille^[http://robitalec.ca/]
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
