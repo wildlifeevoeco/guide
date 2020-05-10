@@ -7,9 +7,28 @@ number_sections: false
 
 # Slides
 
-
-[Basic RMarkdown](https://slides.robitalec.ca/basic-rmd)
+## Past workshops
+February 6 2020: [Git and Projects](https://slides.robitalec.ca/git-and-projects.html)
 
 ```{r}
-knitr::include_url('https://slides.robitalec.ca/basic-rmd')
+knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 ```
+
+October 21 2019: [Basic R Markdown](https://slides.robitalec.ca/basic-rmd.html)
+
+```{r}
+knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
+```
+
+November 16 2017: [Introduction to data.table](https://slides.robitalec.ca/intro-data-table.html)
+
+```{r}
+knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
+```
+
+November 2 2017: [Introduction to ggplot2](https://slides.robitalec.ca/intro-ggplot.html)
+
+```{r}
+knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
+```
+
