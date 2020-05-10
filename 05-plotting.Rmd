@@ -1,3 +1,5 @@
+# (PART) Data visualization {-}
+
 # `ggplot2`
 
 ```{r, include = FALSE}
@@ -5,7 +7,7 @@ library(ggplot2)
 data(diamonds)
 ```
 
-### facets by chunks of data
+## Facets by chunks of data
 
 Facet wrap using automatically binned values:
 
