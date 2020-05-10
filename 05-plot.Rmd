@@ -38,3 +38,14 @@ ggplot(diamonds, aes(depth, price)) +
   geom_point() + 
   facet_wrap(~ cut_width(carat, 0.5))
 ```
+
+## Slides
+Workshop: Introduction to ggplot2
+
+Date: November 2 2017
+
+[Slides](https://slides.robitalec.ca/intro-ggplot.html) and  [Resources](https://slides.robitalec.ca/intro-ggplot/intro-ggplot.zip)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
+```
