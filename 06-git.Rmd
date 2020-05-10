@@ -1,0 +1,90 @@
+# (PART) Open research {-} 
+# Git
+
+* how to avoid merges
+* why use branches
+* what is a pull/merge request
+* commit before push/pull
+* commit messages
+* .gitignore
+
+
+## Issues
+
+Issues are a tool available on GitLab and GitHub for collaborating on projects, getting help and tracking decisions. They are used extensively in the FOSS world and are often the way `R` package developers opt to receive bug reports and feature requests from their users.
+
+Issues can be used for both **personal** and **group** projects.
+
+Some uses include:
+
+* collaborating
+* developing methods
+* troubleshooting code
+* tracking decisions or assumptions
+* defining thresholds, variables
+* reporting bugs
+* requesting new features
+
+Issues have a number of advantages over private email, in-person conversations and TODO, NOTE and other comments embedded in code.
+
+Issues:
+
+* track history
+* are easily searched
+* can be grouped or categorized using labels
+* can be assigned to individuals, groups or teams
+* keep everyone in the loop
+* are a resource for future users (including yourself!)
+
+### Example issues
+#### Bug or troubleshooting
+> I'm trying to do this and it isn't working. 
+
+```{md}
+# Some concise title
+(One/two sentence description summarizing issue. )
+
+## Steps to reproduce
+(How one can reproduce the issue)
+1.
+2.
+3.
+
+## Observed behaviour
+
+## Expected behaviour
+
+## Sample of output tables, screenshots
+
+## Possible fixes
+
+## Session info
+(if R related, paste the results of sessionInfo())
+```
+
+#### Method development
+> I'd like to try and do this
+
+```{md}
+# Some concise title
+(One/two sentence description summarizing the objective. )
+
+## Description
+(Include goals, use cases, benefits)
+
+## Progress
+(Where did you get?)
+
+## Next steps
+(How do you think we could solve it? Who can you assign
+  this issue to? Who can you mention to get their input?)
+
+```
+
+**And once solved, post the code that actually solved it**. This is one of the main ways that Issues can be useful to future users.
+
+
+## Resources
+https://docs.gitlab.com/ee/user/project/issues/
+
+https://happygitwithr.com/

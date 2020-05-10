@@ -43,9 +43,6 @@ Make an account on GitLab.com and message me!
 * setup local folder
 * gui or not
 * setting up account on gitlab and eg username gitahead - run global lines in RStudio terminal
-* how to avoid merges
-* why use branches
-* what is a pull/merge request
-* commit before push/pull
-* commit messages
-* .gitignore
+
+See the chapter on [Git] for more details. 
+
