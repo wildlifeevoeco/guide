@@ -1,6 +1,6 @@
-# Etc
+# Contributing
 
-This is a book written in RMarkdown using the `bookdown` package.
+This is book is written in RMarkdown using the `bookdown` package.
 
 The **bookdown** package can be installed from CRAN or Github:
 
