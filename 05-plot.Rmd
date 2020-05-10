@@ -1,5 +1,9 @@
 # Plotting
 
+```{r, include = FALSE}
+library(ggplot2)
+data(diamonds)
+```
 
 ### facets by chunks of data
 
