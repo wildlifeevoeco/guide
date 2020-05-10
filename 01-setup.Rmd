@@ -1,0 +1,11 @@
+# (PART) Setup {-} 
+
+# R
+
+## Updating R
+
+# RStudio
+https://csgillespie.github.io/efficientR/set-up.html#rstudio-options
+
+
+# Git
