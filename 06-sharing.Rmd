@@ -1,6 +1,4 @@
----
-author: Alec Robitaille
----
+# (PART) Sharing {-} 
 
 # Sharing research
 
