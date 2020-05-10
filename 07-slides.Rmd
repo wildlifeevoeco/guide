@@ -8,13 +8,13 @@ number_sections: false
 # Slides
 
 ## Past workshops
-February 6 2020 -  Git and Projects: [Slides](https://slides.robitalec.ca/git-and-projects.html),  [Resources](https://slides.robitalec.ca/git-and-projects/git-and-projects.zip)
+### February 6 2020 -  Git and Projects: [Slides](https://slides.robitalec.ca/git-and-projects.html),  [Resources](https://slides.robitalec.ca/git-and-projects/git-and-projects.zip)
 
 ```{r}
 knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 ```
 
-October 21 2019 - Basic R Markdown: [Slides](https://slides.robitalec.ca/basic-rmd.html),  [Resources](https://slides.robitalec.ca/basic-rmd/basic-rmd.zip)
+### October 21 2019 - Basic R Markdown: [Slides](https://slides.robitalec.ca/basic-rmd.html),  [Resources](https://slides.robitalec.ca/basic-rmd/basic-rmd.zip)
 
 ```{r}
 knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
