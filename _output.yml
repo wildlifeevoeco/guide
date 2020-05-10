@@ -5,6 +5,8 @@ bookdown::gitbook:
       before: |
         <li><a href="./">WEEL Guide</a></li>
       after: |
+        <li><a href="http://robitalec.ca/">Alec L. Robitaille</a></li>
+        <br></br>
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     download: ["pdf", "epub"]
     edit: https://gitlab.com/weel/guide/-/edit/master/%s
