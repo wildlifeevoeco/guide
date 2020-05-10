@@ -14,11 +14,14 @@
 
 
 #### slides
-* use knitr::include_url 
-* add open full screen 
+* ~~use knitr::include_url~~
+* ~~add open full screen~~ 
 * add link to source?
-* https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html
+* ~~https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html~~
 * include PDF version with pagedown
+* use this zip instead https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=basic-rmd
+* make your workshops public? mirror to github?
+
 
 #### navbar
 * pdf/epub download doesnt exist - ci fix?
