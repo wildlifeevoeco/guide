@@ -1,6 +1,41 @@
-# Git
+---
+author: Alec Robitaille
+---
 
-First, be sure to check out the setup
+# Sharing research
+
+This is a brief part of an extended discussion surrounding reproducible research, code sharing and the best practices for doing it. Here, I'll go outline some steps for turning a code repository into a clean, public facing resource accompanying a paper or project.
+
+## Some examples
+
+In our lab:
+
+* the [`SocCaribou`](https://github.com/wildlifeevoeco/SocCaribou) repository is a *compendium* (sans-data). It's a fully functioning R package with functions used for the paper, and a series of ordered scripts for running the analysis. The paper included is simply the journal's typeset version. 
+
+* the [`spatsoc-application-paper`](https://github.com/robitalec/spatsoc-application-paper). This is a paper outlining the R package `spatsoc` developed by Alec, Quinn and Eric. Included are the scripts to generate each of the figures, the data used for the figures, and the full `.Rmd` manuscript, along with a typeset vesion.
+
+* the [`MovingAcrossGradients](https://github.com/wildlifeevoeco/MovingAcrossGradients) lab paper from 2018. 
+
+
+Each of these repositories are also linked to [zenodo](https://zenodo.org), with "GitHub releases" triggering an updated DOI, etc.
+
+A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena). 
+
+
+
+## Steps
+
+1. Set up your repository in the standard way with folders for data, scripts, manuscript, etc. 
+1. Host your repository on GitHub either by:
+    * Making a new repository on GitHub and pushing there. 
+    or
+    * Mirroring your existing repository from GitLab there. See [below](https://gitlab.com/WEEL_grp/core/-/blob/master/Guides/Pushing-From-GitLab-To-GitHub/PushingFromLabToHub.md) or [here]() for details. 
+1. Create a Zenodo account, log in, link to GitHub, and turn on the repository of interest. [Here are all the details](https://guides.github.com/activities/citable-code/). 
+1. Create your release, get a DOI, add it to your README with the badge shown in [here](https://zenodo.org/account/settings/github). 
+
+
+
+We will first mirror our repository from GitLab to GitHub, then setup up the repository to use Zenodo to generate a DOI. 
 
 
 ## Mirroring from GitLab to GitHub
@@ -22,3 +57,11 @@ On GitLab.com:
 Check results:
 1. Wait for the spinning circle to finish, make sure no errors come up. 
 1. Navigate to your new GitHub repository. It may take a few minutes to update. 
+
+
+## Resources
+A recent community call with rOpenSci: [summary blog](https://ropensci.org/blog/2018/11/29/codereview/) and [notes](https://docs.google.com/document/d/1LfyhgsbVgLWgWPhS0nbaBIZSFjireEBBSYL4PmhUJis/edit). 
+
+A paper on [research compendium](/user_uploads/4422/JZqXfCyHQv5eePmN7vFYoIwM/Packaging-Data-Analytical-Work-Reproducibly-Using-R-and-Friends.pdf) from Lincoln Mullen and Carl Boettiger. 
+
+[Details in the GitLab docs on mirroring](https://docs.gitlab.com/ee/workflow/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core)
