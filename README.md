@@ -5,7 +5,9 @@
 ### aes
 * fix sidebar background color 
 * for above, see A in navbar
-* sans / serif not working
+* ~~sans / serif not working~~
+* coool https://bookdown.org/yihui/bookdown/custom-blocks.html
+
 
 ### content
 #### general/misc
@@ -21,7 +23,7 @@
 * ~~https://bookdown.org/yihui/bookdown/web-pages-and-shiny-apps.html~~
 * include PDF version with pagedown
 * use this zip instead https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=basic-rmd
-* make your workshops public? mirror to github?
+* ~~make your workshops public? mirror to github?~~
 
 
 #### navbar
