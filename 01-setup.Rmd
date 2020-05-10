@@ -1,5 +1,7 @@
 # (PART) Setup {-} 
 
+# Setup
+
 ## R
 Download and install the [latest version of R](https://cran.r-project.org/).
 
