@@ -1,0 +1,36 @@
+# Plotting
+
+
+### facets by chunks of data
+
+Facet wrap using automatically binned values:
+
+"What is going on?!?"
+
+```{r}
+ggplot(diamonds, aes(depth, price)) + 
+  geom_point()
+```
+
+"What if I look at four separate chunks of the data, with approximately the same number of points"
+
+```{r}
+ggplot(diamonds, aes(depth, price)) + 
+  geom_point() + 
+  facet_wrap(~ cut_number(carat, 4))
+```
+
+"What if I look at four separate chunks of the data, with the equal ranges in each group?"
+
+```{r}
+ggplot(diamonds, aes(depth, price)) + 
+  geom_point() + 
+  facet_wrap(~ cut_interval(carat, 4))
+```
+
+"What if I look at four separate chunks of the data, with a specific width of values in each group?"
+```{r}
+ggplot(diamonds, aes(depth, price)) + 
+  geom_point() + 
+  facet_wrap(~ cut_width(carat, 0.5))
+```
