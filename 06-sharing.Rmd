@@ -10,11 +10,11 @@ This is a brief part of an extended discussion surrounding reproducible research
 
 In our lab:
 
-* the [`SocCaribou`](https://github.com/wildlifeevoeco/SocCaribou) repository is a *compendium* (sans-data). It's a fully functioning R package with functions used for the paper, and a series of ordered scripts for running the analysis. The paper included is simply the journal's typeset version. 
+* the [`SocCaribou`](https://github.com/wildlifeevoeco/SocCaribou) repository is a fully functioning R package with functions used for the paper, and a series of ordered scripts for running the analysis. The paper included is simply the journal's typeset version. 
 
 * the [`spatsoc-application-paper`](https://github.com/robitalec/spatsoc-application-paper). This is a paper outlining the R package `spatsoc` developed by Alec, Quinn and Eric. Included are the scripts to generate each of the figures, the data used for the figures, and the full `.Rmd` manuscript, along with a typeset vesion.
 
-* the [`MovingAcrossGradients](https://github.com/wildlifeevoeco/MovingAcrossGradients) lab paper from 2018. 
+* the [`MovingAcrossGradients`](https://github.com/wildlifeevoeco/MovingAcrossGradients) lab paper from 2018. 
 
 
 Each of these repositories are also linked to [zenodo](https://zenodo.org), with "GitHub releases" triggering an updated DOI, etc.
