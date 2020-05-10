@@ -4,3 +4,18 @@
 
 ## .SD
 https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html
+
+
+
+## Slides
+Workshop: Introduction to data.table
+
+Date: November 16 2017
+
+[Slides](https://slides.robitalec.ca/intro-data-table.html) 
+
+[Resources](https://slides.robitalec.ca/intro-data-table/intro-data-table.zip)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
+```
