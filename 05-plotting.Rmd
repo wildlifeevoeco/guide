@@ -1,4 +1,4 @@
-# Plotting
+# `ggplot2`
 
 ```{r, include = FALSE}
 library(ggplot2)
@@ -49,3 +49,6 @@ Date: November 2 2017
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
 ```
+
+
+# Spatial Plotting
