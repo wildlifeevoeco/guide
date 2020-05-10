@@ -36,7 +36,7 @@ Issues have a number of advantages over private email, in-person conversations a
 #### Bug or troubleshooting
 > I'm trying to do this and it isn't working
 
-```{md}
+```{r, eval = FALSE}
 # Some concise title
 (One/two sentence description summarizing issue. )
 
@@ -61,7 +61,7 @@ Issues have a number of advantages over private email, in-person conversations a
 #### Method development
 > I'd like to try and do this
 
-```{md}
+```{r, eval = FALSE}
 # Some concise title
 (One/two sentence description summarizing the objective. )
 
