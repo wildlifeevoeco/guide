@@ -39,6 +39,7 @@ tinytex::install_tinytex()
 Make an account on GitLab.com and message me!
 
 **TODO** 
+
 * setup local folder
 * gui or not
 * setting up account on gitlab and eg username gitahead - run global lines in RStudio terminal
