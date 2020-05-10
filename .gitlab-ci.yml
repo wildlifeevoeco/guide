@@ -2,7 +2,7 @@ image: debian:buster-slim
 
 before_script:
   - apt-get update && apt-get -y install pandoc pandoc-citeproc r-base
-  - R -e "install.packages('bookdown')"
+  - R -e "install.packages(c('bookdown', 'ggplot2')"
 
 pages:
   script:
