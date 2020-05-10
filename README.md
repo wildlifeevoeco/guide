@@ -9,7 +9,7 @@
 
 ### content
 #### general/misc
-* how integrate xaringan slides?
+* ~~how integrate xaringan slides?~~
 * which license - no derivatives (see geocompr)
 
 
@@ -33,7 +33,9 @@
 * link to issue page
 * Supporting the project, eg cite it, contributing
 
-#### new student landing page
+
+#### setup
+##### new student landing page
 * setup gitlab
 * git gui
 * example project
