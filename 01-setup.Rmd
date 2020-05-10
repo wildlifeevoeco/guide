@@ -1,6 +1,6 @@
 # (PART) Setup {-} 
 
-# R
+## R
 Download and install the [latest version of R](https://cran.r-project.org/).
 
 When migrating to a new version of R, this line might help updating packages. 
@@ -10,18 +10,18 @@ update.packages(checkBuilt = TRUE, ask = FALSE)
 ```
 
 
-# RStudio
+## RStudio
 https://csgillespie.github.io/efficientR/set-up.html#rstudio-options
 
 
 
 
-# System dependencies
+## System dependencies
 
-## Spatial
+### Spatial
 
 
-## R Markdown
+### R Markdown
 
 Use [`tinytex`](https://yihui.org/tinytex/)
 
@@ -34,3 +34,4 @@ tinytex::install_tinytex()
 # Git
 
 Make an account on GitLab.com and message me!
+
