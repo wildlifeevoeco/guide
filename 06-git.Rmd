@@ -1,7 +1,7 @@
 # (PART) Open research {-} 
 # Git
 
-* how to avoid merges
+* how to avoid conflicts
 * why use branches
 * what is a pull/merge request
 * commit before push/pull
@@ -13,9 +13,7 @@
 
 Issues are a tool available on GitLab and GitHub for collaborating on projects, getting help and tracking decisions. They are used extensively in the FOSS world and are often the way `R` package developers opt to receive bug reports and feature requests from their users.
 
-Issues can be used for both **personal** and **group** projects.
-
-Some uses include:
+Issues can be used for both **personal** and **group** projects. Some uses include:
 
 * collaborating
 * developing methods
@@ -25,9 +23,7 @@ Some uses include:
 * reporting bugs
 * requesting new features
 
-Issues have a number of advantages over private email, in-person conversations and TODO, NOTE and other comments embedded in code.
-
-Issues:
+Issues have a number of advantages over private email, in-person conversations and TODO, NOTE and other comments embedded in code because they:
 
 * track history
 * are easily searched
@@ -38,7 +34,7 @@ Issues:
 
 ### Example issues
 #### Bug or troubleshooting
-> I'm trying to do this and it isn't working. 
+> I'm trying to do this and it isn't working
 
 ```{md}
 # Some concise title
@@ -84,7 +80,21 @@ Issues:
 **And once solved, post the code that actually solved it**. This is one of the main ways that Issues can be useful to future users.
 
 
+
+## Slides
+Workshop: Git and Projects
+
+Date: February 6 2020
+
+[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://slides.robitalec.ca/git-and-projects/git-and-projects.zip)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
+```
+
+
 ## Resources
 https://docs.gitlab.com/ee/user/project/issues/
 
 https://happygitwithr.com/
+
