@@ -84,7 +84,9 @@ output:
 
 If this is a manuscript, and you are noticing everything is on a few really long lines, simply reflow using the shortcut (CTRL+SHIFT+/) or remember to hit enter at the end of a line. 
 
-Using tests is a great way to clarify your expectations about data outputs, that be checked whenever code is updated. Check out the [`testthat`](https://github.com/r-lib/testthat/) package and [`checkr`](https://poissonconsulting.github.io/checkr/) package. 
+**TODO: example image of this** 
+
+Using tests is a great way to clarify your expectations about data outputs, that be checked whenever code is updated. Check out the [`testthat`](https://github.com/r-lib/testthat/) package and [`checkr`](https://poissonconsulting.github.io/checkr/) package.
 
 
 Generate figures as seperate PNGs and include them in the document using `knitr::include_graphics()`. This way, the PNGs can be diffed by Git and easily viewed separate from the R Markdown output.

@@ -32,3 +32,6 @@ TODO: add examples from SocCaribou, etc
 
 * [`anytime`](https://github.com/eddelbuettel/anytime) 
 * [`parzer`](https://github.com/ropensci/parzer) parsing geographic coordinates
+
+
+https://ropensci.org/packages/
