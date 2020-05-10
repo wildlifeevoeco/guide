@@ -11,15 +11,17 @@ link-citations: yes
 cover-image: "images/logo.png"
 ---
 
+```{r, eval = TRUE, echo = FALSE, fig.align = 'right', out.width='25%'}
+knitr::include_graphics('images/big-logo.png')
+```
+
+
 # Welcome
 
 
-Wildlife Evolutionary Ecology Lab: [https://weel.gitlab.io/], [on GitLab](https://gitlab.com/WEEL_grp), [on GitHub](https://github.com/wildlifeevoeco/), [on Twitter](https://twitter.com/wildlifeevoeco). 
+[Wildlife Evolutionary Ecology Lab](https://weel.gitlab.io/): [on GitLab](https://gitlab.com/WEEL_grp), [on GitHub](https://github.com/wildlifeevoeco/), and [on Twitter](https://twitter.com/wildlifeevoeco). 
 
 
-```{r, eval = TRUE, echo = FALSE, fig.align = 'right'}
-knitr::include_graphics('images/big-logo.png')
-```
 
 
 
