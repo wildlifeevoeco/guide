@@ -1,3 +1,8 @@
+# TODO: style guide essentials
+
+**TODO**
+
+
 # Contributing
 
 This is book is written in RMarkdown using the `bookdown` package.
