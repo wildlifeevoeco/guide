@@ -62,7 +62,17 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 
 **TODO: organize into spatial/ plotting/ helper/ etc**
 
+## Data frames / tables / sheets
+* [`googlesheets4`](https://googlesheets4.tidyverse.org/)
+
+
+
+## Dates and times
 * [`anytime`](https://github.com/eddelbuettel/anytime) 
+
+## Spatial packages
+
+
 * [`parzer`](https://github.com/ropensci/parzer) parsing geographic coordinates
 
 
