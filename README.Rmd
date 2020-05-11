@@ -31,9 +31,6 @@ grep -rni --include \*.Rmd -e 'TODO:' || true;
 * lab meeting presentations
 
 #### index
-* add weel logo
-* link to weel website, weel github, weel gitlab
-* link to issue page
 * Supporting the project, eg cite it, contributing
 
 
