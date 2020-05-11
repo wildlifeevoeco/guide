@@ -9,6 +9,18 @@
 * .gitignore
 
 
+## Blame and History
+
+[Git Blame](https://docs.gitlab.com/ee/user/project/repository/git_blame.html) and [Git History](https://docs.gitlab.com/ee/user/project/repository/git_history.html) can be used to get information about when files were changed and by who. 
+
+For example: head over to GitLab.com and browse to one of your files. Open it up and select "history". You will all the times the file was changed, and selecting any of the commits will show you what it looked like at that point. 
+
+![](images/git-history.png)
+
+Alternatively, you can use select "blame" to show who changed each line in a file and at which commit. 
+
+![](images/git-blame.png)
+
 ## Issues
 
 Issues are a tool available on GitLab and GitHub for collaborating on projects, getting help and tracking decisions. They are used extensively in the FOSS world and are often the way `R` package developers opt to receive bug reports and feature requests from their users.
