@@ -11,10 +11,6 @@ link-citations: yes
 cover-image: "images/logo.png"
 ---
 
-```{r, eval = TRUE, echo = FALSE, fig.align = 'right', out.width='25%'}
-knitr::include_graphics('images/big-logo.png')
-```
-
 
 # Welcome
 

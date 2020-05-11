@@ -9,6 +9,19 @@
   color: #fff;
 }
 
+/* TOC logo thanks to stat 545 */
+.toc-logo {
+  width: 200px !important;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+
+.toc-logo img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
 /* body */
 body{
     font-family: 'Roboto', sans-serif;
