@@ -104,6 +104,13 @@ keep raw data raw, never modify it by hand
 
 keep track of where data comes from, how it was generated, when it was generated
 
+## Slides {#projects-slides}
+[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
+```
+
 ## Resources {#projects-resources}
 
 [Efficient Setup](https://csgillespie.github.io/efficientR/set-up.html) in Efficient R
