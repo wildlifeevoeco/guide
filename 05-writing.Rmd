@@ -58,6 +58,34 @@ tinytex::install_tinytex()
 ```
 
 
+## R Markdown
+
+### YAML
+
+
+#### Rendering multiple output formats
+
+To render multiple output formats from the same R Markdown document, use this example. We remap the knit button / shortcut to rendering all the output formats specified. 
+
+[Example Rmd/render-multiple-formats.Rmd](example-rmd/render-multiple-formats.Rmd)
+
+```{yaml}
+---
+title: render-multiple-formats
+author: Alec L. Robitaille
+output:
+   github_document: default
+   pdf_document: 
+     toc: true
+   html_document: default
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding,
+  output_format = "all") })
+---
+```
+
+
+
 
 ## Slides
 Workshop: Basic R Markdown 
