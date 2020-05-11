@@ -88,6 +88,13 @@ SocCaribou
 Data can be sorted into `input/` and `output/` folers. 
 Alternatively, data can be divided according to `raw-data/` and `derived-data/`.
 
+### Etc 
+Other elements can include:
+
+* LICENSE file -  [Choose an open source license](https://choosealicense.com/)
+* `graphics/` or `figures/` folder for figures and plots
+* `manuscript/` or `paper/` folder for storing the manuscript
+* `man/` folder for storing the documentation of your functions
 
 
 ## RStudio projects
