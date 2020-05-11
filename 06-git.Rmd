@@ -119,8 +119,8 @@ knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 ```
 
 
-## Resources
+## Resources {#git-resources}
 https://docs.gitlab.com/ee/user/project/issues/
 
-https://happygitwithr.com/
+[Happy Git With R](https://happygitwithr.com/)
 
