@@ -58,12 +58,10 @@ tinytex::install_tinytex()
 ```
 
 
-## R Markdown
-
-### YAML
+## YAML
 
 
-#### Rendering multiple output formats
+### Rendering multiple output formats
 
 To render multiple output formats from the same R Markdown document, use this example. We remap the knit button / shortcut to rendering all the output formats specified. 
 
