@@ -2,6 +2,94 @@
 
 ## Project structure
 
+Some example structures: 
+
+```
+project
+└───data/
+    └───derived/
+    └───raw/
+└───R/
+└───script/
+└───graphics/
+└───README.md
+```
+
+or
+
+```
+project/
+└───README.md
+└───input/
+└───output/
+└───R/
+└───graphics/
+```
+
+We'll use the [SocCaribou](https://github.com/wildlifeevoeco/SocCaribou) project as an example throughout the following sections. 
+
+### README
+
+A `README.md` file should always be included and stores information about the project. Installation instructions, TODOs, description or purpose of the project, authors, etc. 
+
+```md
+
+## Space-use and social organization in a gregarious ungulate: testing the conspecific attraction and resource dispersion
+
+[![DOI](https://zenodo.org/badge/173167283.svg)](https://zenodo.org/badge/latestdoi/173167283)
+
+  - Authors:
+      - Mélissa Peignier
+      - [Quinn M.R. Webber](https://qwebber.weebly.com/)
+      - [Erin Koen](https://sites.google.com/site/erinlkoen/)
+      - [Michel P. Laforge](https://mammalspatialecology.weebly.com/)
+      - [Alec L. Robitaille](http://robitalec.ca)
+      - [Eric Vander Wal](http://weel.gitlab.io)
+
+This repository contains the code accompanying the paper “Space-use and
+social organization in a gregarious ungulate: testing the conspecific
+attraction and resource dispersion”. Scripts are under `scripts/` and
+reused functions are in `R/`. This project uses standard R package
+structure and can therefore be installed with `devtools`. This also
+helps declare external package dependencies required for the analysis.
+Please note that while functions are included here, they are not tested
+for use in other projects and may not be suitable (at least not in their
+current version).
+
+## Abstract
+...
+```
+
+
+### Scripts
+R scripts can be organized into `scripts/` or `R/`. The `R/` folder is used by R packages to store functions and this can be a useful way of differentiating different kinds of R scripts. 
+
+The [SocCaribou](https://github.com/wildlifeevoeco/SocCaribou) project has both an `R/` folder and a `scripts/` folder. 
+
+```
+SocCaribou
+├── R
+│   ├── dynamic_network.R
+│   ├── hr_network.R
+│   └── step_length.R
+├── scripts
+│   ├── 1-DataCleaning.R
+│   ├── 2-HomeRangeAnalysis.R
+│   ├── 3-SiteFidelityAnalysis.R
+│   ├── 4-SocialNetworkAnalysis.R
+│   ├── 5-Randomizations.R
+│   ├── 6-MergeTidyFiles.R
+│   └── 7-DataAnalysis.R
+...
+```
+
+### Data
+
+Data can be sorted into `input/` and `output/` folers. 
+Alternatively, data can be divided according to `raw-data/` and `derived-data/`.
+
+
+
 ## RStudio projects
 https://csgillespie.github.io/efficientR/set-up.html#project-management
 
