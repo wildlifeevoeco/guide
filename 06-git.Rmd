@@ -8,6 +8,19 @@
 * commit messages
 * .gitignore
 
+## Tags
+We can add git "tags" to our commits, to keep track of specific versions or steps of a repository. 
+
+For spatsoc and other packages, we can tag versions of the package:
+
+![](images/git-eg-tag-pkg.png)
+
+For papers, you can track stages of revisions:
+
+![](images/git-eg-tag-manuscript.png)
+
+To add a tag in GitAhead, just right click on the commit, add tag, then fill in the name (no spaces) and check "push to origin". Then you will be able to find the tags on gitlab
+for example: [`wildcam` tags](https://gitlab.com/robit.a/wildcam/-/tags). 
 
 ## Blame and History
 
