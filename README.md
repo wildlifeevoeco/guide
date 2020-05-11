@@ -10,12 +10,16 @@
 
 
 ### content
+
+
 #### general/misc
 * ~~how integrate xaringan slides?~~
 * which license - no derivatives (see geocompr)
 * add packages to ci
 * use a docker with preinstalled?
 * other resources are first class
+
+* include example scripts with link and store in scripts/dir
 
 #### slides
 * ~~use knitr::include_url~~
@@ -32,6 +36,9 @@
 * ~~add edit this page link~~
 * ~~rm fb link, twitter link, and dropdown link~~
 * ~~add weel twitter, weel github, weel gitlab~~
+
+#### brn
+* add
 
 #### index
 * ~~index -> welcome page~~
