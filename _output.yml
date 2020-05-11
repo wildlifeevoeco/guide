@@ -15,6 +15,7 @@ bookdown::gitbook:
     sharing:
       facebook: no
       twitter: no
+# TODO: install pdflatex in ci
 #bookdown::pdf_book:
 #  includes:
 #    in_header: preamble.tex

@@ -1,6 +1,14 @@
+---
+output: github_document
+---
+
 # WEEL-guide
 
 ## TODO
+```{bash}
+grep -rni --include \*.Rmd -e 'TODO:' || true;
+```
+
 
 ### aes
 * fix sidebar background color 
@@ -37,8 +45,9 @@
 * ~~rm fb link, twitter link, and dropdown link~~
 * ~~add weel twitter, weel github, weel gitlab~~
 
-#### brn
-* add
+#### lab
+* add brn
+* lab meeting presentations
 
 #### index
 * ~~index -> welcome page~~
@@ -62,3 +71,4 @@
 * efficient R
 * advanced R
 * geocompr
+* https://vickysteeves.gitlab.io/repro-papers/prereq.html#gitlab

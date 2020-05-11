@@ -1,6 +1,6 @@
-# TODO: style guide essentials
+# Style guide essentials
 
-**TODO**
+**TODO: fill**
 
 
 # Contributing
