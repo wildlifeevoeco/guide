@@ -102,7 +102,7 @@ Workshop: Basic R Markdown
 
 Date: October 21 2019
 
-[Slides](https://slides.robitalec.ca/basic-rmd.html) and [Resources](https://slides.robitalec.ca/basic-rmd/basic-rmd.zip)
+[Slides](https://slides.robitalec.ca/basic-rmd.html) and [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=basic-rmd)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')

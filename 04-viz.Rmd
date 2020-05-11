@@ -51,7 +51,7 @@ Workshop: Introduction to ggplot2
 
 Date: November 2 2017
 
-[Slides](https://slides.robitalec.ca/intro-ggplot.html) and  [Resources](https://slides.robitalec.ca/intro-ggplot/intro-ggplot.zip)
+[Slides](https://slides.robitalec.ca/intro-ggplot.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=intro-ggplot)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')

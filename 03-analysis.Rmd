@@ -12,7 +12,7 @@ Workshop: Introduction to data.table
 
 Date: November 16 2017
 
-[Slides](https://slides.robitalec.ca/intro-data-table.html) and [Resources](https://slides.robitalec.ca/intro-data-table/intro-data-table.zip)
+[Slides](https://slides.robitalec.ca/intro-data-table.html) and [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=intro-data-table)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')

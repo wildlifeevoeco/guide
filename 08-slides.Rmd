@@ -1,10 +1,7 @@
 # Slides
 
 ## Git and Projects
-
-Date: February 6 2020
-
-[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://slides.robitalec.ca/git-and-projects/git-and-projects.zip)
+[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
@@ -13,7 +10,7 @@ knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 ## Basic R Markdown
 Date: October 21 2019
 
-[Slides](https://slides.robitalec.ca/basic-rmd.html) and  [Resources](https://slides.robitalec.ca/basic-rmd/basic-rmd.zip)
+[Slides](https://slides.robitalec.ca/basic-rmd.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=basic-rmd)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
@@ -23,7 +20,7 @@ knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
 ## Developing R Packages
 Date: October 25 2018
 
-[Slides](https://slides.robitalec.ca/r-packages.html) and   [Resources](https://slides.robitalec.ca/r-packages/r-packages.zip)
+[Slides](https://slides.robitalec.ca/r-packages.html) and   [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=r-packages)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/r-packages.html')
@@ -33,7 +30,7 @@ knitr::include_url('https://slides.robitalec.ca/r-packages.html')
 ## Functions in R
 Date: October 25 2018
 
-[Slides](https://slides.robitalec.ca/functions-in-r.html) and  [Resources](https://slides.robitalec.ca/functions-in-r/functions-in-r.zip)
+[Slides](https://slides.robitalec.ca/functions-in-r.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=functions-in-r)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
@@ -42,7 +39,7 @@ knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
 ## Introduction to data.table
 Date: November 16 2017
 
-[Slides](https://slides.robitalec.ca/intro-data-table.html) and  [Resources](https://slides.robitalec.ca/intro-data-table/intro-data-table.zip)
+[Slides](https://slides.robitalec.ca/intro-data-table.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=intro-data-table)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
@@ -51,7 +48,7 @@ knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ## Introduction to ggplot2
 Date: November 2 2017
 
-[Slides](https://slides.robitalec.ca/intro-ggplot.html) and  [Resources](https://slides.robitalec.ca/intro-ggplot/intro-ggplot.zip)
+[Slides](https://slides.robitalec.ca/intro-ggplot.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=intro-ggplot)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
