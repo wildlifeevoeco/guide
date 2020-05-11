@@ -21,8 +21,38 @@ knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 
 # Social network analysis
 
-TODO: list spatsoc, hwig
-TODO: add examples from SocCaribou, etc
+## Examples
+
+**TODO: more examples**
+
+[SocCaribou/Social Network Analysis](https://github.com/wildlifeevoeco/SocCaribou/blob/master/scripts/4-SocialNetworkAnalysis.R)
+
+
+## Packages
+
+### `spatsoc`
+
+Alec, Quinn and Eric developed `spatsoc`, an R package for generating social networks from GPS data. 
+
+Resources:
+
+* [blog post](https://ropensci.org/blog/2018/12/04/spatsoc/)
+* repository: [ropensci/spatsoc](https://github.com/ropensci/spatsoc/)
+* website (vignettes, documentation): [docs.ropensci.org/spatsoc](https://docs.ropensci.org/spatsoc/)
+* paper: [Conducting social network analysis with animal telemetry data: Applications and methods using spatsoc](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13215)
+* [CSTWS webinar](https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html)
+
+
+### HWIG
+
+Alec developed `hwig`, an R package for calculating gregariousness adjusted half-weight index.
+
+* repository: [robitalec/hwig](https://github.com/robitalec/hwig)
+
+
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRMzDEm8bkxbERxRummBcgqHzOb2vLasEgJNsNC8r462hANEUCwu4dxDyVkdmroFCK7HFsIkhawKe_t/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 # Earth Engine
