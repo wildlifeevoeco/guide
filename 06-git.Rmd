@@ -7,6 +7,8 @@
 * commit before push/pull
 * commit messages
 * .gitignore
+* why use git
+* what can you do with git (projects, packages, websites, books, etc)
 
 ## Tags
 We can add git "tags" to our commits, to keep track of specific versions or steps of a repository. 
