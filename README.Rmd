@@ -21,21 +21,16 @@ grep -rni --include \*.Rmd -e 'TODO:' || true;
 
 #### slides
 * include PDF version with pagedown
-* use this zip instead https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=basic-rmd
-
 
 #### navbar
 * pdf/epub download doesnt exist - ci fix?
-* ~~add edit this page link~~
-* ~~rm fb link, twitter link, and dropdown link~~
-* ~~add weel twitter, weel github, weel gitlab~~
+* add rmd download?
 
 #### lab
 * add brn
 * lab meeting presentations
 
 #### index
-* ~~index -> welcome page~~
 * add weel logo
 * link to weel website, weel github, weel gitlab
 * link to issue page
