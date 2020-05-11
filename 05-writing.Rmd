@@ -85,6 +85,15 @@ knit: (function(inputFile, encoding) {
 ---
 ```
 
+## BibTeX
+
+### Setting italics in references
+
+Setting italics in your `.bibtex` references is as simple as wrapping the words in `\emph{}`. For example:
+
+```latex
+\emph{Escherichia coli}
+```
 
 
 
