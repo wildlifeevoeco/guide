@@ -19,7 +19,7 @@ knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
 
 
-# Social network analysis
+# Social Network Analysis
 
 ## Examples
 
