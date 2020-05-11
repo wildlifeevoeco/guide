@@ -1,5 +1,8 @@
 # Projects
 
+## Project structure
+
+## RStudio projects
 https://csgillespie.github.io/efficientR/set-up.html#project-management
 
 
@@ -12,3 +15,7 @@ always start with raw data
 keep raw data raw, never modify it by hand
 
 keep track of where data comes from, how it was generated, when it was generated
+
+## Resources {#projects-resources}
+
+[Efficient Setup](https://csgillespie.github.io/efficientR/set-up.html) in Efficient R

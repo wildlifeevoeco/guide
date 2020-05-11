@@ -35,8 +35,6 @@ grep -rni --include \*.Rmd -e 'TODO:' || true;
 
 
 #### setup
-* setup gitlab
-* git gui
 * project structure
 * style guide
 

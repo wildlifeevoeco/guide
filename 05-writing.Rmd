@@ -2,13 +2,13 @@
 
 # Writing
 
-## Writing Group
+## Writing group
 **TODO: (Eric)**
 
 
 # R Markdown
 
-## Basic Markdown
+## Basic markdown
 
 Wrap a word with single asterisks for *italics* and double asterisks for **bold**.
 

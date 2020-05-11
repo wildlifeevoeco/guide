@@ -22,7 +22,7 @@ For papers, you can track stages of revisions:
 To add a tag in GitAhead, just right click on the commit, add tag, then fill in the name (no spaces) and check "push to origin". Then you will be able to find the tags on gitlab
 for example: [`wildcam` tags](https://gitlab.com/robit.a/wildcam/-/tags). 
 
-## Blame and History
+## Blame and history
 
 [Git Blame](https://docs.gitlab.com/ee/user/project/repository/git_blame.html) and [Git History](https://docs.gitlab.com/ee/user/project/repository/git_history.html) can be used to get information about when files were changed and by who. 
 

@@ -15,3 +15,7 @@ install.packages("bookdown")
 # devtools::install_github("rstudio/bookdown")
 ```
 
+
+
+## Style
+First level headers are capitalized, second level headers are sentence case. 
