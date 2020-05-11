@@ -6,7 +6,7 @@ before_script:
 
 pages:
   script:
-    - R -e "bookdown::render_book('', output_dir = 'public')"
+    - R -e "bookdown::render_book('', output_format = 'all', output_dir = 'public')"
   artifacts:
     paths:
       - public
