@@ -18,6 +18,7 @@ cover-image: "images/big-logo.png"
 [Wildlife Evolutionary Ecology Lab](https://weel.gitlab.io/): [on GitLab](https://gitlab.com/WEEL_grp), [on GitHub](https://github.com/wildlifeevoeco/), and [on Twitter](https://twitter.com/wildlifeevoeco). 
 
 
+Feedback, suggestions, comments   [here](https://gitlab.com/weel/guide/-/issues). 
 
 
 
