@@ -34,7 +34,7 @@ tinytex::install_tinytex()
 ```
 
 
-# Git {#git-slides}
+# Git {#git-setup}
 
 Make an account on GitLab.com and message me!
 
