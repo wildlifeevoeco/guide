@@ -70,7 +70,7 @@ To render multiple output formats from the same R Markdown document, use this ex
 
 [Example Rmd/render-multiple-formats.Rmd](example-rmd/render-multiple-formats.Rmd)
 
-```{yaml}
+```yaml
 ---
 title: render-multiple-formats
 author: Alec L. Robitaille
@@ -88,7 +88,7 @@ knit: (function(inputFile, encoding) {
 
 
 
-## Slides
+## Slides {#rmd-slides}
 Workshop: Basic R Markdown 
 
 Date: October 21 2019

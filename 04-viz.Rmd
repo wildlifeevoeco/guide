@@ -46,7 +46,7 @@ ggplot(diamonds, aes(depth, price)) +
 
 the one and only: [`patchwork`](https://patchwork.data-imaginist.com/)
 
-## Slides
+## Slides {#gg-slides}
 Workshop: Introduction to ggplot2
 
 Date: November 2 2017
@@ -62,7 +62,7 @@ knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
 
 
 
-# Cool Packages
+# Cool Packages {#viz-cool}
 
 https://ropensci.org/packages/
 

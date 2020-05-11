@@ -23,7 +23,7 @@ https://csgillespie.github.io/efficientR/set-up.html#rstudio-options
 ### Spatial
 
 
-### R Markdown
+### R Markdown {#rmd-setup}
 
 Use [`tinytex`](https://yihui.org/tinytex/)
 
@@ -34,7 +34,7 @@ tinytex::install_tinytex()
 ```
 
 
-# Git
+# Git {#git-slides}
 
 Make an account on GitLab.com and message me!
 

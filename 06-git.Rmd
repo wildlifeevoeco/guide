@@ -81,7 +81,7 @@ Issues have a number of advantages over private email, in-person conversations a
 
 
 
-## Slides
+## Slides {#git-slides}
 Workshop: Git and Projects
 
 Date: February 6 2020

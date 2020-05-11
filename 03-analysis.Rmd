@@ -7,7 +7,7 @@ https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.
 
 
 
-## Slides
+## Slides {#dt-slides}
 Workshop: Introduction to data.table
 
 Date: November 16 2017
@@ -50,7 +50,7 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 * repository: [robitalec/hwig](https://github.com/robitalec/hwig)
 
 
-## Slides
+## Slides {#sna-slides}
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRMzDEm8bkxbERxRummBcgqHzOb2vLasEgJNsNC8r462hANEUCwu4dxDyVkdmroFCK7HFsIkhawKe_t/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -58,7 +58,7 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 # Earth Engine
 
 
-# Cool Packages
+# Cool Packages {#analysis-cool}
 
 **TODO: organize into spatial/ plotting/ helper/ etc**
 
