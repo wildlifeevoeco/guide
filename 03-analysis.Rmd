@@ -43,7 +43,7 @@ Resources:
 * [CSTWS webinar](https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html)
 
 
-### HWIG
+### `hwig`
 
 Alec developed `hwig`, an R package for calculating gregariousness adjusted half-weight index.
 
