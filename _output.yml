@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li class="toc-logo"><a href="./"><img src="images/logo.png" style="border-radius: 50%;" ></a></li>
+        <li class="toc-logo"><a href="./"><img src="images/big-logo.png" style="border-radius: 25%;" ></a></li>
       after: |
         <li><a href="http://robitalec.ca/">Alec L. Robitaille</a></li>
         <br></br>
