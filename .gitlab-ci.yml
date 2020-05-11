@@ -1,12 +1,12 @@
-image: debian:buster-slim
+image: rocker/verse
 
 before_script:
-  - apt-get update && apt-get -y install pandoc pandoc-citeproc r-base
-  - R -e "install.packages(c('bookdown', 'ggplot2', 'data.table'))"
+  #- apt-get update && apt-get -y install pandoc pandoc-citeproc r-base
+  - R -e "install.packages(c('data.table'))"
 
 pages:
   script:
-    - R -e "bookdown::render_book('', output_format = 'all', output_dir = 'public')"
+    - R -e "bookdown::render_book('index.Rmd', output_format = 'all', output_dir = 'public')"
   artifacts:
     paths:
       - public
