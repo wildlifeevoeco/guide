@@ -1,9 +1,27 @@
+
+/* h1 border */
 .level1 h1 {
   border-bottom: 1px solid;
 }
 
-/* sidebar = book-summary*/
+/* adjust gitlab snippets */
+.js-file-title file-title-flex-parent{
+  width: 95%;
+  display: block;
+}
 
+.blob-content {
+  width: 95%;
+}
+
+.file-content.code .line-numbers a {
+    height: 19px;
+}
+
+
+
+
+/* sidebar = book-summary*/
 .book{
   /*background-color: #30635a;*/
   color: #fff;
