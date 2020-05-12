@@ -26,7 +26,6 @@ grep -rni --include \*.Rmd -e 'TODO:' || true;
 #### general/misc
 * which license - no derivatives (see geocompr)
 * other resources are first class
-* include example scripts with link and store in scripts/dir
 
 #### slides
 * include PDF version with pagedown
@@ -36,15 +35,13 @@ grep -rni --include \*.Rmd -e 'TODO:' || true;
 * add rmd download?
 
 #### lab
-* add brn
 * lab meeting presentations
 
 #### index
 * Supporting the project, eg cite it, contributing
 
 
-#### setup
-* project structure
+#### misc
 * style guide
 
 
