@@ -17,29 +17,31 @@ Wrap a word with single asterisks for *italics* and double asterisks for **bold*
 ```
 
 
-Surround inline code chunks with single `backticks` or full code blocks with triple backticks:
+Surround inline code chunks with single `` `backticks` `` or full code blocks with triple backticks:
 
-```r
+````
+```
 yum <- is.delicious('gorgonzola')
 yum
 [1] TRUE
 ```
+````
 
-Tables can be made with a [markdown table generator](http://www.tablesgenerator.com/markdown_tables#) (or by hand...), or with functions, for example: `knitr::kable`.
+Tables can be made with a [markdown table generator](http://www.tablesgenerator.com/markdown_tables#) (or by hand), or with functions, for example: `knitr::kable`.
 
-```{r, echo = FALSE}
-library(data.table)
-DT <- data.table(randu)
-DT <- DT[1:5]
-```
 
 ```{r, echo = TRUE, eval = FALSE}
-knitr::kable(DT)
+knitr::kable(diamonds)
 ```
 
 ```{r, echo = FALSE, eval = TRUE}
-knitr::kable(DT)
+library(data.table)
+library(ggplot2)
+data(diamonds)
+setDT(diamonds)
+knitr::kable(diamonds[1:5])
 ```
+
 
 
 **TODO: images**
