@@ -95,6 +95,17 @@ Setting italics in your `.bibtex` references is as simple as wrapping the words 
 \emph{Escherichia coli}
 ```
 
+## Presentations With `xaringan`
+
+Yihui Xie made a great package for generating HTML presentations in R Markdown: [`xaringan`](https://bookdown.org/yihui/rmarkdown/xaringan.html). 
+
+All of Alec's slides use this package, see [Slides](Slides). 
+
+
+### Incremental ggplot slides
+An example for building your ggplots incrementally using this example `xaringan` document. 
+
+<script src='https://gitlab.com/snippets/1954903.js'></script>
 
 
 ## Slides {#rmd-slides}
