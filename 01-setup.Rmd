@@ -34,14 +34,14 @@ tinytex::install_tinytex()
 ```
 
 
-# Git {#git-setup}
+## Git {#git-setup}
 Quick setup instructions here, but see the chapter on [Git](Git) for more details. 
 
-## Install git
+### Install git
 
 Check out the great instructions in  [Happy Git With R](https://happygitwithr.com/install-git.html). Be sure to check if `git` is installed first! 
 
-## GitLab
+### GitLab
 
 The lab uses primarily [GitLab](https://gitlab.com) for private and group projects and [GitHub](https://github.com) for mirroring published projects or packages. 
 
@@ -49,7 +49,7 @@ The lab uses primarily [GitLab](https://gitlab.com) for private and group projec
 1. *Optional:* Setup a local folder on your computer to store all of your git repositories. I use a folder called 'Local-git' under Documents (`/home/alecr/Documents/Local-git`)
 1. Setup global git user name and email. See [here](https://happygitwithr.com/hello-git.html). 
 
-## Git clients
+### Git clients
 
 You may opt to use a git client to work with git on a regular basis. Again, see a great discussion in the Happy Git With R book [here](https://happygitwithr.com/git-client.html). We've tried using cross platform clients in the past to make it easy for folks to help each other. These days, it's [GitAhead](https://gitahead.github.io/gitahead.com/). 
 
