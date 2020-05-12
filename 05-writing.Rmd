@@ -107,10 +107,8 @@ All of Alec's slides use this package, see [Slides](Slides).
 ### Incremental ggplot slides
 An example for building your ggplots incrementally using this example `xaringan` document. 
 
+
 <script src='https://gitlab.com/snippets/1954903.js'></script>
-
-
-<script src="https://gist.github.com/robitalec/3a27fb91ace9adc127d96898df58ec92.js"></script>
 
 
 ## Slides {#rmd-slides}
