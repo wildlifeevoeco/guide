@@ -19,8 +19,14 @@ https://csgillespie.github.io/efficientR/set-up.html#rstudio-options
 
 
 ## System dependencies
+Windows users: make sure to install [RTools](https://cran.r-project.org/bin/windows/Rtools/). 
 
-### Spatial
+Mac users: install [Xcode](https://developer.apple.com/xcode/resources/) and [homebrew](https://brew.sh/).
+
+### Spatial packages
+For using spatial packages (eg.: `sf`), we need to setup some system dependencies. The `sf` [README](https://github.com/r-spatial/sf#installing) has great instructions. Make sure to install these dependencies before trying to install spatial packages. 
+
+
 
 
 ### R Markdown {#rmd-setup}
