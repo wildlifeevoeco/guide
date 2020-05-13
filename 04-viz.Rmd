@@ -44,6 +44,8 @@ ggplot(diamonds, aes(depth, price)) +
 
 ## Combining plots
 
+**TODO: ALR - examples, use ##C layout, & theme**
+
 the one and only: [`patchwork`](https://patchwork.data-imaginist.com/)
 
 ## Slides {#gg-slides}
@@ -68,7 +70,14 @@ knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
 
 # Cool Packages {#viz-cool}
 
-https://ropensci.org/packages/
+**TODO: links, fill, grab from https://ropensci.org/packages/ under vis**
 
-under vis
+## Spatial Plotting
+* mapview
+* leaflet
+
+## ggplot extensions
+* themes, theme set universal
+* ggannotate
+
 
