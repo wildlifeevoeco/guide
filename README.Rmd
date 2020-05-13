@@ -12,6 +12,7 @@ grep -rni --include \*.Rmd -e 'TODO:' || true;
 
 ### aes
 * coool https://bookdown.org/yihui/bookdown/custom-blocks.html
+* spell check
 
 ### content
 
@@ -27,6 +28,7 @@ grep -rni --include \*.Rmd -e 'TODO:' || true;
 * which license - no derivatives (see geocompr)
 * other resources are first class
 
+
 #### slides
 * include PDF version with pagedown
 
@@ -37,12 +39,23 @@ grep -rni --include \*.Rmd -e 'TODO:' || true;
 #### lab
 * lab meeting presentations
 
-#### index
-* Supporting the project, eg cite it, contributing
-
-
 #### misc
 * style guide
+* Supporting the project, eg cite it, contributing
+
+#### new content
+* Makefiles, also eg snakemake etc etc 
+* bibtex, csl files
+* gitlab ci/cd
+* ask jbf/kak things we've learned
+* general data things: no spaces in column names, no weird characters
+* reshaping melt/dcast with data.table
+* lapply rbindlist
+* parse out functions, why functions
+* basic roxygen
+* basic shiny
+* bash?
+
 
 
 
