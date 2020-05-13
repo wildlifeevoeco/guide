@@ -27,19 +27,18 @@ https://csgillespie.github.io/efficientR/set-up.html#rstudio-options
 
 
 ## System dependencies
-Windows users: make sure to install [RTools](https://cran.r-project.org/bin/windows/Rtools/). 
+Windows users: install [RTools](https://cran.r-project.org/bin/windows/Rtools/). 
 
 Mac users: install [Xcode](https://developer.apple.com/xcode/resources/) and [homebrew](https://brew.sh/).
 
 ### Spatial packages
-For using spatial packages (eg.: `sf`), we need to setup some system dependencies. The `sf` [README](https://github.com/r-spatial/sf#installing) has great instructions. Make sure to install these dependencies before trying to install spatial packages. 
-
+To use spatial packages (eg.: `sf`), we need to install some system dependencies. The `sf` [README](https://github.com/r-spatial/sf#installing) has great instructions. Make sure to install these dependencies before trying to install spatial packages.
 
 
 
 ### R Markdown {#rmd-setup}
 
-Use [`tinytex`](https://yihui.org/tinytex/)
+Use [`tinytex`](https://yihui.org/tinytex/) to get an easy to install and use TeX setup on your computer. 
 
 
 ```{r, eval = FALSE}
@@ -47,9 +46,11 @@ install.packages('tinytex')
 tinytex::install_tinytex()
 ```
 
+After installing, make sure to restart RStudio. 
+
 
 ## Git {#git-setup}
-Quick setup instructions here, but see the chapter on [Git](Git) for more details. 
+Quick setup instructions here, but see the chapter on [Git](#git) for more details. 
 
 ### Install git
 
@@ -60,8 +61,10 @@ Check out the great instructions in  [Happy Git With R](https://happygitwithr.co
 The lab uses primarily [GitLab](https://gitlab.com) for private and group projects and [GitHub](https://github.com) for mirroring published projects or packages. 
 
 1. [Make an account](https://gitlab.com/users/sign_in) on GitLab.com and message me!
-1. *Optional:* Setup a local folder on your computer to store all of your git repositories. I use a folder called 'Local-git' under Documents (`/home/alecr/Documents/Local-git`)
 1. Setup global git user name and email. See [here](https://happygitwithr.com/hello-git.html). 
+1. Setup a local folder on your computer to store all of your git repositories. I use a folder called 'Local-git' under Documents (`/home/alecr/Documents/Local-git`). 
+
+You can alternatively clone your repositories to different places on your hard drive, but I find it more straightforward to keep everything together.
 
 ### Git clients
 
