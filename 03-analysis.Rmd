@@ -3,6 +3,7 @@
 # data.table
 
 **TODO: ALR basic resources, and grab from slides**
+**TODO: list columns**
 
 ## .SD
 https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html
@@ -68,6 +69,11 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 
 # Earth Engine
 **TODO: ALR link to ee best practices, ee developers docs, your repo of scripts**
+
+
+# Models
+
+**TODO: add model summary tables, fake data**
 
 # Cool Packages {#analysis-cool}
 
