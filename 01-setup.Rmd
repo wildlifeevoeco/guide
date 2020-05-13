@@ -38,7 +38,14 @@ To use spatial packages (eg.: `sf`), we need to install some system dependencies
 
 ### R Markdown {#rmd-setup}
 
-Use [`tinytex`](https://yihui.org/tinytex/) to get an easy to install and use TeX setup on your computer. 
+Install packages...
+
+```{r, eval = FALSE}
+install.packages(c('rmarkdown', 'bookdown', 'knitr'))
+```
+
+
+and use [`tinytex`](https://yihui.org/tinytex/) to get an easy to install and use TeX setup on your computer. 
 
 
 ```{r, eval = FALSE}
@@ -46,7 +53,7 @@ install.packages('tinytex')
 tinytex::install_tinytex()
 ```
 
-After installing, make sure to restart RStudio. 
+After installing `tinytex`, make sure to restart RStudio. 
 
 
 ## Git {#git-setup}

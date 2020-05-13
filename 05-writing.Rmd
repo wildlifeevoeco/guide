@@ -48,25 +48,13 @@ knitr::kable(diamonds[1:5])
 
 ## Setup
 
-Install packages
-
-```{r, eval = FALSE}
-install.packages(c('rmarkdown', 'bookdown', 'knitr')
-```
-
-and use [`tinytex`](https://yihui.org/tinytex/)
-
-
-```{r, eval = FALSE}
-install.packages('tinytex')
-tinytex::install_tinytex()
-```
-
+See [Setup/R Markdown](#rmd-setup).
 
 ## YAML
+**TODO: link basic YAML Rmd**
+**TODO: add classic error not working because tabs instead of spaces**
 
-
-### Rendering multiple output formats
+### Rendering multiple output formats {#rmd-multiple-output}
 
 To render multiple output formats from the same R Markdown document, use this example. We remap the knit button / shortcut to rendering all the output formats specified. 
 
