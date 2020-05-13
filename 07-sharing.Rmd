@@ -13,9 +13,9 @@ In our lab:
 * the [`MovingAcrossGradients`](https://github.com/wildlifeevoeco/MovingAcrossGradients) lab paper from 2018. 
 
 
-Each of these repositories are also linked to [zenodo](https://zenodo.org), with "GitHub releases" triggering an updated DOI, etc.
+Each of these repositories are also linked to [Zenodo](https://zenodo.org), with "GitHub releases" triggering an updated DOI, etc.
 
-A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena). 
+A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena) papers. 
 
 
 
@@ -23,18 +23,15 @@ A couple examples from outside our group include Carl Boettiger's [nonparametric
 
 1. Set up your repository in the standard way with folders for data, scripts, manuscript, etc. 
 1. Host your repository on GitHub either by:
-    * Making a new repository on GitHub and pushing there. 
-    or
-    * Mirroring your existing repository from GitLab there. See [below](https://gitlab.com/WEEL_grp/core/-/blob/master/Guides/Pushing-From-GitLab-To-GitHub/PushingFromLabToHub.md) or [here]() for details. 
+    * making a new repository on GitHub and pushing there or
+    * mirroring your existing repository from GitLab there. See [below](#lab-to-hub) or [here](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core) for extended details details. 
 1. Create a Zenodo account, log in, link to GitHub, and turn on the repository of interest. [Here are all the details](https://guides.github.com/activities/citable-code/). 
 1. Create your release, get a DOI, add it to your README with the badge shown in [here](https://zenodo.org/account/settings/github). 
 
 
+**Note:** make sure to turn on the repository of interest, before making the release on GitHub. At the moment, Zenodo only tracks future releases - though in progress [here](https://github.com/zenodo/zenodo/issues/1463). 
 
-We will first mirror our repository from GitLab to GitHub, then setup up the repository to use Zenodo to generate a DOI. 
-
-
-## Mirroring from GitLab to GitHub
+## Mirroring from GitLab to GitHub {#lab-to-hub}
 
 On GitHub.com:
 
@@ -44,53 +41,17 @@ On GitHub.com:
 1. Copy it, to use as password on Gitlab.com below
 
 On GitLab.com:
+
 1. Navigate to "Settings/Repository"
 1. Select "Mirror a repository"
 1. Mirror direction: Push
-1. Repository URL: https://<your_github_username>@github.com/<your_github_group>/<your_github_project>.git
+1. Repository URL: `https://<your_github_username>@github.com/<your_github_group>/<your_github_project>.git`
 1. Password: paste the personal access token generated on Github here
 
 Check results:
+
 1. Wait for the spinning circle to finish, make sure no errors come up. 
 1. Navigate to your new GitHub repository. It may take a few minutes to update. 
-
-
-## Other useful information
-
-Git won't be able to track changes in all data file types (eg. Rds files) and output R Markdown file types. 
-
-For R Markdown use:
-
-```yaml
-output:github_document
-```
-
-or 
-
-```yaml
-output:
-  pdf_document:
-    keep_md:true
-```
-
-```yaml
-output:
-  html_document:
-    keep_md:true
-```
-
-
-If this is a manuscript, and you are noticing everything is on a few really long lines, simply reflow using the shortcut (CTRL+SHIFT+/) or remember to hit enter at the end of a line. 
-
-**TODO: example image of this** 
-
-Using tests is a great way to clarify your expectations about data outputs, that be checked whenever code is updated. Check out the [`testthat`](https://github.com/r-lib/testthat/) package and [`checkr`](https://poissonconsulting.github.io/checkr/) package.
-
-
-Generate figures as seperate PNGs and include them in the document using `knitr::include_graphics()`. This way, the PNGs can be diffed by Git and easily viewed separate from the R Markdown output.
-
-
-
 
 
 
