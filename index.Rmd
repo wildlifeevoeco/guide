@@ -14,11 +14,7 @@ cover-image: "images/big-logo.png"
 
 # Welcome
 
-[![pipeline status](https://gitlab.com/weel/guide/badges/master/pipeline.svg)](https://gitlab.com/weel/guide/commits/master)
-
-
-
-[Wildlife Evolutionary Ecology Lab](https://weel.gitlab.io/): [on GitLab](https://gitlab.com/WEEL_grp), [on GitHub](https://github.com/wildlifeevoeco/), and [on Twitter](https://twitter.com/wildlifeevoeco). 
+Wildlife Evolutionary Ecology Lab: [weel.gitlab.io](https://weel.gitlab.io/), [WEEL on GitLab](https://gitlab.com/WEEL_grp), [wildlifeevoeco on GitHub](https://github.com/wildlifeevoeco/), and [on Twitter](https://twitter.com/wildlifeevoeco). 
 
 
 Feedback, suggestions, comments   [here](https://gitlab.com/weel/guide/-/issues). 
@@ -31,3 +27,8 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+
+---
+
+[![pipeline status](https://gitlab.com/weel/guide/badges/master/pipeline.svg)](https://gitlab.com/weel/guide/commits/master)
