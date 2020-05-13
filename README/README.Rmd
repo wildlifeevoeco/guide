@@ -1,0 +1,77 @@
+---
+output: github_document
+knit: (function(inputFile, encoding) { 
+      rmarkdown::render(inputFile, encoding=encoding);
+      rmarkdown::render(inputFile, encoding=encoding)})
+---
+
+
+## TODO
+```{bash}
+grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
+```
+
+### aes
+* coool https://bookdown.org/yihui/bookdown/custom-blocks.html
+* spell check
+
+### content
+
+#### 
+* developing a question
+* a-priori hypotheses
+* multiple competing hypotheses
+* Visualizing your predictions
+* bacon popper
+
+
+#### general/misc
+* which license - no derivatives (see geocompr)
+* other resources are first class
+
+
+#### slides
+* include PDF version with pagedown
+
+#### navbar
+* pdf/epub download doesnt exist - ci fix?
+* add rmd download?
+
+#### lab
+* lab meeting presentations
+
+#### misc
+* style guide
+* Supporting the project, eg cite it, contributing
+
+#### new content
+* Makefiles, also eg snakemake etc etc 
+* bibtex, csl files
+* gitlab ci/cd
+* ask jbf/kak things we've learned
+* general data things: no spaces in column names, no weird characters
+* reshaping melt/dcast with data.table
+* lapply rbindlist
+* parse out functions, why functions
+* basic roxygen
+* basic shiny
+* bash?
+
+
+
+
+#### other resources
+* bookdown, rmarkdown sites
+* data.table wiki / site
+* efficient R
+* advanced R
+* geocompr
+* https://vickysteeves.gitlab.io/repro-papers/prereq.html#gitlab
+
+
+
+```{r, include=FALSE}
+# gross hack with the double render above
+file.rename(from = "README.md",
+						to = "../README.md")
+```
