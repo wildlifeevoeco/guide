@@ -29,6 +29,5 @@ knitr::write_bib(c(
 ```
 
 
----
 
 [![pipeline status](https://gitlab.com/weel/guide/badges/master/pipeline.svg)](https://gitlab.com/weel/guide/commits/master)
