@@ -1,6 +1,8 @@
 # (PART) Open research {-} 
 # Git
 
+**TODO: ALR**
+
 * how to avoid conflicts
 * why use branches
 * what is a pull/merge request
@@ -11,13 +13,13 @@
 * what can you do with git (projects, packages, websites, books, etc)
 
 ## Tags
-We can add git "tags" to our commits, to keep track of specific versions or steps of a repository. 
+We can add git tags to our commits, to keep track of specific versions or steps of a repository. 
 
-For spatsoc and other packages, we can tag versions of the package:
+For example, spatsoc and other packages use git tags to mark specific versions of the package. These versions link to GitHub/GitLab [releases](https://github.com/ropensci/spatsoc/releases), making it easy to install specific versions. 
 
 ![](images/git-eg-tag-pkg.png)
 
-For papers, you can track stages of revisions:
+For papers, you can track different stages of revisions:
 
 ![](images/git-eg-tag-manuscript.png)
 
@@ -50,14 +52,15 @@ Issues can be used for both **personal** and **group** projects. Some uses inclu
 * reporting bugs
 * requesting new features
 
-Issues have a number of advantages over private email, in-person conversations and TODO, NOTE and other comments embedded in code because they:
+Issues have a number of advantages over private email, in-person conversations or `TODO`, `NOTE` and other comments embedded in code because they:
 
-* track history
 * are easily searched
 * can be grouped or categorized using labels
 * can be assigned to individuals, groups or teams
 * keep everyone in the loop
 * are a resource for future users (including yourself!)
+* allow for asynchronous communication
+* keep track of the history of decisions, progress, etc.
 
 ### Example issues
 #### Bug or troubleshooting
