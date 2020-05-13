@@ -30,7 +30,9 @@ We'll use the [SocCaribou](https://github.com/wildlifeevoeco/SocCaribou) project
 
 ### README
 
-A `README.md` file should always be included and stores information about the project. Installation instructions, TODOs, description or purpose of the project, authors, etc. 
+A `README.md` file should always be included and stores plenty of information about the project. Installation instructions, TODOs, description or purpose of the project, authors, news, known bugs or limitations, instructions for contributing, link to license, etc. 
+
+For example, the SocCaribou README:
 
 ```md
 
@@ -59,6 +61,13 @@ current version).
 ## Abstract
 ...
 ```
+
+Other examples:
+* [`spatsoc` README](https://github.com/ropensci/spatsoc/blob/master/README.md)
+* [`bookdown` README](https://github.com/rstudio/bookdown/blob/master/README.md)
+* [`rstudio-education/stats545`](https://github.com/rstudio-education/stat545/blob/master/README.md)
+
+* [Make a README](https://www.makeareadme.com/)
 
 
 ### Scripts
@@ -89,27 +98,26 @@ Data can be sorted into `input/` and `output/` folers.
 Alternatively, data can be divided according to `raw-data/` and `derived-data/`.
 
 ### Etc 
-Other elements can include:
+Other elements include:
 
 * LICENSE file -  [Choose an open source license](https://choosealicense.com/)
 * `graphics/` or `figures/` folder for figures and plots
 * `manuscript/` or `paper/` folder for storing the manuscript
 * `man/` folder for storing the documentation of your functions
-
+* [Keep a ChangeLog / News file](https://keepachangelog.com/en/1.0.0/). Traditionally in the R community, it is stored in a `NEWS.md` file. 
 
 ## RStudio projects
-https://csgillespie.github.io/efficientR/set-up.html#project-management
+Always work within RStudio Projects to avoid `setwd()` hell. If you share an RStudio Project (`.RProj`) with someone else, they can immediately use it without changing working directories or paths to files. 
+
+Details: [Efficient R / Project Management](https://csgillespie.github.io/efficientR/set-up.html#project-management). 
 
 
-saveRDS and readRDS between intermediate scripts
-https://csgillespie.github.io/efficientR/input-output.html#binary-file-formats
+### Data
+Always start with raw data. Use scripts to prepare and organize your data - never modify it by hand. This way, you can go always go back to the raw data in case anything changes in your prep steps. Keep track of where the raw data comes from, how it was generated, by who, when, etc. 
 
+#### Intermediate outputs
+Save intermediate outputs to `.Rds` files using the base R functions: `saveRDS()` and `readRDS()`. Again, more details in [Efficient R / Binary file formats](https://csgillespie.github.io/efficientR/input-output.html#binary-file-formats)
 
-always start with raw data
-
-keep raw data raw, never modify it by hand
-
-keep track of where data comes from, how it was generated, when it was generated
 
 ## Slides {#projects-slides}
 [Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
@@ -120,4 +128,4 @@ knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 
 ## Resources {#projects-resources}
 
-[Efficient Setup](https://csgillespie.github.io/efficientR/set-up.html) in Efficient R
+[Efficient Setup](https://csgillespie.github.io/efficientR/set-up.html) and [Efficient Input/Output](https://csgillespie.github.io/efficientR/input-output.html) in Efficient R
