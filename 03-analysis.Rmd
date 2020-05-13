@@ -2,6 +2,8 @@
 
 # data.table
 
+**TODO: ALR basic resources, and grab from slides**
+
 ## .SD
 https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html
 
@@ -38,7 +40,7 @@ Resources:
 
 * [blog post](https://ropensci.org/blog/2018/12/04/spatsoc/)
 * repository: [ropensci/spatsoc](https://github.com/ropensci/spatsoc/)
-* website (vignettes, documentation): [docs.ropensci.org/spatsoc](https://docs.ropensci.org/spatsoc/)
+* vignettes, documentation: [docs.ropensci.org/spatsoc](https://docs.ropensci.org/spatsoc/)
 * paper: [Conducting social network analysis with animal telemetry data: Applications and methods using spatsoc](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13215)
 * [CSTWS webinar](https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html)
 
@@ -65,7 +67,7 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 
 
 # Earth Engine
-**TODO: ALR**
+**TODO: ALR link to ee best practices, ee developers docs, your repo of scripts**
 
 # Cool Packages {#analysis-cool}
 
