@@ -16,7 +16,7 @@ DT[i, j, by]
 
 
 ## Advanced: list columns
-Use list columns to store a column of lists, or complex objects within a data.table. 
+Use list columns to store a column of lists, or complex objects within a data.table. For example, models
 
 
 [More details](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists)
@@ -26,6 +26,23 @@ Use list columns to store a column of lists, or complex objects within a data.ta
 `.SD` = Subset of the Data.table
 
 [Vignette](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html)
+
+##  CJ
+
+CJ = Cross Join
+
+For example: 
+
+```{r}
+library(data.table)
+
+apples <- c('red', 'green')
+butters <- c('peanut', 'almond')
+
+CJ(apples, butters)
+```
+
+This is similar to the base function `expand.grid` but allows for results to be sorted and keys to be set. 
 
 
 
