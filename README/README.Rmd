@@ -56,8 +56,8 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
 * basic roxygen
 * basic shiny
 * bash?
-
-
+* add ifd to sharing
+* landscapemetrics
 
 
 #### other resources
