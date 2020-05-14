@@ -5,8 +5,27 @@
 **TODO: ALR basic resources, and grab from slides**
 **TODO: list columns**
 
+## Resources {#dt-resources}
+[data.table website](https://rdatatable.gitlab.io/data.table/)
+
+[Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
+
+## Syntax
+
+DT[i, j, by]
+
+
+## Advanced: list columns
+Use list columns to store a column of lists, or complex objects within a data.table. 
+
+
+[More details](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists)
+
 ## .SD
-https://cran.r-project.org/web/packages/data.table/vignettes/datatable-sd-usage.html
+
+`.SD` = Subset of the Data.table
+
+[Vignette](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html)
 
 
 
