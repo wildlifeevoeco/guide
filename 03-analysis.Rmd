@@ -39,10 +39,29 @@ library(data.table)
 apples <- c('red', 'green')
 butters <- c('peanut', 'almond')
 
-CJ(apples, butters)
+DT <- CJ(apples, butters)
 ```
 
 This is similar to the base function `expand.grid` but allows for results to be sorted and keys to be set. 
+
+
+## .BY
+
+The special symbol `.BY` stores the list of items in provided to the by. For example, in the above DT of apples and butters, we have two types of apples and butters. 
+
+```{r}
+DT[, print(.BY), by = butters]
+
+DT[, print(.BY), by = apples]
+```
+
+We can use these in plots, subsetting other data.tables, etc. 
+
+```{r}
+library(ggplot2)
+
+DT[, {print(qplot(apples, xlab = .BY[[1]])); 1}, by = butters]
+```
 
 
 
