@@ -58,6 +58,7 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
 * bash?
 * add ifd to sharing
 * landscapemetrics
+* wg shiny?
 
 
 #### other resources

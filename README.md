@@ -19,10 +19,10 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
     ## ../98-etc.Rmd:3:**TODO: fill**
     ## ../03-analysis.Rmd:5:**TODO: ALR basic resources, and grab from slides**
     ## ../03-analysis.Rmd:6:**TODO: list columns**
-    ## ../03-analysis.Rmd:29:**TODO: more examples**
-    ## ../03-analysis.Rmd:71:**TODO: ALR link to ee best practices, ee developers docs, your repo of scripts**
-    ## ../03-analysis.Rmd:76:**TODO: add model summary tables, fake data**
-    ## ../03-analysis.Rmd:80:**TODO: organize into spatial/ plotting/ helper/ etc**
+    ## ../03-analysis.Rmd:84:**TODO: more examples**
+    ## ../03-analysis.Rmd:126:**TODO: ALR link to ee best practices, ee developers docs, your repo of scripts**
+    ## ../03-analysis.Rmd:131:**TODO: add model summary tables, fake data**
+    ## ../03-analysis.Rmd:135:**TODO: organize into spatial/ plotting/ helper/ etc**
 
 ### aes
 
@@ -77,6 +77,7 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
   - bash?
   - add ifd to sharing
   - landscapemetrics
+  - wg shiny?
 
 #### other resources
 
