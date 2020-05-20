@@ -17,14 +17,6 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
 
 ### content
 
-#### 
-* developing a question
-* a-priori hypotheses
-* multiple competing hypotheses
-* Visualizing your predictions
-* bacon popper
-
-
 #### general/misc
 * which license - no derivatives (see geocompr)
 * other resources are first class
