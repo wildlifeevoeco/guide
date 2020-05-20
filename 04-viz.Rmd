@@ -75,6 +75,8 @@ knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
 ## Spatial Plotting
 * mapview
 * leaflet
+* rnaturalearth for simplified geometries/coarse scale viz
+
 
 ## ggplot extensions
 * themes, theme set universal
