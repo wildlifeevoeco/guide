@@ -20,7 +20,7 @@ Wildlife Evolutionary Ecology Lab:
 * [weel.gitlab.io](https://weel.gitlab.io/)
 * [GitLab](https://gitlab.com/WEEL_grp)
 * [GitHub](https://github.com/wildlifeevoeco/)
-* [Twitter](https://twitter.com/wildlifeevoeco). 
+* [Twitter](https://twitter.com/wildlifeevoeco)
 
 
 Feedback, suggestions, comments [here](https://gitlab.com/weel/guide/-/issues). 
