@@ -32,6 +32,14 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
 #### lab
 * lab meeting presentations
 
+#### research
+* developing a question
+* a-priori hypotheses
+* multiple competing hypotheses
+* Visualizing your predictions
+* bacon popper
+
+
 #### misc
 * style guide
 * Supporting the project, eg cite it, contributing

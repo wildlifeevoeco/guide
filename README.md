@@ -10,6 +10,8 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
     ## ../06-git.Rmd:144:**TODO: expand to example of using ci to run tests script on output data**
     ## ../04-viz.Rmd:47:**TODO: ALR - examples, use ##C layout, & theme**
     ## ../04-viz.Rmd:73:**TODO: links, fill, grab from https://ropensci.org/packages/ under vis**
+    ## ../08-research.Rmd:3:**TODO: zotero/mendeley**
+    ## ../08-research.Rmd:4:**TODO: jbf hypo/bac**
     ## ../README/README.Rmd:11:grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
     ## ../05-writing.Rmd:6:**TODO: (Eric)**
     ## ../05-writing.Rmd:47:**TODO: images**
@@ -31,14 +33,6 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
 
 ### content
 
-#### 
-
-  - developing a question
-  - a-priori hypotheses
-  - multiple competing hypotheses
-  - Visualizing your predictions
-  - bacon popper
-
 #### general/misc
 
   - which license - no derivatives (see geocompr)
@@ -56,6 +50,14 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
 #### lab
 
   - lab meeting presentations
+
+#### research
+
+  - developing a question
+  - a-priori hypotheses
+  - multiple competing hypotheses
+  - Visualizing your predictions
+  - bacon popper
 
 #### misc
 
