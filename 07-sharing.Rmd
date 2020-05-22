@@ -22,7 +22,7 @@ A couple examples from outside our group include Carl Boettiger's [nonparametric
 ## Linking Zenodo and GitHub
 
 1. Set up your repository in the standard way with folders for data, scripts, manuscript, etc. See [here](Projects) for details. 
-1. Host your repository on GitHub. Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper. If you don't see that as an option, ask Alec to add you as a member of that group.
+1. Host your repository on GitHub. Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
     * making [a new repository](https://github.com/new) on GitHub and pushing there.  or by
     * mirroring your existing repository from GitLab there. See [below](#lab-to-hub) or [here](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core) for extended details. 
 1. Create a Zenodo account, log in, link to GitHub, and turn on the repository of interest\*. [Here are all the details](https://guides.github.com/activities/citable-code/). 
