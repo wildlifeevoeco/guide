@@ -76,6 +76,17 @@ Date: November 16 2017
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
 
+# Spatial Analysis
+
+## Data
+
+Open sources: Open Street Map, Natural Earth, Canadian Government, Provincial Governments.
+
+Examples of downloading and preparing spatial data from these sources in the [study-area-figures](https://gitlab.com/WEEL_grp/study-area-figures) repository (*-prep.R scripts).
+
+Packages used for downloading data include: `osmdata`, `rnaturalearth` and `curl`. 
+
+
 
 # Social Network Analysis
 

@@ -67,6 +67,9 @@ knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
 
 # Spatial Plotting
 
+Lots of examples of spatial plotting of vector data in the [study-area-figure](https://gitlab.com/WEEL_grp/study-area-figures) repository. 
+
+
 
 # Cool Packages {#viz-cool}
 
