@@ -43,7 +43,7 @@ On GitHub.com:
 
 On GitLab.com:
 
-1. Navigate to "Settings/Repository"
+1. Navigate to "Settings/Repository" (https://gitlab.com/user/repository/-/settings/repository)
 1. Select "Mirror a repository"
 1. Mirror direction: Push
 1. Repository URL: `https://<your_github_username>@github.com/<your_github_group>/<your_github_project>.git`
