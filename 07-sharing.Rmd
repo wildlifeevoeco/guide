@@ -36,9 +36,9 @@ A couple examples from outside our group include Carl Boettiger's [nonparametric
 
 On GitHub.com:
 
-1. Make an empty repo to receive commits from GitLab (https://github.com/new)
+1. Make an empty repo to receive commits from GitLab (https://github.com/new). Don't select "initialize with a README" - you want an empty repository. 
 1. Generate a new personal access token at https://github.com/settings/tokens 
-	1. Select `public_repo`
+	* Select `public_repo`
 1. Copy it, to use as password on Gitlab.com below
 
 On GitLab.com:
