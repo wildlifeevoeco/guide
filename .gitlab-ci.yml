@@ -1,8 +1,9 @@
 image: rocker/verse
 
 before_script:
-  #- apt-get update && apt-get -y install pandoc pandoc-citeproc r-base
-  - R -e "install.packages(c('data.table', 'rasterVis', 'sf'))"
+  - apt-get -y update && apt-get install -y  \
+  libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+  - R -e "install.packages(c('data.table', 'rasterVis', 'sf', 'units'))"
 
 pages:
   script:
