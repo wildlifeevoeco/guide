@@ -78,6 +78,61 @@ knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 
 # Spatial Analysis
 
+## raster package
+
+### Cropping a raster
+
+To crop a raster to the extent of relocations:
+
+
+```{r}
+## Packages
+library(data.table)
+library(raster)
+library(rasterVis)
+
+## Load data
+# DT is a data.table
+load('data/DT.rda')
+
+# DEM is a raster
+load('data/dem.rda')
+
+## Plot
+# Plot raster and points
+gplot(dem) +
+	geom_tile(aes(fill = value)) +
+	geom_point(aes(X, Y), data = DT)
+
+
+## Crop to points
+cropped <- crop(dem, DT[, as.matrix(cbind(X, Y))])
+
+gplot(cropped) +
+	geom_tile(aes(fill = value)) +
+	geom_point(aes(X, Y), data = DT)
+```
+
+If you'd like to buffer the points first, use `sf`. 
+
+```{r}
+## Optionally buffer points first
+library(sf)
+
+pts <- st_as_sf(DT, coords = c('X', 'Y'))
+
+
+buf <- st_buffer(pts, 1e4)
+
+
+bufCropped <- crop(dem, buf)
+
+gplot(bufCropped) +
+	geom_tile(aes(fill = value)) +
+	geom_point(aes(X, Y), data = DT)
+```
+
+
 ## Data
 
 Open sources: Open Street Map, Natural Earth, Canadian Government, Provincial Governments.
