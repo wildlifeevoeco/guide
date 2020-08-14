@@ -31,6 +31,9 @@ A couple examples from outside our group include Carl Boettiger's [nonparametric
 
 \* **Note:** make sure to turn on the repository of interest, *before* making the release on GitHub. At the moment, Zenodo only tracks future releases - though in progress [here](https://github.com/zenodo/zenodo/issues/1463). 
 
+\* **Note:** if you need to make changes after publishing, make those changes in the repository and add a new Git tag + release on GitHub (https://github.com/namespace/repo-name/releases). 
+
+
 
 ## Mirroring from GitLab to GitHub {#lab-to-hub}
 
