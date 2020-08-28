@@ -18,23 +18,6 @@ Each of these repositories are also linked to [Zenodo](https://zenodo.org), with
 A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena) papers. 
 
 
-
-## Linking Zenodo and GitHub
-
-1. Set up your repository in the standard way with folders for data, scripts, manuscript, etc. See [here](Projects) for details. 
-1. Host your repository on GitHub. Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
-    * making [a new repository](https://github.com/new) on GitHub and pushing there.  or by
-    * mirroring your existing repository from GitLab there. See [below](#lab-to-hub) or [here](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core) for extended details. 
-1. Create a Zenodo account, log in, link to GitHub, and turn on the repository of interest\*. [Here are all the details](https://guides.github.com/activities/citable-code/). 
-1. Create your release, get a DOI, add it to your README with the badge shown in [here](https://zenodo.org/account/settings/github). 
-1. Edit the page on Zenodo, setting up manuscript/project authors, title etc. 
-
-\* **Note:** make sure to turn on the repository of interest, *before* making the release on GitHub. At the moment, Zenodo only tracks future releases - though in progress [here](https://github.com/zenodo/zenodo/issues/1463). 
-
-\* **Note:** if you need to make changes after publishing, make those changes in the repository and add a new Git tag + release on GitHub (https://github.com/namespace/repo-name/releases). 
-
-
-
 ## Mirroring from GitLab to GitHub {#lab-to-hub}
 
 On GitHub.com:
@@ -56,6 +39,24 @@ Check results:
 
 1. Wait for the spinning circle to finish, make sure no errors come up. 
 1. Navigate to your new GitHub repository. It may take a few minutes to update. 
+
+
+## Linking Zenodo and GitHub
+
+1. Set up your repository in the standard way with folders for data, scripts, manuscript, etc. See [here](Projects) for details. 
+1. Host your repository on GitHub. Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
+    * making [a new repository](https://github.com/new) on GitHub and pushing there.  or by
+    * mirroring your existing repository from GitLab there. See [below](#lab-to-hub) or [here](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core) for extended details. 
+1. Create a Zenodo account, log in, link to GitHub, and turn on the repository of interest\*. [Here are all the details](https://guides.github.com/activities/citable-code/). 
+1. Create your release, get a DOI, add it to your README with the badge shown in [here](https://zenodo.org/account/settings/github). 
+1. Edit the page on Zenodo, setting up manuscript/project authors, title etc. 
+
+\* **Note:** make sure to turn on the repository of interest, *before* making the release on GitHub. At the moment, Zenodo only tracks future releases - though in progress [here](https://github.com/zenodo/zenodo/issues/1463). 
+
+\* **Note:** if you need to make changes after publishing, make those changes in the repository and add a new Git tag + release on GitHub (https://github.com/namespace/repo-name/releases). 
+
+
+
 
 
 
