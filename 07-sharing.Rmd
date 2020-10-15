@@ -6,63 +6,64 @@ This is a small portion of the larger discussion surrounding reproducible resear
 
 In our lab:
 
-* the [`SocCaribou`](https://github.com/wildlifeevoeco/SocCaribou) repository is a fully functioning R package with functions used for the paper, and a series of ordered scripts for running the analysis. The paper included is simply the journal's typeset version. 
+-   the [`SocCaribou`](https://github.com/wildlifeevoeco/SocCaribou) repository is a fully functioning R package with functions used for the paper, and a series of ordered scripts for running the analysis. The paper included is simply the journal's typeset version.
 
-* the [`spatsoc-application-paper`](https://github.com/robitalec/spatsoc-application-paper). This is a paper outlining the R package `spatsoc` developed by Alec, Quinn and Eric. Included are the scripts to generate each of the figures, the data used for the figures, and the full `.Rmd` manuscript, along with a typeset vesion.
+-   the [`spatsoc-application-paper`](https://github.com/robitalec/spatsoc-application-paper). This is a paper outlining the R package `spatsoc` developed by Alec, Quinn and Eric. Included are the scripts to generate each of the figures, the data used for the figures, and the full `.Rmd` manuscript, along with a typeset vesion.
 
-* the [`MovingAcrossGradients`](https://github.com/wildlifeevoeco/MovingAcrossGradients) lab paper from 2018. 
-
+-   the [`MovingAcrossGradients`](https://github.com/wildlifeevoeco/MovingAcrossGradients) lab paper from 2018.
 
 Each of these repositories are also linked to [Zenodo](https://zenodo.org), with "GitHub releases" triggering an updated DOI, etc.
 
-A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena) papers. 
-
+A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena) papers.
 
 ## Mirroring from GitLab to GitHub {#lab-to-hub}
 
 On GitHub.com:
 
-1. Make an empty repo to receive commits from GitLab (https://github.com/new). Don't select "initialize with a README" - you want an empty repository. 
-1. Generate a new personal access token at https://github.com/settings/tokens 
-	* Select `public_repo`
-1. Copy it, to use as password on Gitlab.com below
+1.  Make an empty repo to receive commits from GitLab (<https://github.com/new>). Don't select "initialize with a README" - you want an empty repository.
+
+2.  Generate a new personal access token at <https://github.com/settings/tokens>
+
+    -   Select `public_repo`
+
+3.  Copy it, to use as password on Gitlab.com below
 
 On GitLab.com:
 
-1. Navigate to "Settings/Repository" (https://gitlab.com/user/repository/-/settings/repository)
-1. Select "Mirror a repository"
-1. Mirror direction: Push
-1. Repository URL: `https://<your_github_username>@github.com/<your_github_group>/<your_github_project>.git`
-1. Password: paste the personal access token generated on Github here
+1.  Navigate to "Settings/Repository" (<https://gitlab.com/user/repository/-/settings/repository>)
+2.  Select "Mirror a repository"
+3.  Mirror direction: Push
+4.  Repository URL: `https://<your_github_username>@github.com/<your_github_group>/<your_github_project>.git`
+5.  Password: paste the personal access token generated on Github here
 
 Check results:
 
-1. Wait for the spinning circle to finish, make sure no errors come up. 
-1. Navigate to your new GitHub repository. It may take a few minutes to update. 
-
+1.  Wait for the spinning circle to finish, make sure no errors come up.
+2.  Navigate to your new GitHub repository. It may take a few minutes to update.
 
 ## Linking Zenodo and GitHub
 
-1. Set up your repository in the standard way with folders for data, scripts, manuscript, etc. See [here](Projects) for details. 
-1. Host your repository on GitHub. Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
-    * making [a new repository](https://github.com/new) on GitHub and pushing there.  or by
-    * mirroring your existing repository from GitLab there. See [below](#lab-to-hub) or [here](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core) for extended details. 
-1. Create a Zenodo account, log in, link to GitHub, and turn on the repository of interest\*. [Here are all the details](https://guides.github.com/activities/citable-code/). 
-1. Create your release, get a DOI, add it to your README with the badge shown in [here](https://zenodo.org/account/settings/github). 
-1. Edit the page on Zenodo, setting up manuscript/project authors, title etc. 
+1.  Set up your repository in the standard way with folders for data, scripts, manuscript, etc. See [here](Projects) for details.
 
-\* **Note:** make sure to turn on the repository of interest, *before* making the release on GitHub. At the moment, Zenodo only tracks future releases - though in progress [here](https://github.com/zenodo/zenodo/issues/1463). 
+2.  Host your repository on GitHub. Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
 
-\* **Note:** if you need to make changes after publishing, make those changes in the repository and add a new Git tag + release on GitHub (https://github.com/namespace/repo-name/releases). 
+    -   making [a new repository](https://github.com/new) on GitHub and pushing there. or by
+    -   mirroring your existing repository from GitLab there. See [below](#lab-to-hub) or [here](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core) for extended details.
 
+3.  Create a Zenodo account, log in, link to GitHub, and turn on the repository of interest\*. [Here are all the details](https://guides.github.com/activities/citable-code/).
 
+4.  Create your release (see [here](https://r-pkgs.org/release.html#release-version) for picking a version number), get a DOI, add it to your README with the badge shown in [here](https://zenodo.org/account/settings/github).
 
+5.  Edit the page on Zenodo, setting up manuscript/project authors, title etc.
 
+\* **Note:** make sure to turn on the repository of interest, *before* making the release on GitHub. At the moment, Zenodo only tracks future releases - though in progress [here](https://github.com/zenodo/zenodo/issues/1463).
 
+\* **Note:** if you need to make changes after publishing, make those changes in the repository and add a new Git tag + release on GitHub (<https://github.com/namespace/repo-name/releases>).
 
 ## Resources
-A recent community call with rOpenSci: [summary blog](https://ropensci.org/blog/2018/11/29/codereview/) and [notes](https://docs.google.com/document/d/1LfyhgsbVgLWgWPhS0nbaBIZSFjireEBBSYL4PmhUJis/edit). 
 
-A paper on [research compendium](/user_uploads/4422/JZqXfCyHQv5eePmN7vFYoIwM/Packaging-Data-Analytical-Work-Reproducibly-Using-R-and-Friends.pdf) from Lincoln Mullen and Carl Boettiger. 
+A recent community call with rOpenSci: [summary blog](https://ropensci.org/blog/2018/11/29/codereview/) and [notes](https://docs.google.com/document/d/1LfyhgsbVgLWgWPhS0nbaBIZSFjireEBBSYL4PmhUJis/edit).
+
+A paper on [research compendium](/user_uploads/4422/JZqXfCyHQv5eePmN7vFYoIwM/Packaging-Data-Analytical-Work-Reproducibly-Using-R-and-Friends.pdf) from Lincoln Mullen and Carl Boettiger.
 
 [Details in the GitLab docs on mirroring](https://docs.gitlab.com/ee/workflow/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core)
