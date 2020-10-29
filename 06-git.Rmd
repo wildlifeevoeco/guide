@@ -10,7 +10,8 @@
 * commit messages
 * .gitignore
 * why use git
-* what can you do with git (projects, packages, websites, books, etc)
+* what can you do with git (projects, packages, websites, books, etc)\
+* oops big files - use the BFG
 
 ## `.gitignore`
 
