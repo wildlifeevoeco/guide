@@ -16,9 +16,13 @@ Each of these repositories are also linked to [Zenodo](https://zenodo.org), with
 
 A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena) papers.
 
-## Mirroring from GitLab to GitHub {#lab-to-hub}
+## Moving from GitLab to GitHub {#lab-to-hub}
 
-Recently, I found an alternative way to import, using the GitHub Importer. This seems easier than using access tokens, please let me know what you think.
+Two options and it depends on if you'd like your repository to be mirrored over
+(dynamic, with updates) or imported (static, one time snapshot). Using the 
+GitHub Importer is easy but will only take a static snapshot. Otherwise,
+use an access token and mirror the repository for a dynamic link between GitLab 
+and GitHub that will copy over future changes. 
 
 ### Using GitHub Importer
 
