@@ -24,18 +24,6 @@ GitHub Importer is easy but will only take a static snapshot. Otherwise,
 use an access token and mirror the repository for a dynamic link between GitLab 
 and GitHub that will copy over future changes. 
 
-### Using GitHub Importer
-
-1.  Open <https://github.com/new/import>.
-2.  Select the "Owner". Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
-3.  Provide a repository name.
-4.  Select "Public".
-5.  Select "Begin import"
-6.  If prompted for credentials, provide them for the repository that is being imported, not GitHub.
-7.  Check your email for confirmation.
-
-The GitHub Importer is described [here](https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/importing-a-repository-with-github-importer).
-
 ### Using an access token
 
 On GitHub.com:
@@ -60,6 +48,19 @@ Check results:
 
 1.  Wait for the spinning circle to finish, make sure no errors come up.
 2.  Navigate to your new GitHub repository. It may take a few minutes to update.
+
+
+### Using GitHub Importer
+
+1.  Open <https://github.com/new/import>.
+2.  Select the "Owner". Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
+3.  Provide a repository name.
+4.  Select "Public".
+5.  Select "Begin import"
+6.  If prompted for credentials, provide them for the repository that is being imported, not GitHub.
+7.  Check your email for confirmation.
+
+The GitHub Importer is described [here](https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/importing-a-repository-with-github-importer).
 
 ## Linking Zenodo and GitHub
 
