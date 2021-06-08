@@ -129,3 +129,8 @@ knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 ## Resources {#projects-resources}
 
 [Efficient Setup](https://csgillespie.github.io/efficientR/set-up.html) and [Efficient Input/Output](https://csgillespie.github.io/efficientR/input-output.html) in Efficient R
+
+
+## Metadata
+
+TODO: fill
