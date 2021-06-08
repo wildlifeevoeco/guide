@@ -101,3 +101,11 @@ Date: October 21 2019
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
 ```
+
+
+## Manuscript notes
+
+TODO: fill
+
+use PDF for supplements, latex changes for fig caps
+flextable for office tables
