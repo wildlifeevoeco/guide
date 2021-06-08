@@ -207,6 +207,7 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 
 ## Dates and times
 * [`anytime`](https://github.com/eddelbuettel/anytime) 
+* [`parsedate`](https://github.com/gaborcsardi/parsedate) 
 
 ## Spatial packages
 
@@ -214,4 +215,4 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 * [`parzer`](https://github.com/ropensci/parzer) parsing geographic coordinates
 
 
-https://ropensci.org/packages/
+<!-- https://ropensci.org/packages/ -->
