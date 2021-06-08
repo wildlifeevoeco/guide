@@ -18,6 +18,8 @@ A couple examples from outside our group include Carl Boettiger's [nonparametric
 
 ## Moving from GitLab to GitHub {#lab-to-hub}
 
+TODO: fill alternative option - switch remote to github and pull mirror from gitlab
+
 Two options and it depends on if you'd like your repository to be mirrored over
 (dynamic, with updates) or imported (static, one time snapshot). Using the 
 GitHub Importer is easy but will only take a static snapshot. Otherwise,
