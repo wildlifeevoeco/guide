@@ -10,6 +10,9 @@
 
 [Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
 
+https://github.com/alastairrushworth/free-data-science
+
+
 ## Syntax
 
 DT[i, j, by]
