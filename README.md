@@ -2,6 +2,8 @@
 ## TODO
 
 https://search.r-project.org/CRAN/refmans/xfun/html/gsub_file.html
+metadata
+prepare-locs (as a first stage, general use preparing. not to handle specific eg. movement ecology preparation etc)
 
 
 ``` bash
