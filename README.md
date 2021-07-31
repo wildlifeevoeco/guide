@@ -1,6 +1,9 @@
 
 ## TODO
 
+https://search.r-project.org/CRAN/refmans/xfun/html/gsub_file.html
+
+
 ``` bash
 grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
 ```
@@ -66,7 +69,7 @@ grep -rni ../ --include \*.Rmd -e 'TODO:' || true;
 
 #### new content
 
-  - Makefiles, also eg snakemake etc etc
+  - ~~Makefiles, also eg snakemake etc etc~~ targets
   - bibtex, csl files
   - gitlab ci/cd
   - ask jbf/kak things we’ve learned
