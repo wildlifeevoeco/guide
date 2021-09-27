@@ -188,18 +188,10 @@ Packages used for downloading data include: `osmdata`, `rnaturalearth` and `curl
 
 # Social Network Analysis
 
-## Examples
+## `spatsoc`
 
-**TODO: more examples**
-
-[SocCaribou/Social Network Analysis](https://github.com/wildlifeevoeco/SocCaribou/blob/master/scripts/4-SocialNetworkAnalysis.R)
-
-
-## Packages
-
-### `spatsoc`
-
-Alec, Quinn and Eric developed `spatsoc`, an R package for generating social networks from GPS data. 
+Alec, Quinn and Eric developed `spatsoc`, an R package for generating social
+networks from GPS data.
 
 Resources:
 
@@ -209,13 +201,19 @@ Resources:
 * paper: [Conducting social network analysis with animal telemetry data: Applications and methods using spatsoc](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13215)
 * [CSTWS webinar](https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html)
 
+## Examples
 
-### `hwig`
+The [Social Network Analysis](https://github.com/wildlifeevoeco/SocCaribou/blob/master/scripts/4-SocialNetworkAnalysis.R)
+step in the SocCaribou project is a great place to start.
+
+Alec also recently made a `targets` workflow for `spatsoc`, so feel free to
+check that out too: [targets-spatsoc-networks](https://github.com/robitalec/targets-spatsoc-networks)
+
+## `hwig`
 
 Alec developed `hwig`, an R package for calculating gregariousness adjusted half-weight index.
 
 * repository: [robitalec/hwig](https://github.com/robitalec/hwig)
-
 
 ## Slides {#sna-slides}
 
@@ -226,8 +224,6 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 ## Slides {#brn-slides}
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTPmfrBj_WyLSq6AhmTXrAwxGDNzve3F7Dhgwr-01m9yU7WE2tDLttT-18MXrxTyg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-
 
 
 
@@ -246,16 +242,9 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 ## Data frames / tables / sheets
 * [`googlesheets4`](https://googlesheets4.tidyverse.org/)
 
-
-
 ## Dates and times
 * [`anytime`](https://github.com/eddelbuettel/anytime) 
 * [`parsedate`](https://github.com/gaborcsardi/parsedate) 
 
 ## Spatial packages
-
-
 * [`parzer`](https://github.com/ropensci/parzer) parsing geographic coordinates
-
-
-<!-- https://ropensci.org/packages/ -->
