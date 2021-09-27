@@ -176,15 +176,37 @@ knitr::include_url('https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html')
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRMzDEm8bkxbERxRummBcgqHzOb2vLasEgJNsNC8r462hANEUCwu4dxDyVkdmroFCK7HFsIkhawKe_t/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
+
+# Earth Engine
+
+## Resources
+
+<!-- TODO fill best practices, EE group, repo of my scripts-->
+
+
+[Google Earth Engine Developer guide](https://developers.google.com/earth-engine/guides)
+
+
+## Slides
+Workshop: An Introduction to Remote Sensing with Earth Engine
+
+Authors: Alec L. Robitaille, Isabella C. Richmond
+
+Date: December 10 2020
+
+[Slides](https://slides.robitalec.ca/ee.html) 
+
+[Resources](https://github.com/robitalec/workshops/tree/master/ee)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/ee.html')
+```
+
 # Behavioural Reaction Norms
 ## Slides {#brn-slides}
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTPmfrBj_WyLSq6AhmTXrAwxGDNzve3F7Dhgwr-01m9yU7WE2tDLttT-18MXrxTyg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-
-
-# Earth Engine
-**TODO: ALR link to ee best practices, ee developers docs, your repo of scripts**
 
 
 # Models
