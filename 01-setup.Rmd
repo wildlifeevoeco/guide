@@ -26,8 +26,6 @@ There are a couple of useful settings to change in RStudio.
 
 See [Efficient R / Rstudio options](https://csgillespie.github.io/efficientR/set-up.html#rstudio-options) for more information. 
 
-https://csgillespie.github.io/efficientR/set-up.html#rstudio-options
-
 
 ## System dependencies
 Windows users: install [RTools](https://cran.r-project.org/bin/windows/Rtools/). 
