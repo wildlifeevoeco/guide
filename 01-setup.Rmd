@@ -37,7 +37,7 @@ To use spatial packages (eg.: `sf`), we need to install some system dependencies
 
 You may also find it easier to install using the R-universe version of packages, for example: 
 
-```{r}
+```{r, eval = FALSE}
 # Enable this universe
 options(repos = c(
   	rspatial = 'https://r-spatial.r-universe.dev',
