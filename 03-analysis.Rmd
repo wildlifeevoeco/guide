@@ -12,7 +12,8 @@ Others
 * [An aggregated list of free resources](https://github.com/alastairrushworth/free-data-science)
 
 
-# data.table
+# Packages
+## data.table
 
 `data.table` is Alec's favorite R package because it is incredibly efficient, 
 lightweight and has incredibly responsive and dedicated developers (thank you!). `dplyr` and 
@@ -22,7 +23,7 @@ for you.
 
 <!-- **TODO: ALR basic resources, and grab from slides** -->
 
-## Syntax
+### Syntax
 
 DT[i, j, by]
 
@@ -33,13 +34,13 @@ Use list columns to store a column of lists, or complex objects within a data.ta
 
 [More details](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists)
 
-## .SD
+### .SD
 
 `.SD` = Subset of the Data.table
 
 [Vignette](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html)
 
-##  CJ
+###  CJ
 
 CJ = Cross Join
 
@@ -57,7 +58,7 @@ DT <- CJ(apples, butters)
 This is similar to the base function `expand.grid` but allows for results to be sorted and keys to be set. 
 
 
-## .BY
+### .BY
 
 The special symbol `.BY` stores the list of items in provided to the by. For example, in the above DT of apples and butters, we have two types of apples and butters. 
 
@@ -76,13 +77,13 @@ DT[, {print(qplot(apples, xlab = .BY[[1]])); 1}, by = butters]
 ```
 
 
-## Resources {#dt-resources}
+### Resources {#dt-resources}
 * [data.table website](https://rdatatable.gitlab.io/data.table/)
 * [Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
 
 
 
-## Slides {#dt-slides}
+### Slides {#dt-slides}
 Workshop: Introduction to data.table
 
 Date: November 16 2017
@@ -93,7 +94,7 @@ Date: November 16 2017
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
 
-# targets
+## targets
 
 `targets` is Alec's other favorite package. It is an tool for combining your 
 functions and data into a full analysis pipeline. Targets (like predecessors
