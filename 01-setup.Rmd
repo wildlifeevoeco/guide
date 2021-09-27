@@ -58,7 +58,7 @@ install.packages(c('rmarkdown', 'bookdown', 'knitr'))
 ```
 
 
-and use [`tinytex`](https://yihui.org/tinytex/) to get an easy to install and use TeX setup on your computer. 
+and [`tinytex`](https://yihui.org/tinytex/) helps us get TeX easily installed on your computer. 
 
 
 ```{r, eval = FALSE}
