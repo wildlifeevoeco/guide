@@ -76,6 +76,11 @@ DT[, {print(qplot(apples, xlab = .BY[[1]])); 1}, by = butters]
 ```
 
 
+## Resources {#dt-resources}
+* [data.table website](https://rdatatable.gitlab.io/data.table/)
+* [Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
+
+
 
 ## Slides {#dt-slides}
 Workshop: Introduction to data.table
