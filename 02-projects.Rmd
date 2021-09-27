@@ -59,21 +59,27 @@ for use in other projects and may not be suitable (at least not in their
 current version).
 
 ## Abstract
-...
+Animals use a variety of proximate cues to assess habitat quality when resources
+vary spatiotemporally. Two non-mutually exclusive strategies to assess habitat
+quality involve either direct assessment of landscape features or observation of
+social cues from conspecifics as a form of information transfer about forage
+resources. [...]
+
 ```
 
 Other examples:
+
 * [`spatsoc` README](https://github.com/ropensci/spatsoc/blob/master/README.md)
 * [`bookdown` README](https://github.com/rstudio/bookdown/blob/master/README.md)
 * [`rstudio-education/stats545`](https://github.com/rstudio-education/stat545/blob/master/README.md)
 
-* [Make a README](https://www.makeareadme.com/)
 
+More on README's
+* [Make a README](https://www.makeareadme.com/)
+* [Github's About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
 ### Scripts
-R scripts can be organized into `scripts/` or `R/`. The `R/` folder is used by R packages to store functions and this can be a useful way of differentiating different kinds of R scripts. 
 
-The [SocCaribou](https://github.com/wildlifeevoeco/SocCaribou) project has both an `R/` folder and a `scripts/` folder. 
 
 ```
 SocCaribou
