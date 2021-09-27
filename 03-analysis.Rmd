@@ -57,6 +57,8 @@ introduce it here - the package is well documented by a dedicated, and incredibl
 helpful developer (thanks!). The pay off here is huge, write functions in R
 and easily rerun your analysis with one step (`tar_make()`).
 
+[`targets` manual](https://books.ropensci.org/targets/)
+
 Some projects in the lab that have used `targets` are:
 
 * Alec's Movebank summarizer: [`move-book`](https://github.com/robitalec/move-book)
