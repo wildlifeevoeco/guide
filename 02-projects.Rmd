@@ -118,8 +118,29 @@ SocCaribou
 
 ### Data
 
-Data can be sorted into `input/` and `output/` folers. 
-Alternatively, data can be divided according to `raw-data/` and `derived-data/`.
+Always start with raw data. Keep raw data raw in a `raw-data/` folder.
+
+Then use scripts to prepare and organize your data -
+never modify it by hand. This way, you can go always go back to the raw data in
+case anything changes in your preparation steps. 
+
+
+Intermediate and output data can be sorted into `input/` and `output/` folders and
+saved as an `.Rds` files using the base R functions:
+`saveRDS()` and `readRDS()`. More details in 
+[Efficient R / Binary file formats](https://csgillespie.github.io/efficientR/input-output.html#binary-file-formats). Or if you use `data.table`, use `fread` and `fwrite` to read/write CSV files. 
+If your dates are stored in the ISO standard format, they will be automatically
+converted to `POSIXct` by `fread`. 
+
+## Metadata
+
+Keep track of where the raw data comes from, how it was generated, by who, when,
+etc using metadata. See the [`metadata`](https://gitlab.com/weel/metadata)
+project. Use this project to write metadata for your data. Talk to Alec about
+contributing/using it!
+
+https://weel.gitlab.io/metadata
+
 
 ### Etc 
 Other elements include:
