@@ -1,17 +1,26 @@
 # (PART) Analysis {-}
 
+# Data science resources (generally)
+
+Read [Advanced R](https://adv-r.hadley.nz/) and [Efficient R](https://csgillespie.github.io/efficientR/). 
+
+
+Others
+
+* [rOpenSci resources](https://ropensci.org/resources/)
+* [StackOverflow R tag](https://stackoverflow.com/questions/tagged/r)
+* [An aggregated list of free resources](https://github.com/alastairrushworth/free-data-science)
+
+
 # data.table
 
-**TODO: ALR basic resources, and grab from slides**
-**TODO: list columns**
+`data.table` is Alec's favorite R package because it is incredibly efficient, 
+lightweight and has incredibly responsive and dedicated developers (thank you!). `dplyr` and 
+etc `tidyverse` packages are full of great functions and workflows, so check those
+out as well. Life isn't about strange, strict binaries/camps - use what works
+for you. 
 
-## Resources {#dt-resources}
-[data.table website](https://rdatatable.gitlab.io/data.table/)
-
-[Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
-
-https://github.com/alastairrushworth/free-data-science
-
+<!-- **TODO: ALR basic resources, and grab from slides** -->
 
 ## Syntax
 
