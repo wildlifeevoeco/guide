@@ -18,15 +18,39 @@ A couple examples from outside our group include Carl Boettiger's [nonparametric
 
 ## Moving from GitLab to GitHub {#lab-to-hub}
 
-TODO: fill alternative option - switch remote to github and pull mirror from gitlab
-
-Two options and it depends on if you'd like your repository to be mirrored over
+Three options and it depends on if you'd like your repository to be mirrored over
 (dynamic, with updates) or imported (static, one time snapshot). Using the 
-GitHub Importer is easy but will only take a static snapshot. Otherwise,
-use an access token and mirror the repository for a dynamic link between GitLab 
+GitHub Importer (option 3) is easy but will only take a static snapshot. Otherwise,
+change your remote (option 1), or use an access token (option 2) and 
+mirror the repository for a dynamic link between GitLab 
 and GitHub that will copy over future changes. 
 
-### Using an access token
+### Option 1: Changing your remote (dynamic)
+
+Note: This approach locally changes your remote path to the Git repository. 
+If there are multiple users of the repository, they **must** either 1) also 
+change their remote path or 2) clone the new repository at the updated path (
+and ideally delete the old local repository).
+
+On GitHub.com:
+
+1.  Make an empty repo (<https://github.com/new>). Don't select "initialize with a README" - you want an empty repository.
+
+In GitAhead, or other Git tool on your computer:
+
+1. Open the repository you want to move to GitHub.
+
+2. Edit the URL of the remote. In GitAhead: Select the "Remote" menu/Select "Configure remotes"/Double click on the URL and change the value to your GitHub clone URL eg. https://github.com/wildlifeevoeco/MovingAcrossGradients.git or git@github.com:wildlifeevoeco/MovingAcrossGradients.git
+
+3. Push. It may take longer than usual, it is going to push the entire Git history to the empty GitHub repository. 
+
+4. Check your new GitHub repository. You should see all the commits and files there. 
+
+If you want your GitLab version to stay up to date, use a Pull remote mirroring. 
+More information here: https://docs.gitlab.com/ee/user/project/repository/mirror/pull.html
+
+
+### Option 2: Using an access token (dynamic)
 
 On GitHub.com:
 
@@ -52,7 +76,7 @@ Check results:
 2.  Navigate to your new GitHub repository. It may take a few minutes to update.
 
 
-### Using GitHub Importer
+### Option 3: Using GitHub Importer (static)
 
 1.  Open <https://github.com/new/import>.
 2.  Select the "Owner". Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
