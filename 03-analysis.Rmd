@@ -93,6 +93,23 @@ Date: November 16 2017
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
 
+# targets
+
+`targets` is Alec's other favorite package. It is an tool for combining your 
+functions and data into a full analysis pipeline. Targets (like predecessors
+`drake` and GNU Make), monitors changes to data and R code to only rerun 
+what you need to, when you need to. It has helped me build huge pipelines
+with thousands of datasets, and many analytical steps. I won't attempt to 
+introduce it here - the package is well documented by a dedicated, and incredibly
+helpful developer (thanks!). The pay off here is huge, write functions in R
+and easily rerun your analysis with one step (`tar_make()`).
+
+Some projects in the lab that have used `targets` are:
+
+* Alec's Movebank summarizer: [`move-book`](https://github.com/robitalec/move-book)
+* Preparing animal movement data with [`prepare-locs`](https://github.com/robitalec/prepare-locs)
+* [Caribou swimming paper](https://github.com/wildlifeevoeco/CaribouSwimming) (using `drake`)
+
 # Spatial Analysis
 
 ## raster package
