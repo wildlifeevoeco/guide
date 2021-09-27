@@ -1,18 +1,17 @@
 # (PART) Analysis {-}
 
-# Data science resources (generally)
+# Data science
 
 Read [Advanced R](https://adv-r.hadley.nz/) and [Efficient R](https://csgillespie.github.io/efficientR/). 
 
-
-Others
+Others resources
 
 * [rOpenSci resources](https://ropensci.org/resources/)
 * [StackOverflow R tag](https://stackoverflow.com/questions/tagged/r)
 * [An aggregated list of free resources](https://github.com/alastairrushworth/free-data-science)
 
 
-## Functions
+# Functions
 
 October 25 2018 - Functions in R
 
@@ -25,8 +24,7 @@ knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
 ```
 
 
-# Packages
-## data.table
+# data.table
 
 `data.table` is Alec's favorite R package because it is incredibly efficient, 
 lightweight and has incredibly responsive and dedicated developers (thank you!). `dplyr` and 
@@ -59,7 +57,7 @@ Date: November 16 2017
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
 
-## targets
+# targets
 
 `targets` is Alec's other favorite package. It is an tool for combining your 
 functions and data into a full analysis pipeline. Targets (like predecessors
