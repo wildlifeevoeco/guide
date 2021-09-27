@@ -24,6 +24,7 @@ for you.
 
 ### Syntax
 <!-- **TODO: ALR basic resources, and grab from slides** -->
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 
 DT[i, j, by]
@@ -72,8 +73,14 @@ doubt be used instead of `sp`. It drops easily into `ggplot2` and other packages
 `terra` may need to be converted to a raster for compatibility with
 some packages or functions. 
 
+### `sf`
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-### `raster` package
+### `terra`
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+
+### `raster`
 
 #### Cropping a raster
 
