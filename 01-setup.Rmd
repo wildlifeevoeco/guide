@@ -35,7 +35,19 @@ Mac users: install [Xcode](https://developer.apple.com/xcode/resources/) and [ho
 ### Spatial packages
 To use spatial packages (eg.: `sf`), we need to install some system dependencies. The `sf` [README](https://github.com/r-spatial/sf#installing) has great instructions. Make sure to install these dependencies before trying to install spatial packages.
 
-TODO: install with r-universe, why etc 
+You may also find it easier to install using the R-universe version of packages, for example: 
+
+```{r}
+# Enable this universe
+options(repos = c(
+  	rspatial = 'https://r-spatial.r-universe.dev',
+    r_spatial = 'https://rspatial.r-universe.dev',
+    CRAN = 'https://cloud.r-project.org'))
+
+# Install sf and terra packages
+install.packages(c('sf', 'terra'))
+```
+
 
 ### R Markdown {#rmd-setup}
 
