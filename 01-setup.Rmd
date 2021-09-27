@@ -14,6 +14,9 @@ update.packages(checkBuilt = TRUE, ask = FALSE)
 
 ## RStudio
 
+Download and install the [latest version of RStudio](https://www.rstudio.com/products/rstudio/download/#download).
+
+
 There are a couple of useful settings to change in RStudio. 
 
 
