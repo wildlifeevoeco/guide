@@ -2,21 +2,44 @@
 
 # ggplot2
 
+## Slides {#gg-slides}
+Workshop: Introduction to ggplot2
+
+Date: November 2 2017
+
+[Slides](https://slides.robitalec.ca/intro-ggplot.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=intro-ggplot)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
+```
+
+
+## Resources  {#gg-resources}
+
+[ggplot2 book](https://ggplot2-book.org/)
+
+
+## Facets
+
+
 ```{r, include = FALSE}
 library(ggplot2)
 data(diamonds)
-```
 
-## Facets by chunks of data
-
-Facet wrap using automatically binned values:
-
-"What is going on?!?"
-
-```{r}
 ggplot(diamonds, aes(depth, price)) + 
   geom_point()
 ```
+
+Facet wrap using categorical columns:
+
+```{r}
+ggplot(diamonds, aes(depth, price)) + 
+  geom_point() + 
+  facet_wrap(~cut)
+```
+
+
+Facet wrap using automatically binned values:
 
 "What if I look at four separate chunks of the data, with approximately the same number of points"
 
@@ -43,46 +66,38 @@ ggplot(diamonds, aes(depth, price)) +
 
 
 ## Combining plots
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-**TODO: ALR - examples, use ##C layout, & theme**
+<!-- **TODO: ALR - examples, use ##C layout, & theme** -->
 
-the one and only: [`patchwork`](https://patchwork.data-imaginist.com/)
-
-## Slides {#gg-slides}
-Workshop: Introduction to ggplot2
-
-Date: November 2 2017
-
-[Slides](https://slides.robitalec.ca/intro-ggplot.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=intro-ggplot)
-
-```{r, echo = FALSE}
-knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
-```
+The one and only: [`patchwork`](https://patchwork.data-imaginist.com/).
 
 
-## Resources  {#gg-resources}
-
-[ggplot2 book](https://ggplot2-book.org/)
-
-
-# Spatial Plotting
+# Spatial plotting
 
 Lots of examples of spatial plotting of vector data in the [study-area-figure](https://gitlab.com/WEEL_grp/study-area-figures) repository. 
 
 
 
 # Cool Packages {#viz-cool}
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-**TODO: links, fill, grab from https://ropensci.org/packages/ under vis**
+<!-- **TODO: links, fill, grab from https://ropensci.org/packages/ under vis** -->
 
-## Spatial Plotting
+
+## ggplot extensions
+
+* ggthemes
+* ggannotate
+* ggdist
+* ggrepel
+
+## Spatial plotting
+
 * mapview
 * leaflet
 * rnaturalearth for simplified geometries/coarse scale viz
 
 
-## ggplot extensions
-* themes, theme set universal
-* ggannotate
 
 
