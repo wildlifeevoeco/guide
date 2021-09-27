@@ -79,7 +79,24 @@ More on README's
 * [Github's About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
 ### Scripts
+R scripts can be organized into `scripts/` and `R/`. The `scripts/` folder
+holds analysis scripts, often (ideally) numbered in the order they should
+be run in. For example, in the SocCaribou project there's `1-Data-Cleaning.R` 
+then `2-HomeRangeAnalysis.R`. 
 
+The `R/` folder is used for functions. Functions help us chunk out 
+larger project into manageable pieces of code. 
+[This section](https://books.ropensci.org/targets/functions.html) 
+of the `targets` manual has a great overview of the two approaches. 
+
+It doesn't have to be one or the other - if you have a discrete chunk of code
+that needs to be applied multiple times, or might be useful in another project, 
+etc, just write it as a function and drop it into your `R/` folder. In addition,
+the `R/` folder is recognized if you turn your project into a package or a 
+research compendium as the standard place and structure for functions. 
+
+See the [SocCaribou](https://github.com/wildlifeevoeco/SocCaribou) project 
+that has both an `R/` folder and a `scripts/` folder. 
 
 ```
 SocCaribou
