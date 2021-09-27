@@ -21,66 +21,17 @@ etc `tidyverse` packages are full of great functions and workflows, so check tho
 out as well. Life isn't about strange, strict binaries/camps - use what works
 for you. 
 
-<!-- **TODO: ALR basic resources, and grab from slides** -->
 
 ### Syntax
+<!-- **TODO: ALR basic resources, and grab from slides** -->
+
 
 DT[i, j, by]
 
-
-## Advanced: list columns
-Use list columns to store a column of lists, or complex objects within a data.table. For example, models
-
-
-[More details](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists)
-
-### .SD
-
-`.SD` = Subset of the Data.table
-
-[Vignette](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html)
-
-###  CJ
-
-CJ = Cross Join
-
-For example: 
-
-```{r}
-library(data.table)
-
-apples <- c('red', 'green')
-butters <- c('peanut', 'almond')
-
-DT <- CJ(apples, butters)
-```
-
-This is similar to the base function `expand.grid` but allows for results to be sorted and keys to be set. 
-
-
-### .BY
-
-The special symbol `.BY` stores the list of items in provided to the by. For example, in the above DT of apples and butters, we have two types of apples and butters. 
-
-```{r}
-DT[, print(.BY), by = butters]
-
-DT[, print(.BY), by = apples]
-```
-
-We can use these in plots, subsetting other data.tables, etc. 
-
-```{r}
-library(ggplot2)
-
-DT[, {print(qplot(apples, xlab = .BY[[1]])); 1}, by = butters]
-```
-
-
-### Resources {#dt-resources}
+* [List columns](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists) to store a column of lists, or complex objects within a data.table.
+* [`.SD`](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html) = Subset of the Data.table
 * [data.table website](https://rdatatable.gitlab.io/data.table/)
 * [Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
-
 
 
 ### Slides {#dt-slides}
@@ -122,7 +73,7 @@ doubt be used instead of `sp`. It drops easily into `ggplot2` and other packages
 some packages or functions. 
 
 
-### raster package
+### `raster` package
 
 #### Cropping a raster
 
