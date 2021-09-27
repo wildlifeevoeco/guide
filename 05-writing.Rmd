@@ -91,10 +91,10 @@ Setting italics in your `.bibtex` references is as simple as wrapping the words 
 ## Reflow lines
 If this is a manuscript, and you are noticing everything is on a few really long lines, simply reflow using the shortcut (CTRL+SHIFT+/) or remember to hit enter at the end of a line. 
 
-**TODO: example image of this** 
+<!-- **TODO: example image of this**  -->
 
 
-## Presentations With `xaringan`
+## Presentations with `xaringan`
 
 Yihui Xie made a great package for generating HTML presentations in R Markdown: [`xaringan`](https://bookdown.org/yihui/rmarkdown/xaringan.html). 
 
@@ -108,21 +108,6 @@ An example for building your ggplots incrementally using this example `xaringan`
 <script src='https://gitlab.com/snippets/1954903.js'></script>
 
 
-## Slides {#rmd-slides}
-Workshop: Basic R Markdown 
-
-Date: October 21 2019
-
-[Slides](https://slides.robitalec.ca/basic-rmd.html) and [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=basic-rmd)
-
-```{r, echo = FALSE}
-knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
-```
-
-
-## Manuscript notes
-
-TODO: fill
-
-use PDF for supplements, latex changes for fig caps
-flextable for office tables
+<!-- ## Manuscript notes -->
+<!-- use PDF for supplements, latex changes for fig caps -->
+<!-- flextable for office tables -->
