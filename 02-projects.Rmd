@@ -152,16 +152,12 @@ Other elements include:
 * [Keep a ChangeLog / News file](https://keepachangelog.com/en/1.0.0/). Traditionally in the R community, it is stored in a `NEWS.md` file. 
 
 ## RStudio projects
-Always work within RStudio Projects to avoid `setwd()` hell. If you share an RStudio Project (`.RProj`) with someone else, they can immediately use it without changing working directories or paths to files. 
+Always work within RStudio Projects to avoid `setwd()` hell. If you share an
+RStudio Project (`.RProj`) with someone else, they can immediately use it
+without changing working directories or paths to files.
 
-Details: [Efficient R / Project Management](https://csgillespie.github.io/efficientR/set-up.html#project-management). 
-
-
-### Data
-Always start with raw data. Use scripts to prepare and organize your data - never modify it by hand. This way, you can go always go back to the raw data in case anything changes in your prep steps. Keep track of where the raw data comes from, how it was generated, by who, when, etc. 
-
-#### Intermediate outputs
-Save intermediate outputs to `.Rds` files using the base R functions: `saveRDS()` and `readRDS()`. Again, more details in [Efficient R / Binary file formats](https://csgillespie.github.io/efficientR/input-output.html#binary-file-formats)
+Details: [Efficient R / Project Management](https://csgillespie.github.io/efficientR/set-up.html#project-management)
+and [Project oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
 
 
 ## Slides {#projects-slides}
@@ -173,9 +169,5 @@ knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 
 ## Resources {#projects-resources}
 
-[Efficient Setup](https://csgillespie.github.io/efficientR/set-up.html) and [Efficient Input/Output](https://csgillespie.github.io/efficientR/input-output.html) in Efficient R
-
-
-## Metadata
-
-TODO: fill
+* [Efficient Setup](https://csgillespie.github.io/efficientR/set-up.html) and [Efficient Input/Output](https://csgillespie.github.io/efficientR/input-output.html) in Efficient R
+* [Jenny Bryan's What They Forgot](https://rstats.wtf/project-oriented-workflow.html)
