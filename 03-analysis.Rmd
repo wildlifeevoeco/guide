@@ -111,14 +111,22 @@ Some projects in the lab that have used `targets` are:
 * Preparing animal movement data with [`prepare-locs`](https://github.com/robitalec/prepare-locs)
 * [Caribou swimming paper](https://github.com/wildlifeevoeco/CaribouSwimming) (using `drake`)
 
-# Spatial Analysis
 
-## raster package
+# Spatial analysis
+## Packages
 
-### Cropping a raster
+These days, the recommendation is to use `sf` (instead of `sp`) and 
+`terra` (instead of `raster`). The `sf` package is great and should no
+doubt be used instead of `sp`. It drops easily into `ggplot2` and other packages. 
+`terra` may need to be converted to a raster for compatibility with
+some packages or functions. 
+
+
+### raster package
+
+#### Cropping a raster
 
 To crop a raster to the extent of relocations:
-
 
 ```{r}
 ## Packages
@@ -168,7 +176,7 @@ gplot(bufCropped) +
 ```
 
 
-## Data
+## Spatial data
 
 Open sources: Open Street Map, Natural Earth, Canadian Government, Provincial Governments.
 
