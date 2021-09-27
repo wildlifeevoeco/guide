@@ -12,6 +12,19 @@ Others
 * [An aggregated list of free resources](https://github.com/alastairrushworth/free-data-science)
 
 
+## Functions
+
+October 25 2018 - Functions in R
+
+[Slides](https://slides.robitalec.ca/functions-in-r.html)
+
+[Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=functions-in-r)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
+```
+
+
 # Packages
 ## data.table
 
