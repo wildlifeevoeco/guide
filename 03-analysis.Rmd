@@ -211,11 +211,22 @@ knitr::include_url('https://slides.robitalec.ca/ee.html')
 
 # Models
 
-**TODO: add model summary tables, fake data**
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+## Bayesian methods
+
+Richard McElreath's Statistical Rethinking course has 
+20 online lectures and 10 weeks of homework and solutions available [here](https://github.com/rmcelreath/statrethinking_winter2019).
+
+Alec's progress through this material is available at: 
+https://www.statistical-rethinking.robitalec.ca/
+
 
 # Cool Packages {#analysis-cool}
 
-**TODO: organize into spatial/ plotting/ helper/ etc**
+<!-- **TODO: organize into spatial/ plotting/ helper/ etc** -->
+
+
 
 ## Data frames / tables / sheets
 * [`googlesheets4`](https://googlesheets4.tidyverse.org/)
