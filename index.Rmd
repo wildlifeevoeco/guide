@@ -34,6 +34,3 @@ knitr::write_bib(c(
 ), 'packages.bib')
 ```
 
-
-
-[![](https://gitlab.com/weel/guide/badges/master/pipeline.svg)](https://gitlab.com/weel/guide/commits/master)
