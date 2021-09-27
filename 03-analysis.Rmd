@@ -168,6 +168,11 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 
 ## Slides {#sna-slides}
 
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html')
+```
+
+
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRMzDEm8bkxbERxRummBcgqHzOb2vLasEgJNsNC8r462hANEUCwu4dxDyVkdmroFCK7HFsIkhawKe_t/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
