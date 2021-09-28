@@ -14,7 +14,7 @@ projects <- fread('data/projects.csv')
 
 reactable(
 		projects[, .(
-		name,
+		project = name,
 		namespace = namespace.path,
 		description,
 		url,
@@ -26,7 +26,10 @@ reactable(
 		is_pkg = is_package,
 		targets = uses_targets
 	)],
+	defaultSorted = list('project' = 'asc'),
 	columns = list(
+		project = colDef(width = 150),
+		namespace = colDef(width = 130),
 		description = colDef(width = 250),
 		url = colDef(cell = function(value) {
 			htmltools::tags$a(href = value, target = "_blank", 'Link')
