@@ -316,6 +316,8 @@ knitr::include_url('https://slides.robitalec.ca/ee.html')
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
+* [`easystats` family](https://github.com/easystats)
+
 ## Bayesian methods
 
 Richard McElreath's Statistical Rethinking course has 
