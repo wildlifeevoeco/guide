@@ -89,8 +89,35 @@ Setting italics in your `.bibtex` references is as simple as wrapping the words 
 \emph{Escherichia coli}
 ```
 
+## Tables
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+Lots of options are available for generating markdown tables from R objects, 
+or text. 
+
+
+Manually/copy-paste
+
+* [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
+
+R packages
+
+* `knitr::kable`
+* [`pander`](http://rapporter.github.io/pander/)
+* [`gt`](https://gt.rstudio.com/)
+* [`flextable`](https://ardata-fr.github.io/flextable-book/)
+* [`xtable`](https://cran.r-project.org/web/packages/xtable/vignettes/xtableGallery.pdf)
+
+Note: differences between these packages are mainly in syntax but more importantly
+also in the possible output formats. Some only work with HTML output, some only
+PDF, etc. 
+
+
 ## Reflow lines
-If this is a manuscript, and you are noticing everything is on a few really long lines, simply reflow using the shortcut (CTRL+SHIFT+/) or remember to hit enter at the end of a line. 
+If this is a manuscript, and you are noticing (especially in Git) everything is
+on a few really long lines, simply reflow using the shortcut (CTRL+SHIFT+/) or
+remember to hit enter at the end of a line.
 
 <!-- **TODO: example image of this**  -->
 
