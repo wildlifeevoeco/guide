@@ -75,8 +75,16 @@ The one and only: [`patchwork`](https://patchwork.data-imaginist.com/).
 
 # Spatial plotting
 
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+
 Lots of examples of spatial plotting of vector data in the [study-area-figure](https://gitlab.com/WEEL_grp/study-area-figures) repository. 
 
+Also check out [`tmap`](https://r-tmap.github.io/tmap-book/).
+
+Note: plotting large rasters can be really intensive, so start small or 
+reduce the resolution. It also might help to write the plot out to a PDF, 
+instead of trying to view it directly in the RStudio window. 
 
 
 # Cool Packages {#viz-cool}
