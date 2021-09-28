@@ -77,6 +77,49 @@ Some projects in the lab that have used `targets` are:
 * Preparing animal movement data with [`prepare-locs`](https://github.com/robitalec/prepare-locs)
 * [Caribou swimming paper](https://github.com/wildlifeevoeco/CaribouSwimming) (using `drake`)
 
+# Date times
+
+## `parsedate`
+
+If you need to set the tz of the **incoming data** - an option is [`parsedate`](https://github.com/gaborcsardi/parsedate)
+
+Similarly flexible (possibly more so) than anytime, but allows the input tz to
+be specified a bit easier Internally, dates are always stored as UTC, with the
+timezone attribute helping to *print* the times in the specified time zone On
+this day, 14:00 NL time = 17:30 UTC and 14:00 BC time = 22:00 UTC
+
+
+```{r, eval = FALSE}
+library(parsedate)
+times <- c("2004-03-01 14:00:00",
+           "2004/03/01 14:00:33.123456",
+           "20040301 140033.123456",
+           "03/01/2004 14:00:33.123456",
+           "03-01-2004 14:00:33.123456")
+parse_date(times, default_tz = 'America/St_Johns')
+#>  [1] "2004-03-01 17:30:00 UTC" "2004-03-01 17:30:33 UTC"
+#>  [3] "2004-03-01 17:30:33 UTC" "2004-03-01 17:30:33 UTC"
+#>  [5] "2004-03-01 17:30:33 UTC" 
+
+parse_date(times, default_tz = 'America/Vancouver')
+#>  [1] "2004-03-01 22:00:00 UTC" "2004-03-01 22:00:33 UTC"
+#>  [3] "2004-03-01 22:00:33 UTC" "2004-03-01 22:00:33 UTC"
+#>  [5] "2004-03-01 22:00:33 UTC" 
+```
+
+A nice, less sensitive to typos, way of setting a tz might be something like this
+
+```{r, eval = FALSE}
+grep('Vancouver', OlsonNames(), value = TRUE)
+[1] "America/Vancouver"
+
+> grep('Newfoundland', OlsonNames(), value = TRUE)
+[1] "Canada/Newfoundland"
+
+> grep('Hawaii', OlsonNames(), value = TRUE)
+[1] "US/Hawaii"
+```
+
 
 # Spatial Analysis
 ## Packages
