@@ -1,7 +1,7 @@
 --- 
 title: "WEEL Guide"
 author:
-  - Alec L. Robitaille^[http://robitalec.ca/]
+  - Alec L. Robitaille
   - Juliana Baluffi-Fry
   - Quinn Webber
   - Julie W. Turner
