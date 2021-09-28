@@ -28,7 +28,9 @@ reactable(
 	)],
 	columns = list(
 		description = colDef(width = 250),
-		url = colDef(width = 200)
+		url = colDef(cell = function(value) {
+			htmltools::tags$a(href = value, target = "_blank", 'Link')
+  })
 	),
 	style = list(minWidth = 100, maxWidth = 1200),
 	filterable = TRUE,
