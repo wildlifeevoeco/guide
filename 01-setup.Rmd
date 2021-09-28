@@ -84,14 +84,15 @@ line is less clear - GitHub offers free private repositories and GitHub Actions.
 GitHub is more commonly used, especially in R package development. Take your pick
 or use both!
 
-#### Gitlab 
 
-1. [Make an account](https://gitlab.com/users/sign_in) on GitLab.com and message Alec your username!
+1. Make an account on [GitHub](https://github.com/signup?user_email=&source=form-home-signup)
+or [GitLab](https://gitlab.com/users/sign_in) (or both), and message Alec your usernames. 
 1. Setup global git user name and email. See [here](https://happygitwithr.com/hello-git.html). 
 1. Setup a local folder on your computer to store all of your git repositories. I use a folder called 'Local-git' under Documents (`/home/alecr/Documents/Local-git`). 
 
 You can alternatively clone your repositories to different places on your hard
 drive, but I find it more straightforward to keep everything together. 
+
 
 
 ### Git clients
