@@ -67,7 +67,7 @@ what you need to, when you need to. It has helped me build huge pipelines
 with thousands of datasets, and many analytical steps. I won't attempt to 
 introduce it here - the package is well documented by a dedicated, and incredibly
 helpful developer (thanks!). The pay off here is huge, write functions in R
-and easily rerun your analysis with one step (`tar_make()`).
+and easily rerun your analysis with one step: `tar_make()`.
 
 [`targets` manual](https://books.ropensci.org/targets/)
 
