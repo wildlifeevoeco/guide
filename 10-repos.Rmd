@@ -1,0 +1,26 @@
+# (PART) Repositories {-}
+
+
+# WEEL universe
+
+```{r, echo = FALSE}
+library(data.table)
+library(DT)
+
+projects <- fread('data/projects.csv')
+
+datatable(projects[, .(
+	name,
+	namespace = namespace.path,
+	description,
+	methods,
+	lab_project,
+	thesis_project,
+	meta_lab,
+	docs,
+	is_package,
+	uses_targets,
+	ssh_url
+)],
+rownames = FALSE, filter = 'top')
+```
