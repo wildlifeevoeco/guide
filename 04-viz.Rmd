@@ -1,4 +1,4 @@
-# (PART) Data visualization {-}
+# (PART) Visualization {-}
 
 # ggplot2
 
