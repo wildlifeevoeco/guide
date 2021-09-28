@@ -27,6 +27,7 @@ Wildlife Evolutionary Ecology Lab:
 
 Feedback, suggestions, comments [here](https://gitlab.com/weel/guide/-/issues). 
 
+Source code for this book is [here](https://gitlab.com/weel/guide). 
 
 
 ```{r include=FALSE}
