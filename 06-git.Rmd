@@ -35,6 +35,15 @@ knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 * [Happy Git With R](https://happygitwithr.com/)
 
 
+## Use SSH
+
+Recently, GitHub deprecated basic passwords for authentication so my
+recommendation is to use SSH throughout. See 
+[Happy Git With R's SSH keys](https://happygitwithr.com/ssh-keys.html#ssh-keys) 
+introduction. Then when
+you grab links to clone, eg. the WEEL's ewc project, use the format
+`git@gitlab.com:WEEL_grp/ewc.git` and not `https://gitlab.com/WEEL_grp/ewc.git`
+
 
 ## `.gitignore`
 
