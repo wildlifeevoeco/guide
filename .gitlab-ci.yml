@@ -2,7 +2,7 @@ image: rocker/verse
 
 before_script:
   - apt-get -y update && apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev
-  - R -e "install.packages(c('data.table', 'rasterVis', 'sf', 'units', 'DT'))"
+  - R -e "install.packages(c('data.table', 'rasterVis', 'sf', 'units', 'reactable'))"
 
 pages:
   script:
