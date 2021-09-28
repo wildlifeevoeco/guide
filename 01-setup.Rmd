@@ -51,7 +51,7 @@ install.packages(c('sf', 'terra'))
 
 ### R Markdown {#rmd-setup}
 
-Install packages...
+Install packages
 
 ```{r, eval = FALSE}
 install.packages(c('rmarkdown', 'bookdown', 'knitr'))

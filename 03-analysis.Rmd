@@ -38,7 +38,7 @@ for you.
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 
-DT[i, j, by]
+`DT[i, j, by]`
 
 * [List columns](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists) to store a column of lists, or complex objects within a data.table.
 * [`.SD`](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html) = Subset of the Data.table
@@ -72,7 +72,7 @@ and easily rerun your analysis with one step (`tar_make()`).
 
 Some projects in the lab that have used `targets` are:
 
-* Alec's Movebank summarizer: [`move-book`](https://github.com/robitalec/move-book)
+* Movebank summarizer: [`move-book`](https://github.com/robitalec/move-book)
 * Preparing animal movement data with [`prepare-locs`](https://github.com/robitalec/prepare-locs)
 * [Caribou swimming paper](https://github.com/wildlifeevoeco/CaribouSwimming) (using `drake`)
 
