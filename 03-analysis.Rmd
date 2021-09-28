@@ -153,10 +153,12 @@ gplot(bufCropped) +
 
 Open sources: Open Street Map, Natural Earth, Canadian Government, Provincial Governments.
 
-Examples of downloading and preparing spatial data from these sources in the [study-area-figures](https://gitlab.com/WEEL_grp/study-area-figures) repository (*-prep.R scripts).
+Examples of downloading and preparing spatial data from these sources in the [study-area-figures](https://gitlab.com/WEEL_grp/study-area-figures) repository (*-prep.R scripts). Packages used for downloading data include: `osmdata`, `rnaturalearth` and `curl`. 
 
-Packages used for downloading data include: `osmdata`, `rnaturalearth` and `curl`. 
-
+Recently from rOpenSci, Dilinie Seimon, Varsha Ujjinni Vijay Kumar highlighted
+many collections of open spatial data, from land cover to administrative
+boundaries and air pollution to malaria: https://rspatialdata.github.io/,
+https://ropensci.org/blog/2021/09/28/rspatialdata/
 
 
 # Social Network Analysis
