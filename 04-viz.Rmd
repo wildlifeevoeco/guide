@@ -16,8 +16,9 @@ knitr::include_url('https://slides.robitalec.ca/intro-ggplot.html')
 
 ## Resources  {#gg-resources}
 
-[ggplot2 book](https://ggplot2-book.org/)
-
+* [ggplot2 book](https://ggplot2-book.org/)
+* Claus Wilke's course [Data Visualization in R](https://wilkelab.org/SDS375/syllabus.html), book [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/)
+* [What makes bad figures bad](https://socviz.co/lookatdata.html#what-makes-bad-figures-bad)
 
 ## Facets
 
