@@ -95,16 +95,18 @@ instead of trying to view it directly in the RStudio window.
 
 ## ggplot extensions
 
-* ggthemes
-* ggannotate
-* ggdist
-* ggrepel
+* Themes: `ggthemes`
+* Annotations: `ggannotate`
+* Distribution geometries: `ggdist`
+* Labels that repel: `ggrepel`
+
+* Turn ggplots into interactive plots: [`plotly`](https://github.com/plotly/plotly.R#getting-started)
 
 ## Spatial plotting
 
-* mapview
-* leaflet
-* rnaturalearth for simplified geometries/coarse scale viz
+* `mapview`
+* `leaflet`
+* Coarse scale/simple geometries for plots: `rnaturalearth`
 
 
 
