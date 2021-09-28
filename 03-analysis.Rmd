@@ -78,7 +78,7 @@ Some projects in the lab that have used `targets` are:
 * [Caribou swimming paper](https://github.com/wildlifeevoeco/CaribouSwimming) (using `drake`)
 
 
-# Spatial analysis
+# Spatial Analysis
 ## Packages
 
 These days, the recommendation is to use `sf` (instead of `sp`) and 
@@ -235,7 +235,7 @@ Date: December 10 2020
 knitr::include_url('https://slides.robitalec.ca/ee.html')
 ```
 
-# Behavioural reaction norms
+# Behavioural Reaction Norms
 ## Slides {#brn-slides}
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTPmfrBj_WyLSq6AhmTXrAwxGDNzve3F7Dhgwr-01m9yU7WE2tDLttT-18MXrxTyg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
