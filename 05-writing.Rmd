@@ -10,6 +10,11 @@
 
 # R Markdown
 
+## Setup
+
+See [Setup/R Markdown](#rmd-setup).
+
+
 ## Slides
 
 October 21 2019 - Basic R Markdown
@@ -60,10 +65,6 @@ knitr::kable(diamonds[1:5])
 
 
 <!-- **TODO: images** -->
-
-## Setup
-
-See [Setup/R Markdown](#rmd-setup).
 
 ## YAML
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
