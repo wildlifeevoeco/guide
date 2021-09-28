@@ -161,6 +161,31 @@ boundaries and air pollution to malaria: https://rspatialdata.github.io/,
 https://ropensci.org/blog/2021/09/28/rspatialdata/
 
 
+## Distance to
+
+Calculating distance to something, eg. distance from moose relocations to the 
+nearest road, using Alec's `distanceto` package. 
+
+
+It can be installed with the following code
+```{r, eval = FALSE}
+install.packages('distanceto', repos = 'https://robitalec.r-universe.dev')
+```
+
+```{r, eval = FALSE}
+library(distanceto)
+library(sf)
+
+points <- st_read('some-point.gpkg')
+lakes <- st_read('nice-lakes.gpkg')
+
+distance_to(points, lakes)
+```
+
+Here are the docs: https://robitalec.github.io/distance-to/
+
+
+
 # Social Network Analysis
 
 ## `spatsoc`
