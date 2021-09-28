@@ -3,6 +3,9 @@
 
 # WEEL universe
 
+As of 2021-09-28, here's an overview of the repositories related to the 
+WEEL. If you have any edits or changes, please open an issue or message Alec. 
+
 ```{r, echo = FALSE}
 library(data.table)
 library(DT)
