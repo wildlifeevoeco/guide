@@ -33,13 +33,13 @@ The lab's website is at https://weel.gitlab.io/. You can find us as
 
 The book is currently organized as follows:
 
-I [Setup](#setup)
-II. [Analysis](#data-science)
-III. [Visualization](#ggplot2)
-IV. [Writing](#writing)
-V. [Open research](#git)
-VI. [Repositories](#weel-universe)
-VII. [Etc](#slides)
+I [Setup](#setup)  
+II. [Analysis](#data-science)  
+III. [Visualization](#ggplot2)  
+IV. [Writing](#writing)  
+V. [Open research](#git)  
+VI. [Repositories](#weel-universe)  
+VII. [Etc](#slides)  
 
 
 ```{r include=FALSE}
