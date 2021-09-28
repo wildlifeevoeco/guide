@@ -1,6 +1,4 @@
-# Style guide essentials
-
-**TODO: fill**
+<!-- # Style guide essentials -->
 
 
 # Contributing
@@ -17,13 +15,8 @@ install.packages("bookdown")
 
 
 
-## Style
-First level headers are capitalized, second level headers are sentence case. 
-
-
 
 ## Contributors
-
 
 * Juliana Baluffi-Fry
 * Quinn Webber
