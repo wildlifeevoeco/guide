@@ -1,17 +1,40 @@
 # (PART) Open research {-} 
 # Git
 
-**TODO: ALR**
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-* how to avoid conflicts
-* why use branches
-* what is a pull/merge request
-* commit before push/pull
-* commit messages
-* .gitignore
-* why use git
-* what can you do with git (projects, packages, websites, books, etc)\
-* oops big files - use the BFG
+<!-- **TODO: ALR** -->
+
+<!-- * how to avoid conflicts -->
+<!-- * why use branches -->
+<!-- * what is a pull/merge request -->
+<!-- * commit before push/pull -->
+<!-- * commit messages -->
+<!-- * .gitignore -->
+<!-- * why use git -->
+<!-- * what can you do with git (projects, packages, websites, books, etc)\ -->
+<!-- * oops big files - use the BFG -->
+
+## Slides {#git-slides}
+Workshop: Git and Projects
+
+Date: February 6 2020
+
+[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
+
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
+```
+
+
+
+## Resources {#git-resources}
+* [Version Control - missing semester](https://missing.csail.mit.edu/2020/version-control/)
+* [GitLab: Issues](https://docs.gitlab.com/ee/user/project/issues/)
+* [Happy Git With R](https://happygitwithr.com/)
+
+
 
 ## `.gitignore`
 
@@ -159,33 +182,16 @@ Generate figures as seperate PNGs and include them in the document using `knitr:
 
 
 
-## GitLab CI/DI
+## GitLab CI/DI and GitHub Pages
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-**TODO: add examples / links to ci for package checks, website builds, host static public sites**
+<!-- **TODO: add examples / links to ci for package checks, website builds, host static public sites** -->
 
 ### Testing data
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-**TODO: expand to example of using ci to run tests script on output data**
+<!-- **TODO: expand to example of using ci to run tests script on output data** -->
 Using tests is a great way to clarify your expectations about data outputs, that be checked whenever code is updated. Check out the [`testthat`](https://github.com/r-lib/testthat/) package and [`checkr`](https://poissonconsulting.github.io/checkr/) package.
 
 
-
-## Slides {#git-slides}
-Workshop: Git and Projects
-
-Date: February 6 2020
-
-[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
-
-
-```{r, echo = FALSE}
-knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
-```
-
-
-
-## Resources {#git-resources}
-[GitLab: Issues](https://docs.gitlab.com/ee/user/project/issues/)
-
-[Happy Git With R](https://happygitwithr.com/)
 
