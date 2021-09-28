@@ -32,6 +32,7 @@ etc `tidyverse` packages are full of great functions and workflows, so check tho
 out as well. Life isn't about strange, strict binaries/camps - use what works
 for you. 
 
+Note: if you are having install issues on Mac, check out this [reference](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac) can be really useful.
 
 ### Syntax
 <!-- **TODO: ALR basic resources, and grab from slides** -->
