@@ -10,6 +10,9 @@ Alec L. Robitaille and Isabella C. Richmond
 
 [Resources](https://github.com/robitalec/workshops/tree/master/ee), [Slides](https://slides.robitalec.ca/ee.html)
 
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/ee.html')
+```
 
 ## Some Reproducibility
 
