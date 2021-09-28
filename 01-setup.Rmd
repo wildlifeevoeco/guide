@@ -5,11 +5,9 @@
 ## R
 Download and install the [latest version of R](https://cran.r-project.org/).
 
-When migrating to a new version of R, this line might help updating packages. 
 
-```{r, eval = FALSE}
-update.packages(checkBuilt = TRUE, ask = FALSE)
-```
+<!-- When migrating to a new version of R, this line might help updating packages.  -->
+<!-- update.packages(checkBuilt = TRUE, ask = FALSE) -->
 
 
 ## RStudio
@@ -76,7 +74,7 @@ Quick setup instructions here, but see the chapter on [Git](#git) for more detai
 
 Check out the great instructions in  [Happy Git With R](https://happygitwithr.com/install-git.html). Be sure to check if `git` is installed first! 
 
-### Git repository hosting services
+### Hosting services
 
 Historically, the lab primarily uses [GitLab](https://gitlab.com) for private
 and group projects and [GitHub](https://github.com) for mirroring published
