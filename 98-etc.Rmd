@@ -3,6 +3,10 @@
 
 # Contributing
 
+Feedback, suggestions, comments [here](https://gitlab.com/weel/guide/-/issues). 
+
+Source code for this book is [here](https://gitlab.com/weel/guide). 
+
 This is book is written in RMarkdown using the `bookdown` package.
 
 The **bookdown** package can be installed from CRAN or Github:
