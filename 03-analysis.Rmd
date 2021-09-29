@@ -90,14 +90,15 @@ Some projects in the lab that have used `targets` are:
 
 # Date times
 
+<!-- TODO: anytime -->
+
 ## `parsedate`
 
-If you need to set the tz of the **incoming data** - an option is [`parsedate`](https://github.com/gaborcsardi/parsedate)
-
-Similarly flexible (possibly more so) than anytime, but allows the input tz to
-be specified a bit easier Internally, dates are always stored as UTC, with the
-timezone attribute helping to *print* the times in the specified time zone On
-this day, 14:00 NL time = 17:30 UTC and 14:00 BC time = 22:00 UTC
+If you need to set the tz of the **incoming data** - an option is [`parsedate`](https://github.com/gaborcsardi/parsedate). 
+Similarly flexible than `anytime`, but allows the input tz to
+be specified a bit easier. Internally, dates are always stored as UTC, with the
+timezone attribute helping to *print* the times in the specified time zone. On
+this day, 14:00 NL time = 17:30 UTC and 14:00 BC time = 22:00 UTC.
 
 
 ```{r, eval = FALSE}
