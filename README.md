@@ -39,6 +39,8 @@ VII. [Etc](#slides)
 
 -   field work
 
+-   issa
+
 -   general data things: no spaces in column names, no weird characters
 
 -   reshaping melt/dcast with data.table

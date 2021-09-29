@@ -1,6 +1,6 @@
 --- 
 title: "WEEL Guide"
-author: Alec L. Robitaille, Juliana Baluffi-Fry, Quinn M.R. Webber, Julie W. Turner, Isabella C. Richmond
+author: Alec L. Robitaille, Juliana Baluffi-Fry, Quinn M.R. Webber, Julie W. Turner, Isabella C. Richmond, Christina M. Prokopenko, Katrien A. Kingdon
 date: "started: 2020-05-09 [updated: `r Sys.Date()`]"
 site: bookdown::bookdown_site
 documentclass: book
