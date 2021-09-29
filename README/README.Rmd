@@ -8,6 +8,8 @@ knit: (function(inputFile, encoding) {
 
 # Wildlife Evolutionary Ecology Lab: Guide
 
+![](https://zenodo.org/badge/DOI/10.5281/zenodo.5535039.svg)
+
 https://weel.gitlab.io/guide
 
 This guide is for students and friends of the Wildlife Evolutionary Ecology Lab. At the moment, it walks through some of the steps from setting up your computer, to analysis and visualization, to writing and sharing your outcomes with others. Some parts of the guide present the authors’ opinions - but there’s always a number of ways to do something. Use whatever works best for you. This is a living resource, so please contribute anything you feel would be useful to others.

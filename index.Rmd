@@ -13,7 +13,11 @@ cover-image: "images/big-logo.png"
 
 # Welcome
 
-Wildlife Evolutionary Ecology Lab
+![](https://zenodo.org/badge/DOI/10.5281/zenodo.5535039.svg)
+
+
+Wildlife Evolutionary Ecology Lab: Guide
+
 
 This guide is for students and friends of the Wildlife Evolutionary Ecology Lab.
 At the moment, it walks through some of the steps from setting up your computer,
