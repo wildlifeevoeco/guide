@@ -275,6 +275,16 @@ knitr::include_url('https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html')
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
+## Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTkKdK9fAzU6ARUdJLhd_lhE8CNphNECuDb99k2lWwOOQFqi2a_oNnA1zBTNCWNbw/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRLZ5vWK7WAwoedENJ4EyNFQO9vhuhnn9x3mSW6rE6hqtOXZG6Ip0y1aCCjcJsnDw/embed?start=false&loop=false&delayms=60000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+## Projects
+
 Alec and Julie are working on a `targets` workflow for iSSA. 
 
 * https://gitlab.com/robit.a/targets-amt-issa
