@@ -9,7 +9,7 @@ Others resources
 * [rOpenSci resources](https://ropensci.org/resources/)
 * [StackOverflow R tag](https://stackoverflow.com/questions/tagged/r)
 * [An aggregated list of free resources](https://github.com/alastairrushworth/free-data-science)
-
+* [Hands-on Scientific Computing](https://handsonscicomp.readthedocs.io/en/latest/)
 
 # Functions
 
