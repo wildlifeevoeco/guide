@@ -58,6 +58,17 @@ Date: November 16 2017
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
 
+
+### Functions
+
+
+* `fread`/`fwrite` (https://github.com/Rdatatable/data.table/wiki/Convenience-features-of-fread)
+* `year`, `month`, `yday`, `mday`, `hour`, `minute`, `second`, `as.IDate`, `as.ITime`
+* [`fcase`](https://rdatatable.gitlab.io/data.table/reference/fcase.html): fast case when. When column == value, return x, when column == value2, return x2, etc.
+* [`fifelse`](https://rdatatable.gitlab.io/data.table/reference/fifelse.html): fast if-else with sensible behaviour
+
+
+
 # targets
 
 `targets` is Alec's other favorite package. It is a tool for combining your 
