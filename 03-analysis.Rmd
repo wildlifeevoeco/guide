@@ -34,7 +34,7 @@ for you.
 
 Note: if you are having install issues on Mac, check out this [reference](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac) can be really useful.
 
-### Syntax
+## Syntax
 <!-- **TODO: ALR basic resources, and grab from slides** -->
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
@@ -47,7 +47,7 @@ Note: if you are having install issues on Mac, check out this [reference](https:
 * [Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
 
 
-### Slides {#dt-slides}
+## Slides {#dt-slides}
 Workshop: Introduction to data.table
 
 Date: November 16 2017
@@ -59,7 +59,7 @@ knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
 
 
-### Functions
+## Functions
 
 
 * `fread`/`fwrite` (https://github.com/Rdatatable/data.table/wiki/Convenience-features-of-fread)
