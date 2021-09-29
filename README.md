@@ -1,6 +1,8 @@
 
 # Wildlife Evolutionary Ecology Lab: Guide
 
+![<https://zenodo.org/badge/DOI/10.5281/zenodo.5535039.svg>](https://zenodo.org/badge/DOI/10.5281/zenodo.5535039.svg)
+
 <https://weel.gitlab.io/guide>
 
 This guide is for students and friends of the Wildlife Evolutionary
