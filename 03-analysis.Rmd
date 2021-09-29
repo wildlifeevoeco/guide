@@ -42,7 +42,7 @@ Note: if you are having install issues on Mac, check out this [reference](https:
 `DT[i, j, by]`
 
 * [List columns](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists) to store a column of lists, or complex objects within a data.table.
-* [`.SD`](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html) = Subset of the Data.table
+* [`.SD`](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html) = Subset of the Data.table, [.SD vignette](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html)
 * [data.table website](https://rdatatable.gitlab.io/data.table/)
 * [Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
 
