@@ -1,7 +1,7 @@
 
 # Wildlife Evolutionary Ecology Lab: Guide
 
-![<https://zenodo.org/badge/DOI/10.5281/zenodo.5535039.svg>](https://zenodo.org/badge/DOI/10.5281/zenodo.5535039.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5535039.svg)](https://doi.org/10.5281/zenodo.5535038)
 
 <https://weel.gitlab.io/guide>
 
