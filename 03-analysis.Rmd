@@ -133,6 +133,51 @@ grep('Vancouver', OlsonNames(), value = TRUE)
 ```
 
 
+# Animal Telemetry Data
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+Alec developed a `targets` workflow for preparing animal relocation data.
+The goal is for everyone to 1) start with the same raw data, 2) use the
+`prepare-locs` workflow to generate consistent prepared data and 3) 
+take these data to their own projects. With everyone starting from the same 
+raw data and using the same preparation workflow, we hope we can reduce some
+redundant preparation logic in projects using the same data and facilitate
+collaboration. Note, the `prepare-locs` workflow does not necessarily 
+apply every form of preparation, it aims to be general use allowing users 
+do their own, more specific preparation afterwards. 
+
+Link: https://github.com/robitalec/prepare-locs
+
+## Using `prepare-locs`
+
+The `prepare-locs` uses the `metadata()` function to return a `data.table`
+listing file paths, column names, etc. The workflow only prepares datasets 
+currently available on your local computer - so just make sure the data
+you would like to process is present in the specified path. 
+
+Note: the expectation is that the user will use the `metadata` workflow
+before `prepare-locs`. If the data you are interested in is *not* listed 
+at [weel.gitlab.io/metadata](https://weel.gitlab.io/metadata/), 
+contact Alec to document it. If the data is listed, feel free to contribute
+changes or clarifications to the metadata. 
+
+See more details on the `metadata` project here: 
+
+
+
+Steps:
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+1. Clone the [`metadata`](https://gitlab.com/weel/metadata) and the 
+[`prepare-locs`](https://github.com/robitalec/prepare-locs) workflows. 
+2. Make sure the data you would like to prepare is placed in the path listed in [`metadata()`](https://github.com/robitalec/prepare-locs#input). 
+3. Open the `prepare-locs` project. 
+4. Run `targets::tar_make()`.
+
+
+
 # Spatial Analysis
 ## Packages
 
