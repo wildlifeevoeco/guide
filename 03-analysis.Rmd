@@ -162,7 +162,7 @@ at [weel.gitlab.io/metadata](https://weel.gitlab.io/metadata/),
 contact Alec to document it. If the data is listed, feel free to contribute
 changes or clarifications to the metadata. 
 
-See more details on the `metadata` project here: 
+See more details on the `metadata` project [here](https://weel.gitlab.io/guide/metadata-1.html). 
 
 
 
