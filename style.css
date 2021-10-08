@@ -1,31 +1,16 @@
 
-/* h1 border */
-.level1 h1 {
-  border-bottom: 1px solid;
+/*Dont border inline figures*/
+.inline-figure {
+    border: solid 0px #f1f1f1;
+    margin-bottom: 1rem;
 }
 
-/* adjust gitlab snippets */
-.js-file-title file-title-flex-parent{
-  width: 95%;
-  display: block;
+img.cover {
+    float: right;
+    margin: 1rem 1rem 1rem 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
-.blob-content {
-  width: 100%;
-}
-
-.line-numbers {
-	display: none;
-}
-
-
-
-
-/* sidebar = book-summary*/
-.book{
-  /*background-color: #30635a;*/
-  color: #fff;
-}
 
 /* TOC logo thanks to stat 545 */
 .toc-logo {
@@ -39,35 +24,3 @@
   max-width: 100%;
   margin-bottom: 5px;
 }
-
-/* body */
-body{
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-		color: #cbcbcb;
-}
-
-/* link colors */
-a {
-	color: #f1f1f1;
-}
-
-
-/* other */
-p.caption {
-  color: #777;
-  margin-top: 10px;
-}
-p code {
-  white-space: inherit;
-}
-pre {
-  word-break: normal;
-  word-wrap: normal;
-}
-pre code {
-  white-space: inherit;
-}
-
-
-
