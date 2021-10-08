@@ -1,13 +1,15 @@
 --- 
 title: "WEEL Guide"
 author: Alec L. Robitaille, Juliana Baluffi-Fry, Quinn M.R. Webber, Julie W. Turner, Isabella C. Richmond, Christina M. Prokopenko, Katrien A. Kingdon
-date: "started: 2020-05-09 [updated: `r Sys.Date()`]"
+date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-documentclass: book
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
-link-citations: yes
+output: bookdown::bs4_book
+bibliography: packages.bib
+nocite: '@*'
+url: https://weel.gitlab.io/guide
 cover-image: "images/big-logo.png"
+description: |
+  This guide is for students and friends of the Wildlife Evolutionary Ecology Lab.
 ---
 
 

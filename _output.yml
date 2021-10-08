@@ -1,18 +1,7 @@
 bookdown::bs4_book:
+  link-citations: yes
   theme:
     primary: "#598543"
-  config:
-    toc:
-      before: |
-        <li class="toc-logo"><a href="./"><img src="images/big-logo.png" style="border-radius: 25%;" ></a></li>
-      after: |
-        <li><a href="http://robitalec.ca/">Alec L. Robitaille</a></li>
-        <br></br>
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    download: ["pdf", "epub"]
-    edit: https://gitlab.com/weel/guide/-/edit/master/%s
-    view: https://gitlab.com/weel/guide/-/blob/master/%s
-    info: no
-    sharing:
-      facebook: no
-      twitter: no
+  repo:
+    base: https://gitlab.com/weel/guide
+  css: style.css
