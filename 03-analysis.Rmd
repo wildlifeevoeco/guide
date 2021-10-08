@@ -24,7 +24,7 @@ knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
 ```
 
 
-# data table
+# data.table {data-table}
 
 `data.table` is Alec's favorite R package because it is incredibly efficient, 
 lightweight and has incredibly responsive and dedicated developers (thank you!). `dplyr` and 
