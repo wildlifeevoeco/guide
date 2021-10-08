@@ -18,6 +18,8 @@ cover-image: "images/big-logo.png"
 
 Wildlife Evolutionary Ecology Lab: Guide
 
+Alec L. Robitaille, Juliana Baluffi-Fry, Quinn M.R. Webber, Julie W. Turner,
+Isabella C. Richmond, Christina M. Prokopenko, Katrien A. Kingdon
 
 This guide is for students and friends of the Wildlife Evolutionary Ecology Lab.
 At the moment, it walks through some of the steps from setting up your computer,
