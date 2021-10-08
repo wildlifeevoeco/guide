@@ -1,6 +1,6 @@
 bookdown::bs4_book:
   theme:
-    primary: "#426332"
+    primary: "#598543"
   config:
     toc:
       before: |
