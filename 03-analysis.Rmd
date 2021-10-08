@@ -200,7 +200,7 @@ some packages or functions.
 
 To crop a raster to the extent of relocations:
 
-```{r}
+```{r, eval = FALSE}
 ## Packages
 library(data.table)
 library(raster)
@@ -231,7 +231,7 @@ gplot(cropped) +
 
 If you'd like to buffer the points first, use `sf`. 
 
-```{r}
+```{r, eval = FALSE}
 ## Optionally buffer points first
 library(sf)
 
