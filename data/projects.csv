@@ -93,3 +93,4 @@ wildlifeevoeco,TrackingSnowmelt,,,,TRUE,TRUE,,,,,https://github.com/wildlifeevoe
 wildlifeevoeco,Study-area-figs,,,TRUE,,TRUE,TRUE,,,,https://github.com/wildlifeevoeco/study-area-figs,Study area figures for the Wildlife Evolutionary Ecology Lab 
 wildlifeevoeco,CaribouSwimming,,,TRUE,,TRUE,,,,TRUE,https://github.com/wildlifeevoeco/CaribouSwimming,On the marginal value of swimming in woodland caribou 
 ropensci,spatsoc,,,TRUE,,TRUE,,TRUE,TRUE,,https://github.com/ropensci/spatsoc,spatsoc is an R package for detecting spatial and temporal groups in GPS relocations. 
+wildlifeevoeco,SnailPace,,,TRUE,TRUE,TRUE,,,,TRUE,https://github.com/wildlifeevoeco/SnailPace,At a snail’s pace: the influence of habitat disturbance on terrestrial snail movement using experimentally manipulated mesocosms 
