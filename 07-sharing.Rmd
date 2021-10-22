@@ -107,6 +107,59 @@ The GitHub Importer is described [here](https://docs.github.com/en/free-pro-team
 
 \* **Note:** if you need to make changes after publishing, make those changes in the repository and add a new Git tag + release on GitHub (<https://github.com/namespace/repo-name/releases>).
 
+
+## Preserving Zenodo edits across releases
+
+If you re-release your Github repository, the new Zenodo record will lose all the
+details, like authors, ORCIDs, descriptions, etc. 
+
+A solution is to use a special file (`.zenodo.json`), and save it in your 
+repository. 
+
+Two options for making this file:
+
+a) Manually write it (careful for syntax errors), for example:
+
+```json
+{
+  "description": "<p>This repository contains the code accompanying the paper &ldquo;At a snail&rsquo;s pace: the influence of habitat disturbance on terrestrial snail movement using experimentally manipulated mesocosms&rdquo;.</p>\n\n<p>This project depends on some incredible R packages. We use <a href=\"https://github.com/ropensci/targets\"><code>targets</code></a> for declaring the workflow and <a href=\"https://github.com/rstudio/renv\"><code>renv</code></a> for a reproducible environment. General processing uses <a href=\"https://github.com/Rdatatable/data.table\"><code>data.table</code></a> and plotting with <a href=\"https://github.com/tidyverse/ggplot2\"><code>ggplot2</code></a> and <a href=\"https://github.com/thomasp85/patchwork\"><code>patchwork</code></a>. iSSA methods with <a href=\"https://github.com/jmsigner/amt\"><code>amt</code></a>, <code>raster</code> and <code>sf</code>, modeling with <a href=\"https://github.com/glmmTMB/glmmTMB/\"><code>glmmTMB</code></a> and <code>lme4</code>.</p>", 
+  "title": "Code accompanying - At a snail's pace: the influence of habitat disturbance on terrestrial snail movement using experimentally manipulated mesocosms", 
+  "creators": [
+    {
+      "affiliation": "Memorial University", 
+      "name": "Emily Denief"
+    }, 
+    {
+      "orcid": "0000-0001-5449-5449", 
+      "affiliation": "Memorial University", 
+      "name": "Julie W. Turner"
+    }, 
+    {
+      "orcid": "0000-0002-5622-4973", 
+      "affiliation": "Memorial University", 
+      "name": "Christina M. Prokopenko"
+    }, 
+    {
+      "orcid": "0000-0002-4706-1762", 
+      "affiliation": "Memorial University", 
+      "name": "Alec L. Robitaille"
+    }, 
+    {
+      "orcid": "0000-0002-8534-4317", 
+      "affiliation": "Memorial University", 
+      "name": "Eric Vander Wal"
+    }
+  ]
+}
+```
+
+b) Generate one on Zenodo after you edit the record, then save it in the repository
+	1. Open your Zenodo record (eg. following the link in the badge)
+	1. Edit the record (top left, orange button)
+	1. Save the record
+	1. Export the record as a JSON (bottom of the page)
+	1. Grab the metadata chunk within this exported JSON (edit it so it looks like the above example)
+
 ## Resources
 
 A recent community call with rOpenSci: [summary blog](https://ropensci.org/blog/2018/11/29/codereview/) and [notes](https://docs.google.com/document/d/1LfyhgsbVgLWgWPhS0nbaBIZSFjireEBBSYL4PmhUJis/edit).
