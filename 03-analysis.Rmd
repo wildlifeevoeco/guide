@@ -17,7 +17,7 @@ October 25 2018 - Functions in R
 
 [Slides](https://slides.robitalec.ca/functions-in-r.html)
 
-[Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=functions-in-r)
+[Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=functions-in-r)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
@@ -52,7 +52,7 @@ Workshop: Introduction to data.table
 
 Date: November 16 2017
 
-[Slides](https://slides.robitalec.ca/intro-data-table.html) and [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=intro-data-table)
+[Slides](https://slides.robitalec.ca/intro-data-table.html) and [Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=intro-data-table)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
@@ -172,8 +172,9 @@ Steps:
 
 1. Clone the [`metadata`](https://gitlab.com/weel/metadata) and the 
 [`prepare-locs`](https://github.com/robitalec/prepare-locs) workflows. 
-2. Make sure the data you would like to prepare is placed in the path listed in [`metadata()`](https://github.com/robitalec/prepare-locs#input). 
-3. Open the `prepare-locs` project. 
+1. Make sure the data you would like to prepare is placed in the path listed in [`metadata()`](https://github.com/robitalec/prepare-locs#input). 
+1. Install the `renv` package with `install.packages('renv')`. 
+3. Then, open the `prepare-locs` project. 
 4. Run `targets::tar_make()`.
 
 
@@ -343,7 +344,7 @@ knitr::include_url('https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html')
 
 Alec and Julie are working on a `targets` workflow for iSSA. 
 
-* https://gitlab.com/robit.a/targets-amt-issa
+* https://gitlab.com/robitalec/targets-amt-issa
 
 
 # Earth Engine

@@ -20,7 +20,7 @@ Workshop: Git and Projects
 
 Date: February 6 2020
 
-[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
+[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
 
 
 ```{r, echo = FALSE}
@@ -78,7 +78,7 @@ For papers, you can track different stages of revisions:
 ![](images/git-eg-tag-manuscript.png)
 
 To add a tag in GitAhead, just right click on the commit, add tag, then fill in the name (no spaces) and check "push to origin". Then you will be able to find the tags on gitlab
-for example: [`wildcam` tags](https://gitlab.com/robit.a/wildcam/-/tags). 
+for example: [`wildcam` tags](https://gitlab.com/robitalec/wildcam/-/tags). 
 
 ## Blame and history
 

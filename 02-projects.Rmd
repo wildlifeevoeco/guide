@@ -161,7 +161,7 @@ and [Project oriented workflow](https://rstats.wtf/project-oriented-workflow.htm
 
 
 ## Slides {#projects-slides}
-[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robit.a/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
+[Slides](https://slides.robitalec.ca/git-and-projects.html) and  [Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=git-and-projects)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')

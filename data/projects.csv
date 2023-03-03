@@ -5,16 +5,16 @@ WEEL_grp,Elk Density iSSA,,,,,,,,,,https://gitlab.com/WEEL_grp/elk-density-issa,
 WEEL_grp,Emilie_NLCaribou,,,,,,,,,,https://gitlab.com/WEEL_grp/emilie_nlcaribou,
 WEEL_grp,Fogo Caribou,,,,,,,,,,https://gitlab.com/WEEL_grp/fogo-caribou,Fogo Caribou GPS data
 WEEL_grp,GIS,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/GIS,
-robit.a,IRG-in-EE,,,,,,,,,,https://gitlab.com/robit.a/irg-in-ee,IRG in Earth Engine
+robit.a,IRG-in-EE,,,,,,,,,,https://gitlab.com/robitalec/irg-in-ee,IRG in Earth Engine
 WEEL_grp,Implementations,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/implementations,"Implementations of methods from other repositories, specific use cases. "
 WEEL_grp,Jaclyn-beluga,,,,TRUE,,,,,,https://gitlab.com/WEEL_grp/jaclyn-beluga,"Processing J-watcher output files, organizing and calculating offspring behaviours and escorted associations. "
 WEEL_grp,LapoileSeasonRange,,,,,,,,,,https://gitlab.com/WEEL_grp/LapoileSeasonRange,
-robit.a,LitMine_OceanTemp_HostPatho,,,,,TRUE,,,,,https://gitlab.com/robit.a/LitMine_OceanTemp_HostPatho,
+robit.a,LitMine_OceanTemp_HostPatho,,,,,TRUE,,,,,https://gitlab.com/robitalec/LitMine_OceanTemp_HostPatho,
 WEEL_grp,Miscellaneous,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/miscellaneous,Miscellaneous... so far: text mining. 
 WEEL_grp,Movement,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/movement,"R scripts for analysis of animal movement (eg: step length, kernel overlap)"
 WEEL_grp,MovingAcrossGradients,,,TRUE,,,,,,,https://gitlab.com/WEEL_grp/MovingAcrossGradients,The ecology of individual differences empirically applied to space-use and movement tactics
 WEEL_grp,Network,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/Network,"R scripts for network analysis (eg: HWI, HWIG, groups from locs, pairwise distance)"
-robit.a,ScaleInMultilayerNetworks,,,,TRUE,,,,,,https://gitlab.com/robit.a/scale-in-multilayer-networks,Package Accompanying: The problem and promise of scale in multilayer animal social networks.
+robit.a,ScaleInMultilayerNetworks,,,,TRUE,,,,,,https://gitlab.com/robitalec/scale-in-multilayer-networks,Package Accompanying: The problem and promise of scale in multilayer animal social networks.
 WEEL_grp,Seasonality,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/seasonality,GAMs and derivatives to find seasons
 WEEL_grp,SocCaribou,,,TRUE,,,,,,,https://gitlab.com/WEEL_grp/SocCaribou,Space-use and social organization in a gregarious ungulate
 weel,WEEL Guide,,,,,TRUE,TRUE,TRUE,,,https://gitlab.com/weel/guide,https://weel.gitlab.io/guide/
@@ -23,69 +23,69 @@ WEEL_grp,argos-RMNP,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/argos-rmnp,attempts
 WEEL_grp,beaver-transects,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/beaver-transects,
 WEEL_grp,camera-grids,,,TRUE,,TRUE,,,,,https://gitlab.com/WEEL_grp/camera-grids,
 WEEL_grp,caribou-ifd-gsh,,,TRUE,,,,,,,https://gitlab.com/WEEL_grp/caribou-ifd-gsh,
-robit.a,compare-moose-rsf-survey,,,TRUE,,,,,,,https://gitlab.com/robit.a/compare-moose-rsf-survey,
-robit.a,distance-to,,,,,TRUE,,,TRUE,,https://gitlab.com/robit.a/distance-to,Calculates distance to *something*
-robit.a,ee-helpers,,,,,TRUE,,,,,https://gitlab.com/robit.a/ee-helpers,Earth engine helpers
+robit.a,compare-moose-rsf-survey,,,TRUE,,,,,,,https://gitlab.com/robitalec/compare-moose-rsf-survey,
+robit.a,distance-to,,,,,TRUE,,,TRUE,,https://gitlab.com/robitalec/distance-to,Calculates distance to *something*
+robit.a,ee-helpers,,,,,TRUE,,,,,https://gitlab.com/robitalec/ee-helpers,Earth engine helpers
 WEEL_grp,elk_density_issa,,,,TRUE,,,,,,https://gitlab.com/WEEL_grp/elk_density_issa,
 WEEL_grp,ewc,,,TRUE,,,,,,,https://gitlab.com/WEEL_grp/ewc,Easter Week Challenge
 WEEL_grp,fitness_models,,,,TRUE,TRUE,,,,,https://gitlab.com/WEEL_grp/fitness_models,DeMars fitness models for caribou herds
 WEEL_grp,funct-resp-ind-diff-RSF,,,,TRUE,,,,,,https://gitlab.com/WEEL_grp/funct-resp-ind-diff-rsf,
-robit.a,global-pig,,,,,TRUE,,,,,https://gitlab.com/robit.a/global-pig,
-robit.a,guides,,,,,TRUE,,,,,https://gitlab.com/robit.a/guides,"for building wikis, how-tos, documentation"
+robit.a,global-pig,,,,,TRUE,,,,,https://gitlab.com/robitalec/global-pig,
+robit.a,guides,,,,,TRUE,,,,,https://gitlab.com/robitalec/guides,"for building wikis, how-tos, documentation"
 WEEL_grp,hare-repro-tradeoffs,,,TRUE,,,,,,,https://gitlab.com/WEEL_grp/hare-repro-tradeoffs,
-robit.a,hwig,,,,,TRUE,,,TRUE,,https://gitlab.com/robit.a/hwig,hwig is an R package for calculate half-weight gregariousness index.
+robit.a,hwig,,,,,TRUE,,,TRUE,,https://gitlab.com/robitalec/hwig,hwig is an R package for calculate half-weight gregariousness index.
 WEEL_grp,individual_FR,,,,,,,,,,https://gitlab.com/WEEL_grp/individual_fr,
-robit.a,irg,,,,,TRUE,,,TRUE,,https://gitlab.com/robit.a/irg,"irg is an R package for calculating the instantaneous rate of green-up.
+robit.a,irg,,,,,TRUE,,,TRUE,,https://gitlab.com/robitalec/irg,"irg is an R package for calculating the instantaneous rate of green-up.
 http://irg.robitalec.ca"
-robit.a,irg-web,,,,,,,,TRUE,,https://gitlab.com/robit.a/irg-web,irg package website
+robit.a,irg-web,,,,,,,,TRUE,,https://gitlab.com/robitalec/irg-web,irg package website
 WEEL_grp,issa-club,,,TRUE,,TRUE,,,,,https://gitlab.com/WEEL_grp/issa-club,iSSA club
 WEEL_grp,levi-elk,,,,TRUE,,,,,,https://gitlab.com/WEEL_grp/levi-elk,Vita Elk and RMNP Elk
 WEEL_grp,maps-in-gg,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/maps-in-gg,Forget about arc! Let's make maps in gg!! :) 
 weel,metadata,,,,,TRUE,TRUE,,,TRUE,https://gitlab.com/weel/metadata,https://weel.gitlab.io/metadata
 WEEL_grp,model-helpers,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/model-helpers,Model helpers
-robit.a,move-book,,,,TRUE,TRUE,,,TRUE,TRUE,https://gitlab.com/robit.a/move-book,Movebank scraper + bookdown summarizer
+robit.a,move-book,,,,TRUE,TRUE,,,TRUE,TRUE,https://gitlab.com/robitalec/move-book,Movebank scraper + bookdown summarizer
 WEEL_grp,nl-landcover,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/nl-landcover,NL land cover processing
 WEEL_grp,ordered_fr,,,,TRUE,,,,,,https://gitlab.com/WEEL_grp/ordered_fr,
-robit.a,parsing-spatial-from-social-networks,,,,,TRUE,,,,,https://gitlab.com/robit.a/parsing-spatial-from-social-networks,
-robit.a,prepare-locs,,,,,TRUE,,,TRUE,TRUE,https://gitlab.com/robit.a/prepare-locs,Prepare animal relocation data
+robit.a,parsing-spatial-from-social-networks,,,,,TRUE,,,,,https://gitlab.com/robitalec/parsing-spatial-from-social-networks,
+robit.a,prepare-locs,,,,,TRUE,,,TRUE,TRUE,https://gitlab.com/robitalec/prepare-locs,Prepare animal relocation data
 WEEL_grp,reel,,,,,TRUE,,,TRUE,,https://gitlab.com/WEEL_grp/reel,**R** package for the (W)ildlife **E**volutionary **E**cology **L**ab
 WEEL_grp,shiny-wg-randomizations,,,,,,,,,,https://gitlab.com/WEEL_grp/shiny-wg-randomizations,
-robit.a,slides.robitalec.ca,,,,,TRUE,,TRUE,,,https://gitlab.com/robit.a/slides.robitalec.ca,Alec’s slides
-robit.a,socprod-extraction,,,,TRUE,,,,,,https://gitlab.com/robit.a/socprod-extraction,
-robit.a,socprod-model,,,,TRUE,,,,,,https://gitlab.com/robit.a/socprod-model,
-robit.a,socprod-viz,,,,TRUE,,,,,,https://gitlab.com/robit.a/socprod-viz,
-robit.a,some-reproducibility-example,,,,,TRUE,,,,,https://gitlab.com/robit.a/some-reproducibility-example,"Example project for Some Reproducibility workshop, split off into separate repository for Binder"
+robit.a,slides.robitalec.ca,,,,,TRUE,,TRUE,,,https://gitlab.com/robitalec/slides.robitalec.ca,Alec’s slides
+robit.a,socprod-extraction,,,,TRUE,,,,,,https://gitlab.com/robitalec/socprod-extraction,
+robit.a,socprod-model,,,,TRUE,,,,,,https://gitlab.com/robitalec/socprod-model,
+robit.a,socprod-viz,,,,TRUE,,,,,,https://gitlab.com/robitalec/socprod-viz,
+robit.a,some-reproducibility-example,,,,,TRUE,,,,,https://gitlab.com/robitalec/some-reproducibility-example,"Example project for Some Reproducibility workshop, split off into separate repository for Binder"
 WEEL_grp,spatially-explicit-kp-rates,,,TRUE,,,,,,,https://gitlab.com/WEEL_grp/spatially-explicit-kp-rates,"Spatially explicit kill and predation rates
 "
-robit.a,spatsoc-application-paper,,,,TRUE,,,,,,https://gitlab.com/robit.a/spatsoc-application-paper,Conducting social network analysis with animal telemetry data: applications and methods using spatsoc
-robit.a,spatsoc-webinar,,,,TRUE,,,TRUE,,,https://gitlab.com/robit.a/spatsoc-webinar,
-robit.a,statistical-rethinking,,,,,TRUE,,TRUE,,,https://gitlab.com/robit.a/statistical-rethinking,"Learning bayesian data analysis with Statistical Rethinking
+robit.a,spatsoc-application-paper,,,,TRUE,,,,,,https://gitlab.com/robitalec/spatsoc-application-paper,Conducting social network analysis with animal telemetry data: applications and methods using spatsoc
+robit.a,spatsoc-webinar,,,,TRUE,,,TRUE,,,https://gitlab.com/robitalec/spatsoc-webinar,
+robit.a,statistical-rethinking,,,,,TRUE,,TRUE,,,https://gitlab.com/robitalec/statistical-rethinking,"Learning bayesian data analysis with Statistical Rethinking
 
 https://www.statistical-rethinking.robitalec.ca/"
 WEEL_grp,study-area-figures,,,TRUE,,TRUE,,,,,https://gitlab.com/WEEL_grp/study-area-figures, Study area figures for the Wildlife Evolutionary Ecology Lab
-robit.a,targets-issa-amt,,,,,TRUE,,,,TRUE,https://gitlab.com/robit.a/targets-amt-issa,targets workflow for iSSA with amt
-robit.a,targets-parameterized-bookdown,,,,,TRUE,,,,TRUE,https://gitlab.com/robit.a/targets-parameterized-bookdown,"Example repository for rendering a bookdown book, compiling parameterized RMarkdown documents, using the targets package"
-robit.a,targets-spatsoc-networks,,,,,TRUE,,,,TRUE,https://gitlab.com/robit.a/targets-spatsoc-networks,"Example repository for generating networks using spatsoc, with a targets workflow"
+robit.a,targets-issa-amt,,,,,TRUE,,,,TRUE,https://gitlab.com/robitalec/targets-amt-issa,targets workflow for iSSA with amt
+robit.a,targets-parameterized-bookdown,,,,,TRUE,,,,TRUE,https://gitlab.com/robitalec/targets-parameterized-bookdown,"Example repository for rendering a bookdown book, compiling parameterized RMarkdown documents, using the targets package"
+robit.a,targets-spatsoc-networks,,,,,TRUE,,,,TRUE,https://gitlab.com/robitalec/targets-spatsoc-networks,"Example repository for generating networks using spatsoc, with a targets workflow"
 WEEL_grp,thesis-template,,,,,TRUE,,TRUE,,,https://gitlab.com/WEEL_grp/thesis-template,bookdown thesis template (an attempt) following MUN's thesis specifications
-robit.a,try-binder,,,,,TRUE,,,,,https://gitlab.com/robit.a/try-binder,"Learning to use Binder + holepunch
+robit.a,try-binder,,,,,TRUE,,,,,https://gitlab.com/robitalec/try-binder,"Learning to use Binder + holepunch
 
 https://mybinder.org/
 https://karthik.github.io/holepunch/index.html"
-robit.a,try-dataspice,,,,,TRUE,,,,,https://gitlab.com/robit.a/try-dataspice,Learning the {{dataspice}} package
-robit.a,try-drake,,,,,TRUE,,,,,https://gitlab.com/robit.a/try-drake,Learning the {{drake}} package
-robit.a,try-lit-search,,,,,TRUE,,,,,https://gitlab.com/robit.a/try-lit-search,Learning to lit search in R
-robit.a,try-rgee,,,,,TRUE,,,,,https://gitlab.com/robit.a/try-rgee,Learning the {{rgee}} package
-robit.a,try-rust,,,,,TRUE,,,,,https://gitlab.com/robit.a/try-rust,
-robit.a,try-targets,,,,,TRUE,,,,,https://gitlab.com/robit.a/try-targets,"Learn the `targets` and `tarchetypes` packages
+robit.a,try-dataspice,,,,,TRUE,,,,,https://gitlab.com/robitalec/try-dataspice,Learning the {{dataspice}} package
+robit.a,try-drake,,,,,TRUE,,,,,https://gitlab.com/robitalec/try-drake,Learning the {{drake}} package
+robit.a,try-lit-search,,,,,TRUE,,,,,https://gitlab.com/robitalec/try-lit-search,Learning to lit search in R
+robit.a,try-rgee,,,,,TRUE,,,,,https://gitlab.com/robitalec/try-rgee,Learning the {{rgee}} package
+robit.a,try-rust,,,,,TRUE,,,,,https://gitlab.com/robitalec/try-rust,
+robit.a,try-targets,,,,,TRUE,,,,,https://gitlab.com/robitalec/try-targets,"Learn the `targets` and `tarchetypes` packages
 
 https://wlandau.github.io/targets/
 https://wlandau.github.io/tarchetypes"
-robit.a,try-tesseract,,,,,TRUE,,,,,https://gitlab.com/robit.a/try-tesseract,Reading text from images with the tesseract package!
+robit.a,try-tesseract,,,,,TRUE,,,,,https://gitlab.com/robitalec/try-tesseract,Reading text from images with the tesseract package!
 WEEL_grp,view-gpx,,,,,TRUE,,,,,https://gitlab.com/WEEL_grp/view-gpx,Use this Rproject to view GPX data from GPS units
 weel,weel.gitlab.io,,,,,,TRUE,,,,https://gitlab.com/weel/weel.gitlab.io,Lab website
-robit.a,wildcam,,,TRUE,,TRUE,,,TRUE,,https://gitlab.com/robit.a/wildcam,wildcam is an R package for planning and evaluating camera trap surveys.
+robit.a,wildcam,,,TRUE,,TRUE,,,TRUE,,https://gitlab.com/robitalec/wildcam,wildcam is an R package for planning and evaluating camera trap surveys.
 WEEL_grp,wolf_clusters,,,TRUE,,TRUE,,,,,https://gitlab.com/WEEL_grp/wolf_clusters,
-robit.a,workshops,,,,,TRUE,TRUE,TRUE,,,https://gitlab.com/robit.a/workshops,Alec’s workshops
+robit.a,workshops,,,,,TRUE,TRUE,TRUE,,,https://gitlab.com/robitalec/workshops,Alec’s workshops
 wildlifeevoeco,SocCaribou,,,TRUE,,TRUE,,,TRUE,,https://github.com/wildlifeevoeco/SocCaribou,Space-use and social organization in a gregarious ungulate 
 wildlifeevoeco,Caribou-ifd-gsh,,,,TRUE,TRUE,,,,,https://github.com/wildlifeevoeco/caribou-ifd-gsh,Geometry of the ideal free distribution: individual behavioural variation and annual reproductive success in aggregations of a social ungulate 
 wildlifeevoeco,MovingAcrossGradients,,,TRUE,,TRUE,,,,,https://github.com/wildlifeevoeco/MovingAcrossGradients,The ecology of individual differences empirically applied to space-use and movement tactics 
