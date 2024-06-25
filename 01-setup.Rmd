@@ -113,7 +113,6 @@ You may opt to use a git client to work with git on a regular basis. Again, see
 a great discussion in the Happy Git With R book
 [here](https://happygitwithr.com/git-client.html). We've tried using cross
 platform clients in the past to make it easy for folks to help each other.
-Recently, it has been [GitAhead](https://gitahead.github.io/gitahead.com/) - but
-development on it has recently halted... Next step TBD.
+These days a solid recommendation is [GitHub Desktop](https://desktop.github.com).  
 
 
