@@ -46,6 +46,18 @@ options(repos = c(
 install.packages(c('sf', 'terra'))
 ```
 
+## Literate programming
+
+### Quarto
+
+A new literate programming tool from RStudio has been released for generating
+documents, websites, books, etc. 
+
+See the [Get Started](https://quarto.org/docs/get-started/) page for 
+installation instructions. 
+
+After installing, check out the [Hello, Quarto tutorial](https://quarto.org/docs/get-started/hello/rstudio.html).
+
 
 ### R Markdown {#rmd-setup}
 
