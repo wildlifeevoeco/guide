@@ -10,21 +10,24 @@ WEEL. If you have any edits or changes, please open an issue or message Alec.
 library(data.table)
 library(reactable)
 
-projects <- fread('data/projects.csv')
+projects <- fread('data/repos.csv')
 
 reactable(
 		projects[, .(
 		project = name,
-		namespace = namespace.path,
+		namespace,
 		description,
+		created_at,
+		updated_at,
 		url,
+		homepage,
+		lab_project,
+		personal_project,
+		workshops_and_colearning,
 		methods,
-		docs,
-		lab = lab_project,
-		thesis = thesis_project,
-		meta = meta_lab,
-		is_pkg = is_package,
-		targets = uses_targets
+		meta_lab,
+		is_package,
+		uses_targets
 	)],
 	defaultSorted = list('project' = 'asc'),
 	columns = list(
