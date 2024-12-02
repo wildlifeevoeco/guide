@@ -29,7 +29,7 @@ reactable(
 		is_package,
 		uses_targets
 	)],
-	defaultSorted = list('project' = 'asc'),
+	defaultSorted = list('updated_at' = 'desc'),
 	columns = list(
 		project = colDef(width = 150),
 		namespace = colDef(width = 130),
