@@ -3,6 +3,7 @@
 # Setup
 
 ## R
+
 Download and install the [latest version of R](https://cran.r-project.org/).
 
 
@@ -13,7 +14,6 @@ Download and install the [latest version of R](https://cran.r-project.org/).
 ## RStudio
 
 Download and install the [latest version of RStudio](https://www.rstudio.com/products/rstudio/download/#download).
-
 
 There are a couple of useful settings to change in RStudio. 
 
@@ -26,11 +26,13 @@ See [Efficient R / Rstudio options](https://csgillespie.github.io/efficientR/set
 
 
 ## System dependencies
+
 Windows users: install [RTools](https://cran.r-project.org/bin/windows/Rtools/). 
 
 Mac users: install [Xcode](https://developer.apple.com/xcode/resources/) and [homebrew](https://brew.sh/).
 
 ### Spatial packages
+
 To use spatial packages (eg.: `sf`), we need to install some system dependencies. The `sf` [README](https://github.com/r-spatial/sf#installing) has great instructions. Make sure to install these dependencies before trying to install spatial packages.
 
 You may also find it easier to install using the R-universe version of packages, for example: 
@@ -80,6 +82,7 @@ After installing `tinytex`, make sure to restart RStudio.
 
 
 ## Git {#git-setup}
+
 Quick setup instructions here, but see the chapter on [Git](#git) for more details. 
 
 ### Install git
@@ -88,14 +91,13 @@ Check out the great instructions in  [Happy Git With R](https://happygitwithr.co
 
 ### Hosting services
 
-Historically, the lab primarily uses [GitLab](https://gitlab.com) for private
+Historically, the lab primarily used [GitLab](https://gitlab.com) for private
 and group projects and [GitHub](https://github.com) for mirroring published
 projects or packages. This was largely dictated by GitHub's lack of free, private 
 repositories, and GitLab's great continuous integration tools. Nowadays, the 
 line is less clear - GitHub offers free private repositories and GitHub Actions. 
 GitHub is more commonly used, especially in R package development. Take your pick
 or use both!
-
 
 1. Make an account on [GitHub](https://github.com/signup?user_email=&source=form-home-signup)
 or [GitLab](https://gitlab.com/users/sign_in) (or both), and message Alec your usernames. 
@@ -104,8 +106,6 @@ or [GitLab](https://gitlab.com/users/sign_in) (or both), and message Alec your u
 
 You can alternatively clone your repositories to different places on your hard
 drive, but I find it more straightforward to keep everything together. 
-
-
 
 ### Git clients
 
