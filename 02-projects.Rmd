@@ -26,6 +26,17 @@ project/
 └───graphics/
 ```
 
+
+Directories briefly explained:
+
+* `data/` holds `derived-data` and `raw-data`
+* `R/` holds functions (reusuable chunks of code used throughout project)
+* `scripts/` holds scripts (series of analysis steps usually including reading input and writing output/figures)
+* `graphics/` or `figures/` holds output figures and plots
+* `manuscript/` or `paper/` for storing the manuscript
+* `man/` holds the documentation of your functions, usually automatically generated with [{roxygen2}](https://roxygen2.r-lib.org/)
+
+
 We'll use the [SocCaribou](https://github.com/wildlifeevoeco/SocCaribou) project as an example throughout the following sections. 
 
 ### README
