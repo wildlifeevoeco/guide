@@ -102,6 +102,16 @@ More on README's:
 * [Make a README](https://www.makeareadme.com/)
 * [Github's About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
+### RStudio projects
+
+Working in RStudio Projects helps us avoid `setwd()` hell. If you share an
+RStudio Project (`.RProj`) with someone else, they can immediately use it
+without changing working directories or paths to files.
+
+Details: [Efficient R / Project Management](https://csgillespie.github.io/efficientR/set-up.html#project-management)
+and [Project oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
+
+
 R scripts can be organized into `scripts/` and `R/`. The `scripts/` folder
 holds analysis scripts, often (ideally) numbered in the order they should
 be run in. For example, in the SocCaribou project there's `1-Data-Cleaning.R` 
