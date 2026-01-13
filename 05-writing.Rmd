@@ -10,6 +10,9 @@
 
 # R Markdown
 
+Quarto (see below) has been developed to provide some advantages over R Markdown by including lots of developments and extensions to R Markdown immediately available in Quarto. See more about the differences [here](https://quarto.org/docs/faq/rmarkdown.html#quarto-sounds-similar-to-r-markdown.-what-is-the-difference-and-why-create-a-new-project). 
+
+
 ## Setup
 
 See [Setup/R Markdown](#rmd-setup).
@@ -139,6 +142,11 @@ An example for building your ggplots incrementally using this example `xaringan`
 <!-- ## Manuscript notes -->
 <!-- use PDF for supplements, latex changes for fig caps -->
 <!-- flextable for office tables -->
+
+
+# Quarto 
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 
 # Reference management tools
