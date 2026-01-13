@@ -53,6 +53,8 @@ A `README.md` file should always be included and stores plenty of information ab
 - instructions for contributing
 - links to license, Zenodo, etc.
 
+READMEs can change throughout the course of a project's lifecycle. Through the development of a project, it might have more TODOs, notes about project and be generally messier. As the project becomes more stable or mature, is meant to be more public-facing, or to accompany a publication, it should be organized more as a landing page for new users/readers. 
+
 For example, the SocCaribou README:
 
 ```md
@@ -100,7 +102,6 @@ More on README's:
 * [Make a README](https://www.makeareadme.com/)
 * [Github's About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
-### Scripts
 R scripts can be organized into `scripts/` and `R/`. The `scripts/` folder
 holds analysis scripts, often (ideally) numbered in the order they should
 be run in. For example, in the SocCaribou project there's `1-Data-Cleaning.R` 
