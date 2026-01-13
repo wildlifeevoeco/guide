@@ -88,7 +88,7 @@ reduce the resolution. It also might help to write the plot out to a PDF,
 instead of trying to view it directly in the RStudio window. 
 
 
-# Cool Packages {#viz-cool}
+# Cool packages {#viz-cool}
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 <!-- **TODO: links, fill, grab from https://ropensci.org/packages/ under vis** -->
