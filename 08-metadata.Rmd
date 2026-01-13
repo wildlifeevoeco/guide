@@ -1,9 +1,0 @@
-# Metadata
-
-![](https://img.shields.io/badge/-WIP-yellow.svg)
-
-
-We are working on metadata for in-house data. 
-
-* `targets` workflow: https://gitlab.com/weel/metadata
-* metadata website: https://weel.gitlab.io/metadata
