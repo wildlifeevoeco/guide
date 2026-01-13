@@ -139,3 +139,13 @@ An example for building your ggplots incrementally using this example `xaringan`
 <!-- ## Manuscript notes -->
 <!-- use PDF for supplements, latex changes for fig caps -->
 <!-- flextable for office tables -->
+
+
+# Reference management tools
+
+## Zotero 
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+
+<!-- **TODO: zotero/mendeley** -->
