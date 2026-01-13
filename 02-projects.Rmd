@@ -217,22 +217,40 @@ using it and contributing your own metadata to it!
 
 ### License
 
-### Etc 
-Other elements include:
+For help choosing an open source license for code, see https://choosealicense.com/
 
-* LICENSE file -  [Choose an open source license](https://choosealicense.com/)
-* `graphics/` or `figures/` folder for figures and plots
-* `manuscript/` or `paper/` folder for storing the manuscript
-* `man/` folder for storing the documentation of your functions
-* [Keep a ChangeLog / News file](https://keepachangelog.com/en/1.0.0/). Traditionally in the R community, it is stored in a `NEWS.md` file. 
+![](images/choose-a-license.png)
 
-## RStudio projects
-Always work within RStudio Projects to avoid `setwd()` hell. If you share an
-RStudio Project (`.RProj`) with someone else, they can immediately use it
-without changing working directories or paths to files.
+Note, you can change an open source license for an existing project but typically you need to ask permission from everyone else that has contributed. (Not legal advice) but more [here](https://opensource.stackexchange.com/questions/33/how-can-a-project-be-relicensed) and [here](https://copyright.universityofcalifornia.edu/ownership/joint-works.html) to start. 
 
-Details: [Efficient R / Project Management](https://csgillespie.github.io/efficientR/set-up.html#project-management)
-and [Project oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
+For data, different license types apply. See https://choosealicense.com/non-software/. 
+
+If you are publishing both code and data, include both licenses alongside the relevant objects. For example:
+
+```
+Project
+| LICENSE.md (eg. GPL-3)
+├── R
+│   ├── dynamic_network.R
+│   ├── hr_network.R
+│   └── step_length.R
+├── data
+│   ├── LICENSE.md (eg. CC0)
+│   ├── movement.csv
+│   ├── habitat.csv
+│   └── insect.csv
+...
+```
+
+
+### News
+
+Keeping track of changes in plain English can be helpful for your current and future self, as well as collaborators. Try to use dates, describe your progress and reasoning, and link to any issues or pull requests. 
+
+Some recommendations and advice:
+
+- for R packages: https://r-pkgs.org/other-markdown.html#sec-news
+- Keep a changelog: https://keepachangelog.com/en/1.1.0/
 
 
 ## Slides {#projects-slides}
