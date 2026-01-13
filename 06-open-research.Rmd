@@ -204,25 +204,6 @@ Generate figures as seperate PNGs and include them in the document using `knitr:
 Using tests is a great way to clarify your expectations about data outputs, that be checked whenever code is updated. Check out the [`testthat`](https://github.com/r-lib/testthat/) package and [`checkr`](https://poissonconsulting.github.io/checkr/) package.
 
 
-
-# Sharing Projects
-
-This is a small portion of the larger discussion surrounding reproducible research: sharing manuscripts and code. Here, I'll outline some steps for turning a repository into a clean, public facing resource accompanying a paper or project.
-
-## Examples
-
-In our lab:
-
--   the [`SocCaribou`](https://github.com/wildlifeevoeco/SocCaribou) repository is a fully functioning R package with functions used for the paper, and a series of ordered scripts for running the analysis. The paper included is simply the journal's typeset version.
-
--   the [`spatsoc-application-paper`](https://github.com/robitalec/spatsoc-application-paper). This is a paper outlining the R package `spatsoc` developed by Alec, Quinn and Eric. Included are the scripts to generate each of the figures, the data used for the figures, and the full `.Rmd` manuscript, along with a typeset vesion.
-
--   the [`MovingAcrossGradients`](https://github.com/wildlifeevoeco/MovingAcrossGradients) lab paper from 2018.
-
-Each of these repositories are also linked to [Zenodo](https://zenodo.org), with "GitHub releases" triggering an updated DOI, etc.
-
-A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena) papers.
-
 ## Moving from GitLab to GitHub {#lab-to-hub}
 
 Four options and it depends on if you'd like your repository to be mirrored over
@@ -307,7 +288,50 @@ Check results:
 
 The GitHub Importer is described [here](https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/importing-a-repository-with-github-importer).
 
-## Linking Zenodo and GitHub
+
+# Reproducibility
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+See the [`renv`](https://github.com/rstudio/renv/) package for reproducible package versions and 
+[`targets`](https://github.com/ropensci/targets/) package for workflows. 
+
+
+## Slides
+
+Some Reproducibility 
+
+Date: August 4 2020
+
+Alec L. Robitaille
+
+[Resources](https://github.com/robitalec/workshops/tree/master/some-reproducibility), [Binder](https://mybinder.org/v2/gl/robit.a%2Fsome-reproducibility-example/master?urlpath=rstudio)
+
+Note: the workflow used `drake` which has been superseeded by `targets`. Use it
+instead!
+
+
+# Sharing code and data alongside manuscripts
+
+This is a small portion of the larger discussion surrounding reproducible research: sharing manuscripts and code. Here, I'll outline some steps for turning a repository into a clean, public facing resource accompanying a paper or project.
+
+## Examples
+
+In our lab:
+
+-   the [`SocCaribou`](https://github.com/wildlifeevoeco/SocCaribou) repository is a fully functioning R package with functions used for the paper, and a series of ordered scripts for running the analysis. The paper included is simply the journal's typeset version.
+
+-   the [`spatsoc-application-paper`](https://github.com/robitalec/spatsoc-application-paper). This is a paper outlining the R package `spatsoc` developed by Alec, Quinn and Eric. Included are the scripts to generate each of the figures, the data used for the figures, and the full `.Rmd` manuscript, along with a typeset vesion.
+
+-   the [`MovingAcrossGradients`](https://github.com/wildlifeevoeco/MovingAcrossGradients) lab paper from 2018.
+
+Each of these repositories are also linked to [Zenodo](https://zenodo.org), with "GitHub releases" triggering an updated DOI, etc.
+
+A couple examples from outside our group include Carl Boettiger's [nonparametric bayes](https://github.com/cboettig/nonparametric-bayes) and [noise phenomena](https://github.com/cboettig/noise-phenomena) papers.
+
+## Linking Projects to Zenodo
+
+(Note: right now, GitLab projects cannot be linked to Zenodo like GitHub projects can be. See [this issue](https://github.com/zenodo/zenodo-rdm/issues/1203)). 
 
 1.  Set up your repository in the standard way with folders for data, scripts, manuscript, etc. See [here](Projects) for details.
 
@@ -387,24 +411,3 @@ A paper on [research compendium](/user_uploads/4422/JZqXfCyHQv5eePmN7vFYoIwM/Pac
 
 [Details in the GitLab docs on mirroring](https://docs.gitlab.com/ee/workflow/repository_mirroring.html#setting-up-a-push-mirror-from-gitlab-to-github-core)
 
-
-# Reproducibility
-
-![](https://img.shields.io/badge/-WIP-yellow.svg)
-
-See the [`renv`](https://github.com/rstudio/renv/) package for reproducible package versions and 
-[`targets`](https://github.com/ropensci/targets/) package for workflows. 
-
-
-## Slides
-
-Some Reproducibility 
-
-Date: August 4 2020
-
-Alec L. Robitaille
-
-[Resources](https://github.com/robitalec/workshops/tree/master/some-reproducibility), [Binder](https://mybinder.org/v2/gl/robit.a%2Fsome-reproducibility-example/master?urlpath=rstudio)
-
-Note: the workflow used `drake` which has been superseeded by `targets`. Use it
-instead!
