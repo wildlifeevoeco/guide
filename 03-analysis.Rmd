@@ -389,10 +389,19 @@ knitr::include_url('https://slides.robitalec.ca/ee.html')
 ## Bayesian inference
 
 Richard McElreath's Statistical Rethinking course has 
-20 online lectures and 10 weeks of homework and solutions available [here](https://github.com/rmcelreath/statrethinking_winter2019).
+20 online lectures and 10 weeks of homework and solutions available here:
 
-Alec's progress through this material is available at: 
-https://www.statistical-rethinking.robitalec.ca/
+* [2026](https://github.com/rmcelreath/stat_rethinking_2026)
+* [2025](https://github.com/rmcelreath/stat_rethinking_2025)
+* [2024](https://github.com/rmcelreath/stat_rethinking_2024)
+* [2023](https://github.com/rmcelreath/stat_rethinking_2023)
+* [2022](https://github.com/rmcelreath/stat_rethinking_2022)
+* ...
+
+Alec and Isabella have run colearning groups for working through the lectures, 
+homework assignments and textbook. The most recent version is here:
+https://robitalec.github.io/statistical-rethinking-colearning-2024/. Get in
+touch if you would like to participate or learn more!
 
 
 # Cool packages {#analysis-cool}
