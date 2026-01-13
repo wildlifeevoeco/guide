@@ -11,19 +11,6 @@ Others resources
 * [An aggregated list of free resources](https://github.com/alastairrushworth/free-data-science)
 * [Hands-on Scientific Computing](https://handsonscicomp.readthedocs.io/en/latest/)
 
-# Functions
-
-October 25 2018 - Functions in R
-
-[Slides](https://slides.robitalec.ca/functions-in-r.html)
-
-[Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=functions-in-r)
-
-```{r, echo = FALSE}
-knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
-```
-
-
 # data.table {#data-table}
 
 `data.table` is Alec's favorite R package because it is incredibly efficient, 
@@ -133,7 +120,7 @@ grep('Vancouver', OlsonNames(), value = TRUE)
 ```
 
 
-# Animal Telemetry Data
+# Animal telemetry data
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
@@ -179,7 +166,7 @@ Steps:
 
 
 
-# Spatial Analysis
+# Spatial analysis
 ## Packages
 
 These days, the recommendation is to use `sf` (instead of `sp`) and 
@@ -287,7 +274,7 @@ Here are the docs: https://robitalec.github.io/distance-to/
 
 
 
-# Social Network Analysis
+# Social network analysis
 
 ## `spatsoc`
 
@@ -329,7 +316,7 @@ knitr::include_url('https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html')
 
 
 
-# Integrated Step Selection Analysis
+# Integrated step selection analysis
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
@@ -372,26 +359,36 @@ Date: December 10 2020
 knitr::include_url('https://slides.robitalec.ca/ee.html')
 ```
 
-# Behavioural Reaction Norms
+# Behavioural reaction norms
+
 ## Slides {#brn-slides}
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTPmfrBj_WyLSq6AhmTXrAwxGDNzve3F7Dhgwr-01m9yU7WE2tDLttT-18MXrxTyg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
-# Models
+# Statistics
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 * [`easystats` family](https://github.com/easystats)
 
-## Bayesian methods
+## Bayesian inference
 
 Richard McElreath's Statistical Rethinking course has 
-20 online lectures and 10 weeks of homework and solutions available [here](https://github.com/rmcelreath/statrethinking_winter2019).
+20 online lectures and 10 weeks of homework and solutions available here:
 
-Alec's progress through this material is available at: 
-https://www.statistical-rethinking.robitalec.ca/
+* [2026](https://github.com/rmcelreath/stat_rethinking_2026)
+* [2025](https://github.com/rmcelreath/stat_rethinking_2025)
+* [2024](https://github.com/rmcelreath/stat_rethinking_2024)
+* [2023](https://github.com/rmcelreath/stat_rethinking_2023)
+* [2022](https://github.com/rmcelreath/stat_rethinking_2022)
+* ...
+
+Alec and Isabella have run colearning groups for working through the lectures, 
+homework assignments and textbook. The most recent version is here:
+https://robitalec.github.io/statistical-rethinking-colearning-2024/. Get in
+touch if you would like to participate or learn more!
 
 
 # Cool packages {#analysis-cool}

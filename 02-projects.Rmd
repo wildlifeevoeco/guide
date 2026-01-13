@@ -26,11 +26,34 @@ project/
 └───graphics/
 ```
 
+
+Directories briefly explained:
+
+* `data/` holds `derived-data` and `raw-data`
+* `R/` holds functions (reusuable chunks of code used throughout project)
+* `scripts/` holds scripts (series of analysis steps usually including reading input and writing output/figures)
+* `graphics/` or `figures/` holds output figures and plots
+* `manuscript/` or `paper/` for storing the manuscript
+* `man/` holds the documentation of your functions, usually automatically generated with [{roxygen2}](https://roxygen2.r-lib.org/)
+
+
 We'll use the [SocCaribou](https://github.com/wildlifeevoeco/SocCaribou) project as an example throughout the following sections. 
+
 
 ### README
 
-A `README.md` file should always be included and stores plenty of information about the project. Installation instructions, TODOs, description or purpose of the project, authors, news, known bugs or limitations, instructions for contributing, link to license, etc. 
+A `README.md` file should always be included and stores plenty of information about the project. For example:
+
+- installation instructions
+- TODOs
+- description or purpose of the project
+- authors
+- news
+- known bugs or limitations
+- instructions for contributing
+- links to license, Zenodo, etc.
+
+READMEs can change throughout the course of a project's lifecycle. Through the development of a project, it might have more TODOs, notes about project and be generally messier. As the project becomes more stable or mature, is meant to be more public-facing, or to accompany a publication, it should be organized more as a landing page for new users/readers. 
 
 For example, the SocCaribou README:
 
@@ -74,21 +97,73 @@ Other examples:
 * [`rstudio-education/stats545`](https://github.com/rstudio-education/stat545/blob/master/README.md)
 
 
-More on README's
+More on README's:
+
 * [Make a README](https://www.makeareadme.com/)
 * [Github's About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
-### Scripts
+### RStudio projects
+
+Working in RStudio Projects helps us avoid `setwd()` hell. If you share an
+RStudio Project (`.RProj`) with someone else, they can immediately use it
+without changing working directories or paths to files.
+
+Details: [Efficient R / Project Management](https://csgillespie.github.io/efficientR/set-up.html#project-management)
+and [Project oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
+
+
+### Code
+
+
+#### Functions
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+Functional programming in R:
+
+- https://adv-r.hadley.nz/fp.html
+- https://r4ds.had.co.nz/functions.html
+- https://books.ropensci.org/targets/functions.html
+- https://robitalec.github.io/reproducible-workflows-workshop/exercises/functions/01-functions-introduction.html
+
+Function naming: 
+
+- https://style.tidyverse.org/functions.html
+
+
+##### Slides
+
+October 25 2018 - Functions in R
+
+[Slides](https://slides.robitalec.ca/functions-in-r.html)
+
+[Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=functions-in-r)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
+```
+
+
+### Workflows
+
+[This section](https://books.ropensci.org/targets/functions.html) 
+of the {targets} manual has a great overview of two approaches to managing interconnected analysis steps and data: 
+
+1. script-based workflows 
+2. function-oriented workflows
+
+#### Function-oriented workflows
+
+Read the link above, then see the [section on {targets}](https://weel.gitlab.io/guide/targets.html).
+
+#### Script-based workflows
+
 R scripts can be organized into `scripts/` and `R/`. The `scripts/` folder
 holds analysis scripts, often (ideally) numbered in the order they should
 be run in. For example, in the SocCaribou project there's `1-Data-Cleaning.R` 
 then `2-HomeRangeAnalysis.R`. See Jenny Bryan's 
-[project oriented workflow](https://rstats.wtf/project-oriented-workflow.html).
-
-The `R/` folder is used for functions. Functions help us chunk out 
+[project oriented workflow](https://rstats.wtf/projects). The `R/` folder is used for functions. Functions help us chunk out 
 larger project into manageable pieces of code. 
-[This section](https://books.ropensci.org/targets/functions.html) 
-of the `targets` manual has a great overview of the two approaches. 
 
 It doesn't have to be one or the other - if you have a discrete chunk of code
 that needs to be applied multiple times, or might be useful in another project, 
@@ -116,48 +191,66 @@ SocCaribou
 ...
 ```
 
+
 ### Data
 
-Always start with raw data. Keep raw data raw in a `raw-data/` folder.
+Always start with raw data. Keep raw data raw in a `raw-data/` or `input/` folder.
 
 Then use scripts to prepare and organize your data -
 never modify it by hand. This way, you can go always go back to the raw data in
 case anything changes in your preparation steps. 
 
-
-Intermediate and output data can be sorted into `input/` and `output/` folders and
+Output data can be sorted into `output/` folders and
 saved as an `.Rds` files using the base R functions:
 `saveRDS()` and `readRDS()`. More details in 
-[Efficient R / Binary file formats](https://csgillespie.github.io/efficientR/input-output.html#binary-file-formats). Or if you use `data.table`, use `fread` and `fwrite` to read/write CSV files. 
-If your dates are stored in the ISO standard format, they will be automatically
-converted to `POSIXct` by `fread`. 
+[Efficient R / Binary file formats](https://csgillespie.github.io/efficientR/input-output.html#binary-file-formats). Or if you use `data.table`, use `fread` and `fwrite` to read/write CSV files. If your dates are stored in the ISO standard format, they will be automatically converted to `IDate` by `fread`. 
 
-## Metadata
+### Metadata
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 Keep track of where the raw data comes from, how it was generated, by who, when,
 etc using metadata. See the [`metadata`](https://gitlab.com/weel/metadata)
-project. Use this project to write metadata for your data. Talk to Alec about
-contributing/using it!
-
-https://weel.gitlab.io/metadata
+project and the metadata {targets} workflow. Use this project to write metadata for your data. Talk to Alec about
+using it and contributing your own metadata to it!
 
 
-### Etc 
-Other elements include:
+### License
 
-* LICENSE file -  [Choose an open source license](https://choosealicense.com/)
-* `graphics/` or `figures/` folder for figures and plots
-* `manuscript/` or `paper/` folder for storing the manuscript
-* `man/` folder for storing the documentation of your functions
-* [Keep a ChangeLog / News file](https://keepachangelog.com/en/1.0.0/). Traditionally in the R community, it is stored in a `NEWS.md` file. 
+For help choosing an open source license for code, see https://choosealicense.com/
 
-## RStudio projects
-Always work within RStudio Projects to avoid `setwd()` hell. If you share an
-RStudio Project (`.RProj`) with someone else, they can immediately use it
-without changing working directories or paths to files.
+![](images/choose-a-license.png)
 
-Details: [Efficient R / Project Management](https://csgillespie.github.io/efficientR/set-up.html#project-management)
-and [Project oriented workflow](https://rstats.wtf/project-oriented-workflow.html)
+Note, you can change an open source license for an existing project but typically you need to ask permission from everyone else that has contributed. (Not legal advice) but more [here](https://opensource.stackexchange.com/questions/33/how-can-a-project-be-relicensed) and [here](https://copyright.universityofcalifornia.edu/ownership/joint-works.html) to start. 
+
+For data, different license types apply. See https://choosealicense.com/non-software/. 
+
+If you are publishing both code and data, include both licenses alongside the relevant objects. For example:
+
+```
+Project
+| LICENSE.md (eg. GPL-3)
+├── R
+│   ├── dynamic_network.R
+│   ├── hr_network.R
+│   └── step_length.R
+├── data
+│   ├── LICENSE.md (eg. CC0)
+│   ├── movement.csv
+│   ├── habitat.csv
+│   └── insect.csv
+...
+```
+
+
+### News
+
+Keeping track of changes in plain English can be helpful for your current and future self, as well as collaborators. Try to use dates, describe your progress and reasoning, and link to any issues or pull requests. 
+
+Some recommendations and advice:
+
+- for R packages: https://r-pkgs.org/other-markdown.html#sec-news
+- Keep a changelog: https://keepachangelog.com/en/1.1.0/
 
 
 ## Slides {#projects-slides}
@@ -170,4 +263,5 @@ knitr::include_url('https://slides.robitalec.ca/git-and-projects.html')
 ## Resources {#projects-resources}
 
 * [Efficient Setup](https://csgillespie.github.io/efficientR/set-up.html) and [Efficient Input/Output](https://csgillespie.github.io/efficientR/input-output.html) in Efficient R
+* [{targets} manual](https://books.ropensci.org/targets/functions.html)
 * [Jenny Bryan's What They Forgot](https://rstats.wtf/project-oriented-workflow.html)

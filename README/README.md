@@ -19,9 +19,9 @@ Feedback, suggestions, comments
 Source code for this book is [here](https://gitlab.com/weel/guide).
 
 The lab’s website is at <https://weel.gitlab.io/>. You can find us as
-[WEEL\_grp on GitLab](https://gitlab.com/WEEL_grp) and [wildlifeevoeco
-on GitHub](https://github.com/wildlifeevoeco/), as well as
-[wildlifeevoeco on Twitter](https://twitter.com/wildlifeevoeco).
+[WEEL_grp on GitLab](https://gitlab.com/WEEL_grp) and [wildlifeevoeco on
+GitHub](https://github.com/wildlifeevoeco/), as well as [wildlifeevoeco
+on Twitter](https://twitter.com/wildlifeevoeco).
 
 The book is currently organized as follows:
 
@@ -35,14 +35,23 @@ VII. [Etc](#slides)
 
 ## TODO
 
--   see WIPs throughout
+General
 
--   field work
+- [ ] see WIPs throughout
+- [ ] use {package} instead of `package`
 
--   issa
+Meta
 
--   general data things: no spaces in column names, no weird characters
+- [ ] reorg as quarto site
 
--   reshaping melt/dcast with data.table
+New sections
 
--   lapply rbindlist
+- [ ] field work
+- [ ] iSSA
+
+Analysis
+
+- [ ] general data things: no spaces in column names, no weird
+  characters
+- [ ] reshaping melt/dcast with data.table
+- [ ] lapply rbindlist

@@ -35,13 +35,27 @@ VII. [Etc](#slides)
 
 
 ## TODO
-* see WIPs throughout
 
-* field work
-* issa
-* general data things: no spaces in column names, no weird characters
-* reshaping melt/dcast with data.table
-* lapply rbindlist
+General
+
+* [ ] see WIPs throughout
+* [ ] use {package} instead of `package`
+
+Meta
+
+* [ ] reorg as quarto site
+
+New sections
+
+* [ ] field work
+* [ ] iSSA
+
+
+Analysis
+
+* [ ] general data things: no spaces in column names, no weird characters
+* [ ] reshaping melt/dcast with data.table
+* [ ] lapply rbindlist
 
 
 ```{r, include=FALSE}
