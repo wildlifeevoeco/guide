@@ -11,19 +11,6 @@ Others resources
 * [An aggregated list of free resources](https://github.com/alastairrushworth/free-data-science)
 * [Hands-on Scientific Computing](https://handsonscicomp.readthedocs.io/en/latest/)
 
-# Functions
-
-October 25 2018 - Functions in R
-
-[Slides](https://slides.robitalec.ca/functions-in-r.html)
-
-[Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=functions-in-r)
-
-```{r, echo = FALSE}
-knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
-```
-
-
 # data.table {#data-table}
 
 `data.table` is Alec's favorite R package because it is incredibly efficient, 

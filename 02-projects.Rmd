@@ -114,6 +114,38 @@ and [Project oriented workflow](https://rstats.wtf/project-oriented-workflow.htm
 
 ### Code
 
+
+#### Functions
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
+
+Functional programming in R:
+
+- https://adv-r.hadley.nz/fp.html
+- https://r4ds.had.co.nz/functions.html
+- https://books.ropensci.org/targets/functions.html
+- https://robitalec.github.io/reproducible-workflows-workshop/exercises/functions/01-functions-introduction.html
+
+Function naming: 
+
+- https://style.tidyverse.org/functions.html
+
+
+##### Slides
+
+October 25 2018 - Functions in R
+
+[Slides](https://slides.robitalec.ca/functions-in-r.html)
+
+[Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=functions-in-r)
+
+```{r, echo = FALSE}
+knitr::include_url('https://slides.robitalec.ca/functions-in-r.html')
+```
+
+
+### Workflows
+
 [This section](https://books.ropensci.org/targets/functions.html) 
 of the {targets} manual has a great overview of two approaches to managing interconnected analysis steps and data: 
 
