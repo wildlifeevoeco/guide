@@ -130,7 +130,7 @@ R scripts can be organized into `scripts/` and `R/`. The `scripts/` folder
 holds analysis scripts, often (ideally) numbered in the order they should
 be run in. For example, in the SocCaribou project there's `1-Data-Cleaning.R` 
 then `2-HomeRangeAnalysis.R`. See Jenny Bryan's 
-[project oriented workflow](https://rstats.wtf/project-oriented-workflow.html). The `R/` folder is used for functions. Functions help us chunk out 
+[project oriented workflow](https://rstats.wtf/projects). The `R/` folder is used for functions. Functions help us chunk out 
 larger project into manageable pieces of code. 
 
 It doesn't have to be one or the other - if you have a discrete chunk of code
@@ -183,6 +183,7 @@ project and the metadata {targets} workflow. Use this project to write metadata 
 using it and contributing your own metadata to it!
 
 
+### License
 
 ### Etc 
 Other elements include:
