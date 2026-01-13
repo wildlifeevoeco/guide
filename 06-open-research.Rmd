@@ -225,14 +225,26 @@ A couple examples from outside our group include Carl Boettiger's [nonparametric
 
 ## Moving from GitLab to GitHub {#lab-to-hub}
 
-Three options and it depends on if you'd like your repository to be mirrored over
+Four options and it depends on if you'd like your repository to be mirrored over
 (dynamic, with updates) or imported (static, one time snapshot). Using the 
-GitHub Importer (option 3) is easy but will only take a static snapshot. Otherwise,
-change your remote (option 1), or use an access token (option 2) and 
-mirror the repository for a dynamic link between GitLab 
-and GitHub that will copy over future changes. 
+GitHub Importer (option 4) is easy but will only take a static snapshot. Otherwise,
+adding multiple remotes (option 1), changing your remote (option 2), or using an access token (option 3) 
+will all copy over future changes. 
 
-### Option 1: Changing your remote (dynamic)
+### Option 1: Adding multiple remotes (dynamic)
+
+If we want multiple Git repositories to be updated whenever we push, we can
+set multiple remote repositories. 
+
+```
+git remote set-url origin --push --add <a remote>
+git remote set-url origin --push --add <another remote>
+```
+
+Like the option below, this needs to be set for all users that want to 
+push to both remote repositories. 
+
+### Option 2: Changing your remote (dynamic)
 
 Note: This approach locally changes your remote path to the Git repository. 
 If there are multiple users of the repository, they **must** either 1) also 
@@ -257,7 +269,7 @@ If you want your GitLab version to stay up to date, use a Pull remote mirroring.
 More information here: https://docs.gitlab.com/ee/user/project/repository/mirror/pull.html
 
 
-### Option 2: Using an access token (dynamic)
+### Option 3: Using an access token (dynamic)
 
 On GitHub.com:
 
@@ -283,7 +295,7 @@ Check results:
 2.  Navigate to your new GitHub repository. It may take a few minutes to update.
 
 
-### Option 3: Using GitHub Importer (static)
+### Option 4: Using GitHub Importer (static)
 
 1.  Open <https://github.com/new/import>.
 2.  Select the "Owner". Note: you can select the [`wildlifeevoeco`](https://github.com/wildlifeevoeco/) as "Owner" if this is a lab paper/project. If you don't see that as an option, ask Alec to add you as a member of that group.
