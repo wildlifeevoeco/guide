@@ -39,9 +39,19 @@ Directories briefly explained:
 
 We'll use the [SocCaribou](https://github.com/wildlifeevoeco/SocCaribou) project as an example throughout the following sections. 
 
+
 ### README
 
-A `README.md` file should always be included and stores plenty of information about the project. Installation instructions, TODOs, description or purpose of the project, authors, news, known bugs or limitations, instructions for contributing, link to license, etc. 
+A `README.md` file should always be included and stores plenty of information about the project. For example:
+
+- installation instructions
+- TODOs
+- description or purpose of the project
+- authors
+- news
+- known bugs or limitations
+- instructions for contributing
+- links to license, Zenodo, etc.
 
 For example, the SocCaribou README:
 
@@ -85,7 +95,8 @@ Other examples:
 * [`rstudio-education/stats545`](https://github.com/rstudio-education/stat545/blob/master/README.md)
 
 
-More on README's
+More on README's:
+
 * [Make a README](https://www.makeareadme.com/)
 * [Github's About READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
@@ -129,14 +140,13 @@ SocCaribou
 
 ### Data
 
-Always start with raw data. Keep raw data raw in a `raw-data/` folder.
+Always start with raw data. Keep raw data raw in a `raw-data/` or `input/` folder.
 
 Then use scripts to prepare and organize your data -
 never modify it by hand. This way, you can go always go back to the raw data in
 case anything changes in your preparation steps. 
 
-
-Intermediate and output data can be sorted into `input/` and `output/` folders and
+Output data can be sorted into `output/` folders and
 saved as an `.Rds` files using the base R functions:
 `saveRDS()` and `readRDS()`. More details in 
 [Efficient R / Binary file formats](https://csgillespie.github.io/efficientR/input-output.html#binary-file-formats). Or if you use `data.table`, use `fread` and `fwrite` to read/write CSV files. 
