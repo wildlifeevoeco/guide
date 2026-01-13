@@ -52,6 +52,7 @@ New sections
 
 
 Analysis
+
 * [ ] general data things: no spaces in column names, no weird characters
 * [ ] reshaping melt/dcast with data.table
 * [ ] lapply rbindlist

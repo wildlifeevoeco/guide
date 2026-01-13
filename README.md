@@ -49,6 +49,9 @@ New sections
 - [ ] field work
 - [ ] iSSA
 
-Analysis \* \[ \] general data things: no spaces in column names, no
-weird characters \* \[ \] reshaping melt/dcast with data.table \* \[ \]
-lapply rbindlist
+Analysis
+
+- [ ] general data things: no spaces in column names, no weird
+  characters
+- [ ] reshaping melt/dcast with data.table
+- [ ] lapply rbindlist
