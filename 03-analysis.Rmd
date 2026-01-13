@@ -133,7 +133,7 @@ grep('Vancouver', OlsonNames(), value = TRUE)
 ```
 
 
-# Animal Telemetry Data
+# Animal telemetry data
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
@@ -179,7 +179,7 @@ Steps:
 
 
 
-# Spatial Analysis
+# Spatial analysis
 ## Packages
 
 These days, the recommendation is to use `sf` (instead of `sp`) and 
@@ -287,7 +287,7 @@ Here are the docs: https://robitalec.github.io/distance-to/
 
 
 
-# Social Network Analysis
+# Social network analysis
 
 ## `spatsoc`
 
@@ -329,7 +329,7 @@ knitr::include_url('https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html')
 
 
 
-# Integrated Step Selection Analysis
+# Integrated step selection analysis
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
@@ -372,20 +372,21 @@ Date: December 10 2020
 knitr::include_url('https://slides.robitalec.ca/ee.html')
 ```
 
-# Behavioural Reaction Norms
+# Behavioural reaction norms
+
 ## Slides {#brn-slides}
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTPmfrBj_WyLSq6AhmTXrAwxGDNzve3F7Dhgwr-01m9yU7WE2tDLttT-18MXrxTyg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
-# Models
+# Statistics
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 * [`easystats` family](https://github.com/easystats)
 
-## Bayesian methods
+## Bayesian inference
 
 Richard McElreath's Statistical Rethinking course has 
 20 online lectures and 10 weeks of homework and solutions available [here](https://github.com/rmcelreath/statrethinking_winter2019).
