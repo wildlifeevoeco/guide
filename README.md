@@ -1,4 +1,3 @@
-
 # Wildlife Evolutionary Ecology Lab: Guide
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5535039.svg)](https://doi.org/10.5281/zenodo.5535038)
@@ -20,38 +19,27 @@ Source code for this book is [here](https://gitlab.com/weel/guide).
 
 The lab’s website is at <https://weel.gitlab.io/>. You can find us as
 [WEEL_grp on GitLab](https://gitlab.com/WEEL_grp) and [wildlifeevoeco on
-GitHub](https://github.com/wildlifeevoeco/), as well as [wildlifeevoeco
-on Twitter](https://twitter.com/wildlifeevoeco).
-
-The book is currently organized as follows:
-
-I [Setup](#setup)  
-II. [Analysis](#data-science)  
-III. [Visualization](#ggplot2)  
-IV. [Writing](#writing)  
-V. [Open research](#git)  
-VI. [Repositories](#weel-universe)  
-VII. [Etc](#slides)
+GitHub](https://github.com/wildlifeevoeco/).
 
 ## TODO
 
 General
 
-- [ ] see WIPs throughout
-- [ ] use {package} instead of `package`
+-   [ ] see WIPs throughout
+-   [ ] use {package} instead of `package`
 
 Meta
 
-- [ ] reorg as quarto site
+-   [ ] reorg as quarto site
 
 New sections
 
-- [ ] field work
-- [ ] iSSA
+-   [ ] field work
+-   [ ] iSSA
 
 Analysis
 
-- [ ] general data things: no spaces in column names, no weird
-  characters
-- [ ] reshaping melt/dcast with data.table
-- [ ] lapply rbindlist
+-   [ ] general data things: no spaces in column names, no weird
+    characters
+-   [ ] reshaping melt/dcast with data.table
+-   [ ] lapply rbindlist

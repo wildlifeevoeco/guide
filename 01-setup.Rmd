@@ -1,41 +1,49 @@
-# (PART) Setup {-}
+# (PART) Setup {.unnumbered}
 
 # Setup
 
 ## R
 
-Download and install the [latest version of R](https://cran.r-project.org/).
-
+Download and install the [latest version of
+R](https://cran.r-project.org/).
 
 <!-- When migrating to a new version of R, this line might help updating packages.  -->
-<!-- update.packages(checkBuilt = TRUE, ask = FALSE) -->
 
+<!-- update.packages(checkBuilt = TRUE, ask = FALSE) -->
 
 ## RStudio
 
-Download and install the [latest version of RStudio](https://www.rstudio.com/products/rstudio/download/#download).
+Download and install the [latest version of
+RStudio](https://www.rstudio.com/products/rstudio/download/#download).
 
-There are a couple of useful settings to change in RStudio. 
+There are a couple of useful settings to change in RStudio.
 
+-   Tools / Global Options / Workspace: Restore .Rdata at startup = OFF
+-   Tools / Global Options / Workspace: Save workspace to .Rdate on exit
+    = Never
 
-* Tools / Global Options / Workspace: Restore .Rdata at startup = OFF
-* Tools / Global Options / Workspace: Save workspace to .Rdate on exit = Never
-
-
-See [Efficient R / Rstudio options](https://csgillespie.github.io/efficientR/set-up.html#rstudio-options) for more information. 
-
+See [Efficient R / Rstudio
+options](https://csgillespie.github.io/efficientR/set-up.html#rstudio-options)
+for more information.
 
 ## System dependencies
 
-Windows users: install [RTools](https://cran.r-project.org/bin/windows/Rtools/). 
+Windows users: install
+[RTools](https://cran.r-project.org/bin/windows/Rtools/).
 
-Mac users: install [Xcode](https://developer.apple.com/xcode/resources/) and [homebrew](https://brew.sh/).
+Mac users: install [Xcode](https://developer.apple.com/xcode/resources/)
+and [homebrew](https://brew.sh/).
 
 ### Spatial packages
 
-To use spatial packages (eg.: `sf`), we need to install some system dependencies. The `sf` [README](https://github.com/r-spatial/sf#installing) has great instructions. Make sure to install these dependencies before trying to install spatial packages.
+To use spatial packages (eg.: `sf`), we need to install some system
+dependencies. The `sf`
+[README](https://github.com/r-spatial/sf#installing) has great
+instructions. Make sure to install these dependencies before trying to
+install spatial packages.
 
-You may also find it easier to install using the R-universe version of packages, for example: 
+You may also find it easier to install using the R-universe version of
+packages, for example:
 
 ```{r, eval = FALSE}
 # Enable this universe
@@ -52,14 +60,14 @@ install.packages(c('sf', 'terra'))
 
 ### Quarto
 
-A new literate programming tool from RStudio has been released for generating
-documents, websites, books, etc. 
+A new literate programming tool from RStudio has been released for
+generating documents, websites, books, etc.
 
-See the [Get Started](https://quarto.org/docs/get-started/) page for 
-installation instructions. 
+See the [Get Started](https://quarto.org/docs/get-started/) page for
+installation instructions.
 
-After installing, check out the [Hello, Quarto tutorial](https://quarto.org/docs/get-started/hello/rstudio.html).
-
+After installing, check out the [Hello, Quarto
+tutorial](https://quarto.org/docs/get-started/hello/rstudio.html).
 
 ### R Markdown {#rmd-setup}
 
@@ -69,50 +77,57 @@ Install packages
 install.packages(c('rmarkdown', 'bookdown', 'knitr'))
 ```
 
-
-and [`tinytex`](https://yihui.org/tinytex/) helps us get TeX easily installed on your computer. 
-
+and [`tinytex`](https://yihui.org/tinytex/) helps us get TeX easily
+installed on your computer.
 
 ```{r, eval = FALSE}
 install.packages('tinytex')
 tinytex::install_tinytex()
 ```
 
-After installing `tinytex`, make sure to restart RStudio. 
-
+After installing `tinytex`, make sure to restart RStudio.
 
 ## Git {#git-setup}
 
-Quick setup instructions here, but see the chapter on [Git](#git) for more details. 
+Quick setup instructions here, but see the chapter on [Git](#git) for
+more details.
 
 ### Install git
 
-Check out the great instructions in  [Happy Git With R](https://happygitwithr.com/install-git.html). Be sure to check if `git` is installed first! 
+Check out the great instructions in [Happy Git With
+R](https://happygitwithr.com/install-git.html). Be sure to check if
+`git` is installed first!
 
 ### Hosting services
 
-Historically, the lab primarily used [GitLab](https://gitlab.com) for private
-and group projects and [GitHub](https://github.com) for mirroring published
-projects or packages. This was largely dictated by GitHub's lack of free, private 
-repositories, and GitLab's great continuous integration tools. Nowadays, the 
-line is less clear - GitHub offers free private repositories and GitHub Actions. 
-GitHub is more commonly used, especially in R package development. Take your pick
-or use both!
+Historically, the lab primarily uses [GitLab](https://gitlab.com) for
+private and group projects and [GitHub](https://github.com) for
+mirroring published projects or packages. This was largely dictated by
+GitHub's lack of free, private repositories, and GitLab's great
+continuous integration tools. Nowadays, the line is less clear - GitHub
+offers free private repositories and GitHub Actions. GitHub is more
+commonly used, especially in R package development. Take your pick or
+use both!
 
-1. Make an account on [GitHub](https://github.com/signup?user_email=&source=form-home-signup)
-or [GitLab](https://gitlab.com/users/sign_in) (or both), and message Alec your usernames. 
-1. Setup global git user name and email. See [here](https://happygitwithr.com/hello-git.html). 
-1. Setup a local folder on your computer to store all of your git repositories. I use a folder called 'Local-git' under Documents (`/home/alecr/Documents/Local-git`). 
+1.  Make an account on
+    [GitHub](https://github.com/signup?user_email=&source=form-home-signup)
+    or [GitLab](https://gitlab.com/users/sign_in) (or both), and message
+    Alec your usernames.
+2.  Setup global git user name and email. See
+    [here](https://happygitwithr.com/hello-git.html).
+3.  Setup a local folder on your computer to store all of your git
+    repositories. I use a folder called 'Local-git' under Documents
+    (`/home/alecr/Documents/Local-git`).
 
-You can alternatively clone your repositories to different places on your hard
-drive, but I find it more straightforward to keep everything together. 
+You can alternatively clone your repositories to different places on
+your hard drive, but I find it more straightforward to keep everything
+together.
 
 ### Git clients
 
-You may opt to use a git client to work with git on a regular basis. Again, see
-a great discussion in the Happy Git With R book
-[here](https://happygitwithr.com/git-client.html). We've tried using cross
-platform clients in the past to make it easy for folks to help each other.
-These days a solid recommendation is [GitHub Desktop](https://desktop.github.com).  
-
-
+You may opt to use a git client to work with git on a regular basis.
+Again, see a great discussion in the Happy Git With R book
+[here](https://happygitwithr.com/git-client.html). We've tried using
+cross platform clients in the past to make it easy for folks to help
+each other. These days a solid recommendation is [GitHub
+Desktop](https://desktop.github.com).

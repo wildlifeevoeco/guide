@@ -1,11 +1,11 @@
 <!-- # Style guide essentials -->
 
-
 # Contributing
 
-Feedback, suggestions, comments [here](https://gitlab.com/weel/guide/-/issues). 
+Feedback, suggestions, comments
+[here](https://gitlab.com/weel/guide/-/issues).
 
-Source code for this book is [here](https://gitlab.com/weel/guide). 
+Source code for this book is [here](https://gitlab.com/weel/guide).
 
 This is book is written in RMarkdown using the `bookdown` package.
 

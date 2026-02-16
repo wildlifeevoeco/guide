@@ -1,24 +1,25 @@
-# (PART) Writing {-} 
+# (PART) Writing {.unnumbered}
 
 # Writing
 
 ## Writing group
+
 <!-- **TODO: (Eric)** -->
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-
 # R Markdown
 
-Quarto (see below) has been developed to provide some advantages over R Markdown by including lots of developments and extensions to R Markdown immediately available in Quarto. See more about the differences [here](https://quarto.org/docs/faq/rmarkdown.html#quarto-sounds-similar-to-r-markdown.-what-is-the-difference-and-why-create-a-new-project). 
-
+Quarto (see below) has been developed to provide some advantages over R
+Markdown by including lots of developments and extensions to R Markdown
+immediately available in Quarto. See more about the differences
+[here](https://quarto.org/docs/faq/rmarkdown.html#quarto-sounds-similar-to-r-markdown.-what-is-the-difference-and-why-create-a-new-project).
 
 ## Setup
 
 See [Setup/R Markdown](#rmd-setup).
 
-
-## Slides
+## Slides {#slides}
 
 October 21 2019 - Basic R Markdown
 
@@ -30,19 +31,19 @@ October 21 2019 - Basic R Markdown
 knitr::include_url('https://slides.robitalec.ca/basic-rmd.html')
 ```
 
-
 ## Basic markdown
 
+Wrap a word with single asterisks for *italics* and double asterisks for
+**bold**.
+
+```         
 Wrap a word with single asterisks for *italics* and double asterisks for **bold**.
-
-```
-Wrap a word with single asterisks for *italics* and double asterisks for **bold**.
 ```
 
+Surround inline code chunks with single `` `backticks` `` or full code
+blocks with triple backticks:
 
-Surround inline code chunks with single `` `backticks` `` or full code blocks with triple backticks:
-
-````
+````         
 ```
 yum <- is.delicious('gorgonzola')
 yum
@@ -50,8 +51,9 @@ yum
 ```
 ````
 
-Tables can be made with a [markdown table generator](http://www.tablesgenerator.com/markdown_tables#) (or by hand), or with functions, for example: `knitr::kable`.
-
+Tables can be made with a [markdown table
+generator](http://www.tablesgenerator.com/markdown_tables#) (or by
+hand), or with functions, for example: `knitr::kable`.
 
 ```{r, echo = TRUE, eval = FALSE}
 knitr::kable(diamonds)
@@ -65,30 +67,34 @@ setDT(diamonds)
 knitr::kable(diamonds[1:5])
 ```
 
-
-
 <!-- **TODO: images** -->
 
 ## YAML
+
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 <!-- **TODO: link basic YAML Rmd** -->
+
 <!-- **TODO: add classic error not working because tabs instead of spaces** -->
 
 ### Rendering multiple output formats {#rmd-multiple-output}
 
-To render multiple output formats from the same R Markdown document, use this example. We remap the knit button / shortcut to rendering all the output formats specified. 
+To render multiple output formats from the same R Markdown document, use
+this example. We remap the knit button / shortcut to rendering all the
+output formats specified.
 
-
+```{=html}
 <script src='https://gitlab.com/snippets/1976028.js'></script>
+```
 
 ## BibTeX
 
 ### Setting italics in references
 
-Setting italics in your `.bibtex` references is as simple as wrapping the words in `\emph{}`. For example:
+Setting italics in your `.bibtex` references is as simple as wrapping
+the words in `\emph{}`. For example:
 
-```latex
+``` latex
 \emph{Escherichia coli}
 ```
 
@@ -96,64 +102,64 @@ Setting italics in your `.bibtex` references is as simple as wrapping the words 
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-Lots of options are available for generating markdown tables from R objects, 
-or text. 
-
+Lots of options are available for generating markdown tables from R
+objects, or text.
 
 Manually/copy-paste
 
-* [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
+-   [Tables Generator](https://www.tablesgenerator.com/markdown_tables)
 
 R packages
 
-* `knitr::kable`
-* [`pander`](http://rapporter.github.io/pander/)
-* [`gt`](https://gt.rstudio.com/)
-* [`flextable`](https://ardata-fr.github.io/flextable-book/)
-* [`xtable`](https://cran.r-project.org/web/packages/xtable/vignettes/xtableGallery.pdf)
+-   `knitr::kable`
+-   [`pander`](http://rapporter.github.io/pander/)
+-   [`gt`](https://gt.rstudio.com/)
+-   [`flextable`](https://ardata-fr.github.io/flextable-book/)
+-   [`xtable`](https://cran.r-project.org/web/packages/xtable/vignettes/xtableGallery.pdf)
 
-Note: differences between these packages are mainly in syntax but more importantly
-also in the possible output formats. Some only work with HTML output, some only
-PDF, etc. 
-
+Note: differences between these packages are mainly in syntax but more
+importantly also in the possible output formats. Some only work with
+HTML output, some only PDF, etc.
 
 ## Reflow lines
-If this is a manuscript, and you are noticing (especially in Git) everything is
-on a few really long lines, simply reflow using the shortcut (CTRL+SHIFT+/) or
-remember to hit enter at the end of a line.
+
+If this is a manuscript, and you are noticing (especially in Git)
+everything is on a few really long lines, simply reflow using the
+shortcut (CTRL+SHIFT+/) or remember to hit enter at the end of a line.
 
 <!-- **TODO: example image of this**  -->
 
-
 ## Presentations with `xaringan`
 
-Yihui Xie made a great package for generating HTML presentations in R Markdown: [`xaringan`](https://bookdown.org/yihui/rmarkdown/xaringan.html). 
+Yihui Xie made a great package for generating HTML presentations in R
+Markdown:
+[`xaringan`](https://bookdown.org/yihui/rmarkdown/xaringan.html).
 
-All of Alec's slides use this package, see [Slides](#slides). 
-
+All of Alec's slides use this package, see [Slides](#slides).
 
 ### Incremental ggplot slides
-An example for building your ggplots incrementally using this example `xaringan` document. 
 
+An example for building your ggplots incrementally using this example
+`xaringan` document.
 
+```{=html}
 <script src='https://gitlab.com/snippets/1954903.js'></script>
-
+```
 
 <!-- ## Manuscript notes -->
+
 <!-- use PDF for supplements, latex changes for fig caps -->
+
 <!-- flextable for office tables -->
 
-
-# Quarto 
+# Quarto
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
-
 
 # Reference management tools
 
-## Zotero 
+## Zotero
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
-
 
 <!-- **TODO: zotero/mendeley** -->

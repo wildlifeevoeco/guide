@@ -1,10 +1,9 @@
-# References {-}
+# References {.unnumbered}
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'data.table', 'raster', 'sf', 'ggplot2', 'reactable'
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'data.table', 
+  'raster', 'sf', 'ggplot2', 'reactable'
 ), 'packages.bib')
 ```
-
-

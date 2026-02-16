@@ -1,79 +1,97 @@
-# (PART) Analysis {-}
+# (PART) Analysis {.unnumbered}
 
 # Data science
 
-Read [Advanced R](https://adv-r.hadley.nz/) and [Efficient R](https://csgillespie.github.io/efficientR/). 
+Read [Advanced R](https://adv-r.hadley.nz/) and [Efficient
+R](https://csgillespie.github.io/efficientR/).
 
 Others resources
 
-* [rOpenSci resources](https://ropensci.org/resources/)
-* [StackOverflow R tag](https://stackoverflow.com/questions/tagged/r)
-* [An aggregated list of free resources](https://github.com/alastairrushworth/free-data-science)
-* [Hands-on Scientific Computing](https://handsonscicomp.readthedocs.io/en/latest/)
+-   [rOpenSci resources](https://ropensci.org/resources/)
+-   [StackOverflow R tag](https://stackoverflow.com/questions/tagged/r)
+-   [An aggregated list of free
+    resources](https://github.com/alastairrushworth/free-data-science)
+-   [Hands-on Scientific
+    Computing](https://handsonscicomp.readthedocs.io/en/latest/)
 
 # data.table {#data-table}
 
-`data.table` is Alec's favorite R package because it is incredibly efficient, 
-lightweight and has incredibly responsive and dedicated developers (thank you!). `dplyr` and 
-etc `tidyverse` packages are full of great functions and workflows, so check those
-out as well. Life isn't about strange, strict binaries/camps - use what works
-for you. 
+`data.table` is Alec's favorite R package because it is incredibly
+efficient, lightweight and has incredibly responsive and dedicated
+developers (thank you!). `dplyr` and etc `tidyverse` packages are full
+of great functions and workflows, so check those out as well. Life isn't
+about strange, strict binaries/camps - use what works for you.
 
-Note: if you are having install issues on Mac, check out this [reference](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac) can be really useful.
+Note: if you are having install issues on Mac, check out this
+[reference](https://github.com/Rdatatable/data.table/wiki/Installation#openmp-enabled-compiler-for-mac)
+can be really useful.
 
 ## Syntax
-<!-- **TODO: ALR basic resources, and grab from slides** -->
-![](https://img.shields.io/badge/-WIP-yellow.svg)
 
+<!-- **TODO: ALR basic resources, and grab from slides** -->
+
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 `DT[i, j, by]`
 
-* [List columns](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists) to store a column of lists, or complex objects within a data.table.
-* [`.SD`](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html) = Subset of the Data.table, [.SD vignette](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html)
-* [data.table website](https://rdatatable.gitlab.io/data.table/)
-* [Andrew Brooks - Advanced data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
-
+-   [List
+    columns](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/#columns-of-lists)
+    to store a column of lists, or complex objects within a data.table.
+-   [`.SD`](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html)
+    = Subset of the Data.table, [.SD
+    vignette](https://rdatatable.gitlab.io/data.table/articles/datatable-sd-usage.html)
+-   [data.table website](https://rdatatable.gitlab.io/data.table/)
+-   [Andrew Brooks - Advanced
+    data.table](http://brooksandrew.github.io/simpleblog/articles/advanced-data-table/)
 
 ## Slides {#dt-slides}
+
 Workshop: Introduction to data.table
 
 Date: November 16 2017
 
-[Slides](https://slides.robitalec.ca/intro-data-table.html) and [Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=intro-data-table)
+[Slides](https://slides.robitalec.ca/intro-data-table.html) and
+[Resources](https://gitlab.com/robitalec/workshops/-/archive/master/workshops-master.zip?path=intro-data-table)
 
 ```{r, echo = FALSE}
 knitr::include_url('https://slides.robitalec.ca/intro-data-table.html')
 ```
 
-
 ## Functions
 
-
-* `fread`/`fwrite` (https://github.com/Rdatatable/data.table/wiki/Convenience-features-of-fread)
-* `year`, `month`, `yday`, `mday`, `hour`, `minute`, `second`, `as.IDate`, `as.ITime`
-* [`fcase`](https://rdatatable.gitlab.io/data.table/reference/fcase.html): fast case when. When column == value, return x, when column == value2, return x2, etc.
-* [`fifelse`](https://rdatatable.gitlab.io/data.table/reference/fifelse.html): fast if-else with sensible behaviour
-
-
+-   `fread`/`fwrite`
+    (<https://github.com/Rdatatable/data.table/wiki/Convenience-features-of-fread>)
+-   `year`, `month`, `yday`, `mday`, `hour`, `minute`, `second`,
+    `as.IDate`, `as.ITime`
+-   [`fcase`](https://rdatatable.gitlab.io/data.table/reference/fcase.html):
+    fast case when. When column == value, return x, when column ==
+    value2, return x2, etc.
+-   [`fifelse`](https://rdatatable.gitlab.io/data.table/reference/fifelse.html):
+    fast if-else with sensible behaviour
 
 # targets
 
-`targets` is Alec's other favorite package. It is a tool for combining your 
-functions and data into a full analysis pipeline. Targets (like predecessors
-`drake` and GNU Make), monitors changes to data and R code to only rerun 
-what you need to, when you need to. It has helped me build huge pipelines
-with thousands of datasets, and many analytical steps. I won't attempt to 
-introduce it here - the package is well documented by a dedicated, and incredibly
-helpful developer (thanks!). The pay off here is huge, write functions in R
-and easily rerun your analysis with one step: `tar_make()`.
+`targets` is Alec's other favorite package. It is a tool for combining
+your functions and data into a full analysis pipeline. Targets (like
+predecessors `drake` and GNU Make), monitors changes to data and R code
+to only rerun what you need to, when you need to. It has helped me build
+huge pipelines with thousands of datasets, and many analytical steps. I
+won't attempt to introduce it here - the package is well documented by a
+dedicated, and incredibly helpful developer (thanks!). The pay off here
+is huge, write functions in R and easily rerun your analysis with one
+step: `tar_make()`.
 
 [`targets` manual](https://books.ropensci.org/targets/)
 
 Some projects in the lab that have used `targets` are:
 
-* Movebank summarizer: [`move-book`](https://github.com/robitalec/move-book)
-* Preparing animal movement data with [`prepare-locs`](https://github.com/robitalec/prepare-locs)
-* [Caribou swimming paper](https://github.com/wildlifeevoeco/CaribouSwimming) (using `drake`)
+-   Movebank summarizer:
+    [`move-book`](https://github.com/robitalec/move-book)
+-   Preparing animal movement data with
+    [`prepare-locs`](https://github.com/robitalec/prepare-locs)
+-   [Caribou swimming
+    paper](https://github.com/wildlifeevoeco/CaribouSwimming) (using
+    `drake`)
 
 # Date times
 
@@ -81,12 +99,12 @@ Some projects in the lab that have used `targets` are:
 
 ## `parsedate`
 
-If you need to set the tz of the **incoming data** - an option is [`parsedate`](https://github.com/gaborcsardi/parsedate). 
-Similarly flexible than `anytime`, but allows the input tz to
-be specified a bit easier. Internally, dates are always stored as UTC, with the
-timezone attribute helping to *print* the times in the specified time zone. On
+If you need to set the tz of the **incoming data** - an option is
+[`parsedate`](https://github.com/gaborcsardi/parsedate). Similarly
+flexible than `anytime`, but allows the input tz to be specified a bit
+easier. Internally, dates are always stored as UTC, with the timezone
+attribute helping to *print* the times in the specified time zone. On
 this day, 14:00 NL time = 17:30 UTC and 14:00 BC time = 22:00 UTC.
-
 
 ```{r, eval = FALSE}
 library(parsedate)
@@ -106,7 +124,8 @@ parse_date(times, default_tz = 'America/Vancouver')
 #>  [5] "2004-03-01 22:00:33 UTC" 
 ```
 
-A nice, less sensitive to typos, way of setting a tz might be something like this
+A nice, less sensitive to typos, way of setting a tz might be something
+like this
 
 ```{r, eval = FALSE}
 grep('Vancouver', OlsonNames(), value = TRUE)
@@ -119,68 +138,71 @@ grep('Vancouver', OlsonNames(), value = TRUE)
 [1] "US/Hawaii"
 ```
 
-
 # Animal telemetry data
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-Alec developed a `targets` workflow for preparing animal relocation data.
-The goal is for everyone to 1) start with the same raw data, 2) use the
-`prepare-locs` workflow to generate consistent prepared data and 3) 
-take these data to their own projects. With everyone starting from the same 
-raw data and using the same preparation workflow, we hope we can reduce some
-redundant preparation logic in projects using the same data and facilitate
-collaboration. Note, the `prepare-locs` workflow does not necessarily 
-apply every form of preparation, it aims to be general use allowing users 
-do their own, more specific preparation afterwards. 
+Alec developed a `targets` workflow for preparing animal relocation
+data. The goal is for everyone to 1) start with the same raw data, 2)
+use the `prepare-locs` workflow to generate consistent prepared data and
+3) take these data to their own projects. With everyone starting from
+the same raw data and using the same preparation workflow, we hope we
+can reduce some redundant preparation logic in projects using the same
+data and facilitate collaboration. Note, the `prepare-locs` workflow
+does not necessarily apply every form of preparation, it aims to be
+general use allowing users do their own, more specific preparation
+afterwards.
 
-Link: https://github.com/robitalec/prepare-locs
+Link: <https://github.com/robitalec/prepare-locs>
 
 ## Using `prepare-locs`
 
-The `prepare-locs` uses the `metadata()` function to return a `data.table`
-listing file paths, column names, etc. The workflow only prepares datasets 
-currently available on your local computer - so just make sure the data
-you would like to process is present in the specified path. 
+The `prepare-locs` uses the `metadata()` function to return a
+`data.table` listing file paths, column names, etc. The workflow only
+prepares datasets currently available on your local computer - so just
+make sure the data you would like to process is present in the specified
+path.
 
 Note: the expectation is that the user will use the `metadata` workflow
-before `prepare-locs`. If the data you are interested in is *not* listed 
-at [weel.gitlab.io/metadata](https://weel.gitlab.io/metadata/), 
-contact Alec to document it. If the data is listed, feel free to contribute
-changes or clarifications to the metadata. 
+before `prepare-locs`. If the data you are interested in is *not* listed
+at [weel.gitlab.io/metadata](https://weel.gitlab.io/metadata/), contact
+Alec to document it. If the data is listed, feel free to contribute
+changes or clarifications to the metadata.
 
-See more details on the `metadata` project [here](https://weel.gitlab.io/guide/metadata-1.html). 
-
-
+See more details on the `metadata` project
+[here](https://weel.gitlab.io/guide/metadata-1.html).
 
 Steps:
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-1. Clone the [`metadata`](https://gitlab.com/weel/metadata) and the 
-[`prepare-locs`](https://github.com/robitalec/prepare-locs) workflows. 
-1. Make sure the data you would like to prepare is placed in the path listed in [`metadata()`](https://github.com/robitalec/prepare-locs#input). 
-1. Install the `renv` package with `install.packages('renv')`. 
-3. Then, open the `prepare-locs` project. 
-4. Run `targets::tar_make()`.
-
-
+1.  Clone the [`metadata`](https://gitlab.com/weel/metadata) and the
+    [`prepare-locs`](https://github.com/robitalec/prepare-locs)
+    workflows.
+2.  Make sure the data you would like to prepare is placed in the path
+    listed in
+    [`metadata()`](https://github.com/robitalec/prepare-locs#input).
+3.  Install the `renv` package with `install.packages('renv')`.
+4.  Then, open the `prepare-locs` project.
+5.  Run `targets::tar_make()`.
 
 # Spatial analysis
+
 ## Packages
 
-These days, the recommendation is to use `sf` (instead of `sp`) and 
+These days, the recommendation is to use `sf` (instead of `sp`) and
 `terra` (instead of `raster`). The `sf` package is great and should no
-doubt be used instead of `sp`. It drops easily into `ggplot2` and other packages. 
-`terra` may need to be converted to a raster for compatibility with
-some packages or functions. 
+doubt be used instead of `sp`. It drops easily into `ggplot2` and other
+packages. `terra` may need to be converted to a raster for compatibility
+with some packages or functions.
 
 ### `sf`
+
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 ### `terra`
-![](https://img.shields.io/badge/-WIP-yellow.svg)
 
+![](https://img.shields.io/badge/-WIP-yellow.svg)
 
 ### `raster`
 
@@ -217,7 +239,7 @@ gplot(cropped) +
 	geom_point(aes(X, Y), data = DT)
 ```
 
-If you'd like to buffer the points first, use `sf`. 
+If you'd like to buffer the points first, use `sf`.
 
 ```{r, eval = FALSE}
 ## Optionally buffer points first
@@ -236,26 +258,29 @@ gplot(bufCropped) +
 	geom_point(aes(X, Y), data = DT)
 ```
 
-
 ## Spatial data
 
-Open sources: Open Street Map, Natural Earth, Canadian Government, Provincial Governments.
+Open sources: Open Street Map, Natural Earth, Canadian Government,
+Provincial Governments.
 
-Examples of downloading and preparing spatial data from these sources in the [study-area-figures](https://gitlab.com/WEEL_grp/study-area-figures) repository (*-prep.R scripts). Packages used for downloading data include: `osmdata`, `rnaturalearth` and `curl`. 
+Examples of downloading and preparing spatial data from these sources in
+the [study-area-figures](https://gitlab.com/WEEL_grp/study-area-figures)
+repository (\*-prep.R scripts). Packages used for downloading data
+include: `osmdata`, `rnaturalearth` and `curl`.
 
-Recently from rOpenSci, Dilinie Seimon, Varsha Ujjinni Vijay Kumar highlighted
-many collections of open spatial data, from land cover to administrative
-boundaries and air pollution to malaria: https://rspatialdata.github.io/,
-https://ropensci.org/blog/2021/09/28/rspatialdata/
-
+Recently from rOpenSci, Dilinie Seimon, Varsha Ujjinni Vijay Kumar
+highlighted many collections of open spatial data, from land cover to
+administrative boundaries and air pollution to malaria:
+<https://rspatialdata.github.io/>,
+<https://ropensci.org/blog/2021/09/28/rspatialdata/>
 
 ## Distance to
 
-Calculating distance to something, eg. distance from moose relocations to the 
-nearest road, using Alec's `distanceto` package. 
-
+Calculating distance to something, eg. distance from moose relocations
+to the nearest road, using Alec's `distanceto` package.
 
 It can be installed with the following code
+
 ```{r, eval = FALSE}
 install.packages('distanceto', repos = 'https://robitalec.r-universe.dev')
 ```
@@ -270,40 +295,45 @@ lakes <- st_read('nice-lakes.gpkg')
 distance_to(points, lakes)
 ```
 
-Here are the docs: https://robitalec.github.io/distance-to/
-
-
+Here are the docs: <https://robitalec.github.io/distance-to/>
 
 # Social network analysis
 
 ## `spatsoc`
 
-Alec, Quinn and Eric developed `spatsoc`, an R package for generating social
-networks from GPS data.
+Alec, Quinn and Eric developed `spatsoc`, an R package for generating
+social networks from GPS data.
 
 ![](https://raw.githubusercontent.com/ropensci/spatsoc/master/man/figures/fig2.png)
 
 Resources:
 
-* [blog post](https://ropensci.org/blog/2018/12/04/spatsoc/)
-* repository: [ropensci/spatsoc](https://github.com/ropensci/spatsoc/)
-* vignettes, documentation: [docs.ropensci.org/spatsoc](https://docs.ropensci.org/spatsoc/)
-* paper: [Conducting social network analysis with animal telemetry data: Applications and methods using spatsoc](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13215)
-* [CSTWS webinar](https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html)
+-   [blog post](https://ropensci.org/blog/2018/12/04/spatsoc/)
+-   repository: [ropensci/spatsoc](https://github.com/ropensci/spatsoc/)
+-   vignettes, documentation:
+    [docs.ropensci.org/spatsoc](https://docs.ropensci.org/spatsoc/)
+-   paper: [Conducting social network analysis with animal telemetry
+    data: Applications and methods using
+    spatsoc](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.13215)
+-   [CSTWS
+    webinar](https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html)
 
 ## Examples
 
-The [Social Network Analysis](https://github.com/wildlifeevoeco/SocCaribou/blob/master/scripts/4-SocialNetworkAnalysis.R)
+The [Social Network
+Analysis](https://github.com/wildlifeevoeco/SocCaribou/blob/master/scripts/4-SocialNetworkAnalysis.R)
 step in the SocCaribou project is a great place to start.
 
-Alec also recently made a `targets` workflow for `spatsoc`, so feel free to
-check that out too: [targets-spatsoc-networks](https://github.com/robitalec/targets-spatsoc-networks)
+Alec also recently made a `targets` workflow for `spatsoc`, so feel free
+to check that out too:
+[targets-spatsoc-networks](https://github.com/robitalec/targets-spatsoc-networks)
 
 ## `hwig`
 
-Alec developed `hwig`, an R package for calculating gregariousness adjusted half-weight index.
+Alec developed `hwig`, an R package for calculating gregariousness
+adjusted half-weight index.
 
-* repository: [robitalec/hwig](https://github.com/robitalec/hwig)
+-   repository: [robitalec/hwig](https://github.com/robitalec/hwig)
 
 ## Slides {#sna-slides}
 
@@ -311,10 +341,9 @@ Alec developed `hwig`, an R package for calculating gregariousness adjusted half
 knitr::include_url('https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html')
 ```
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRMzDEm8bkxbERxRummBcgqHzOb2vLasEgJNsNC8r462hANEUCwu4dxDyVkdmroFCK7HFsIkhawKe_t/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="668" height="396" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRMzDEm8bkxbERxRummBcgqHzOb2vLasEgJNsNC8r462hANEUCwu4dxDyVkdmroFCK7HFsIkhawKe_t/embed?start=false&loop=false&delayms=3000" frameborder="0" width="668" height="396" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-
+</iframe>
 
 # Integrated step selection analysis
 
@@ -322,17 +351,19 @@ knitr::include_url('https://slides.robitalec.ca/CSTWS-webinar-spatsoc.html')
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTkKdK9fAzU6ARUdJLhd_lhE8CNphNECuDb99k2lWwOOQFqi2a_oNnA1zBTNCWNbw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="668" height="396" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTkKdK9fAzU6ARUdJLhd_lhE8CNphNECuDb99k2lWwOOQFqi2a_oNnA1zBTNCWNbw/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="668" height="396" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRLZ5vWK7WAwoedENJ4EyNFQO9vhuhnn9x3mSW6rE6hqtOXZG6Ip0y1aCCjcJsnDw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="668" height="396" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</iframe>
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRLZ5vWK7WAwoedENJ4EyNFQO9vhuhnn9x3mSW6rE6hqtOXZG6Ip0y1aCCjcJsnDw/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="668" height="396" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+
+</iframe>
 
 ## Projects
 
-Alec and Julie are working on a `targets` workflow for iSSA. 
+Alec and Julie are working on a `targets` workflow for iSSA.
 
-* https://gitlab.com/robitalec/targets-amt-issa
-
+-   <https://gitlab.com/robitalec/targets-amt-issa>
 
 # Earth Engine
 
@@ -340,18 +371,18 @@ Alec and Julie are working on a `targets` workflow for iSSA.
 
 <!-- TODO fill best practices, EE group, repo of my scripts-->
 
-
-[Google Earth Engine Developer guide](https://developers.google.com/earth-engine/guides)
-
+[Google Earth Engine Developer
+guide](https://developers.google.com/earth-engine/guides)
 
 ## Slides
+
 Workshop: An Introduction to Remote Sensing with Earth Engine
 
 Authors: Alec L. Robitaille, Isabella C. Richmond
 
 Date: December 10 2020
 
-[Slides](https://slides.robitalec.ca/ee.html) 
+[Slides](https://slides.robitalec.ca/ee.html)
 
 [Resources](https://github.com/robitalec/workshops/tree/master/ee)
 
@@ -363,47 +394,50 @@ knitr::include_url('https://slides.robitalec.ca/ee.html')
 
 ## Slides {#brn-slides}
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTPmfrBj_WyLSq6AhmTXrAwxGDNzve3F7Dhgwr-01m9yU7WE2tDLttT-18MXrxTyg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTPmfrBj_WyLSq6AhmTXrAwxGDNzve3F7Dhgwr-01m9yU7WE2tDLttT-18MXrxTyg/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
-
+</iframe>
 
 # Statistics
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 
-* [`easystats` family](https://github.com/easystats)
+-   [`easystats` family](https://github.com/easystats)
 
 ## Bayesian inference
 
-Richard McElreath's Statistical Rethinking course has 
-20 online lectures and 10 weeks of homework and solutions available here:
+Richard McElreath's Statistical Rethinking course has 20 online lectures
+and 10 weeks of homework and solutions available here:
 
-* [2026](https://github.com/rmcelreath/stat_rethinking_2026)
-* [2025](https://github.com/rmcelreath/stat_rethinking_2025)
-* [2024](https://github.com/rmcelreath/stat_rethinking_2024)
-* [2023](https://github.com/rmcelreath/stat_rethinking_2023)
-* [2022](https://github.com/rmcelreath/stat_rethinking_2022)
-* ...
+-   [2026](https://github.com/rmcelreath/stat_rethinking_2026)
+-   [2025](https://github.com/rmcelreath/stat_rethinking_2025)
+-   [2024](https://github.com/rmcelreath/stat_rethinking_2024)
+-   [2023](https://github.com/rmcelreath/stat_rethinking_2023)
+-   [2022](https://github.com/rmcelreath/stat_rethinking_2022)
+-   ...
 
-Alec and Isabella have run colearning groups for working through the lectures, 
-homework assignments and textbook. The most recent version is here:
-https://robitalec.github.io/statistical-rethinking-colearning-2024/. Get in
-touch if you would like to participate or learn more!
-
+Alec and Isabella have run colearning groups for working through the
+lectures, homework assignments and textbook. The most recent version is
+here:
+<https://robitalec.github.io/statistical-rethinking-colearning-2024/>.
+Get in touch if you would like to participate or learn more!
 
 # Cool packages {#analysis-cool}
 
 ![](https://img.shields.io/badge/-WIP-yellow.svg)
 <!-- **TODO: organize into spatial/ plotting/ helper/ etc** -->
 
-
-
 ## Data frames / tables / sheets
-* [`googlesheets4`](https://googlesheets4.tidyverse.org/)
+
+-   [`googlesheets4`](https://googlesheets4.tidyverse.org/)
 
 ## Dates and times
-* [`anytime`](https://github.com/eddelbuettel/anytime) 
-* [`parsedate`](https://github.com/gaborcsardi/parsedate) 
+
+-   [`anytime`](https://github.com/eddelbuettel/anytime)
+-   [`parsedate`](https://github.com/gaborcsardi/parsedate)
 
 ## Spatial packages
-* [`parzer`](https://github.com/ropensci/parzer) parsing geographic coordinates
+
+-   [`parzer`](https://github.com/ropensci/parzer) parsing geographic
+    coordinates
+
